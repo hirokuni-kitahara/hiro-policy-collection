@@ -1,0 +1,118 @@
+apiVersion: policy.open-cluster-management.io/v1
+kind: Policy
+metadata:
+  name: policy-cert-ocp4
+  annotations:
+    policy.open-cluster-management.io/standards: NIST SP 800-53
+    policy.open-cluster-management.io/categories: SC System and Communications Protection
+    policy.open-cluster-management.io/controls: SC-12 Cryptographic Key Establishment and Management
+    integrityshield.io/message: YXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBvbGljeQptZXRhZGF0YToKICBuYW1lOiBwb2xpY3ktY2VydC1vY3A0CiAgYW5ub3RhdGlvbnM6CiAgICBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vc3RhbmRhcmRzOiBOSVNUIFNQIDgwMC01MwogICAgcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL2NhdGVnb3JpZXM6IFNDIFN5c3RlbSBhbmQgQ29tbXVuaWNhdGlvbnMgUHJvdGVjdGlvbgogICAgcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL2NvbnRyb2xzOiBTQy0xMiBDcnlwdG9ncmFwaGljIEtleSBFc3RhYmxpc2htZW50IGFuZCBNYW5hZ2VtZW50CnNwZWM6CiAgcmVtZWRpYXRpb25BY3Rpb246IGluZm9ybQogIGRpc2FibGVkOiBmYWxzZQogIHBvbGljeS10ZW1wbGF0ZXM6CiAgICAtIG9iamVjdERlZmluaXRpb246CiAgICAgICAgYXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCiAgICAgICAga2luZDogQ2VydGlmaWNhdGVQb2xpY3kKICAgICAgICBtZXRhZGF0YToKICAgICAgICAgIG5hbWU6IG9wZW5zaGlmdC1jZXJ0LXBvbGljeQogICAgICAgIHNwZWM6CiAgICAgICAgICBuYW1lc3BhY2VTZWxlY3RvcjoKICAgICAgICAgICAgaW5jbHVkZToKICAgICAgICAgICAgICAtIG9wZW5zaGlmdC1zZXJ2aWNlLWNhLW9wZXJhdG9yCiAgICAgICAgICAgICAgLSBvcGVuc2hpZnQtc2VydmljZS1jYQogICAgICAgICAgICAgIC0gb3BlbnNoaWZ0LW9wZXJhdG9yLWxpZmVjeWNsZS1tYW5hZ2VyCiAgICAgICAgICAgICAgLSBvcGVuc2hpZnQtYXBpc2VydmVyCiAgICAgICAgICAgICAgLSBvcGVuc2hpZnQtYXBpc2VydmVyLW9wZXJhdG9yCiAgICAgICAgICAgICAgLSBvcGVuc2hpZnQtYXV0aGVudGljYXRpb24KICAgICAgICAgICAgICAtIG9wZW5zaGlmdC1hdXRoZW50aWNhdGlvbi1vcGVyYXRvcgogICAgICAgICAgICAgIC0gb3BlbnNoaWZ0LWNsdXN0ZXItbWFjaGluZS1hcHByb3ZlcgogICAgICAgICAgICAgIC0gb3BlbnNoaWZ0LWNsdXN0ZXItc2FtcGxlcy1vcGVyYXRvcgogICAgICAgICAgICAgIC0gb3BlbnNoaWZ0LWNsdXN0ZXItc3RvcmFnZS1vcGVyYXRvcgogICAgICAgICAgICAgIC0gb3BlbnNoaWZ0LWNsdXN0ZXItdmVyc2lvbgogICAgICAgICAgICAgIC0gb3BlbnNoaWZ0LWNvbmZpZy1vcGVyYXRvcgogICAgICAgICAgICAgIC0gb3BlbnNoaWZ0LWNvbnNvbGUKICAgICAgICAgICAgICAtIG9wZW5zaGlmdC1jb25zb2xlLW9wZXJhdG9yCiAgICAgICAgICAgICAgLSBvcGVuc2hpZnQtY29udHJvbGxlci1tYW5hZ2VyCiAgICAgICAgICAgICAgLSBvcGVuc2hpZnQtY29udHJvbGxlci1tYW5hZ2VyLW9wZXJhdG9yCiAgICAgICAgICAgICAgLSBvcGVuc2hpZnQtZG5zCiAgICAgICAgICAgICAgLSBvcGVuc2hpZnQtZG5zLW9wZXJhdG9yCiAgICAgICAgICAgICAgLSBvcGVuc2hpZnQtZXRjZAogICAgICAgICAgICAgIC0gb3BlbnNoaWZ0LWV0Y2Qtb3BlcmF0b3IKICAgICAgICAgICAgICAtIG9wZW5zaGlmdC1pbWFnZS1yZWdpc3RyeQogICAgICAgICAgICAgIC0gb3BlbnNoaWZ0LWluZ3Jlc3Mtb3BlcmF0b3IKICAgICAgICAgICAgICAtIG9wZW5zaGlmdC1pbnNpZ2h0cwogICAgICAgICAgICAgIC0gb3BlbnNoaWZ0LWt1YmUtc2NoZWR1bGVyLW9wZXJhdG9yCiAgICAgICAgICAgICAgLSBvcGVuc2hpZnQta3ViZS1zdG9yYWdlLXZlcnNpb24tbWlncmF0b3Itb3BlcmF0b3IKICAgICAgICAgICAgICAtIG9wZW5zaGlmdC1tYWNoaW5lLWFwaQogICAgICAgICAgICAgIC0gb3BlbnNoaWZ0LW1hY2hpbmUtY29uZmlnLW9wZXJhdG9yCiAgICAgICAgICAgICAgLSBvcGVuc2hpZnQtbWFya2V0cGxhY2UKICAgICAgICAgICAgICAtIG9wZW5zaGlmdC1tb25pdG9yaW5nCiAgICAgICAgICAgICAgLSBvcGVuc2hpZnQtbXVsdHVzCiAgICAgICAgICByZW1lZGlhdGlvbkFjdGlvbjogaW5mb3JtCiAgICAgICAgICBtaW5pbXVtRHVyYXRpb246IDIwMTAwaAogICAgLSBvYmplY3REZWZpbml0aW9uOgogICAgICAgIGFwaVZlcnNpb246IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQogICAgICAgIGtpbmQ6IENlcnRpZmljYXRlUG9saWN5CiAgICAgICAgbWV0YWRhdGE6CiAgICAgICAgICBuYW1lOiBvcGVuc2hpZnQtY2VydC1wb2xpY3ktaW5ncmVzcwogICAgICAgIHNwZWM6CiAgICAgICAgICBuYW1lc3BhY2VTZWxlY3RvcjoKICAgICAgICAgICAgaW5jbHVkZToKICAgICAgICAgICAgICAtIG9wZW5zaGlmdC1pbmdyZXNzCiAgICAgICAgICByZW1lZGlhdGlvbkFjdGlvbjogaW5mb3JtCiAgICAgICAgICBtaW5pbXVtRHVyYXRpb246IDI0aAogICAgICAgICAgbWluaW11bUNBRHVyYXRpb246IDQwMGgKICAgIC0gb2JqZWN0RGVmaW5pdGlvbjoKICAgICAgICBhcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKICAgICAgICBraW5kOiBDZXJ0aWZpY2F0ZVBvbGljeQogICAgICAgIG1ldGFkYXRhOgogICAgICAgICAgbmFtZTogb3BlbnNoaWZ0LWNlcnQtcG9saWN5LWNzcgogICAgICAgIHNwZWM6CiAgICAgICAgICBuYW1lc3BhY2VTZWxlY3RvcjoKICAgICAgICAgICAgaW5jbHVkZToKICAgICAgICAgICAgICAtIG9wZW5zaGlmdC1rdWJlLWFwaXNlcnZlci1vcGVyYXRvcgogICAgICAgICAgICAgIC0gb3BlbnNoaWZ0LWt1YmUtY29udHJvbGxlci1tYW5hZ2VyLW9wZXJhdG9yCiAgICAgICAgICByZW1lZGlhdGlvbkFjdGlvbjogaW5mb3JtCiAgICAgICAgICBtaW5pbXVtRHVyYXRpb246IDQwMGgKICAgICAgICAgIG1pbmltdW1DQUR1cmF0aW9uOiAyNGgKICAgIC0gb2JqZWN0RGVmaW5pdGlvbjoKICAgICAgICBhcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKICAgICAgICBraW5kOiBDZXJ0aWZpY2F0ZVBvbGljeQogICAgICAgIG1ldGFkYXRhOgogICAgICAgICAgbmFtZTogb3BlbnNoaWZ0LWNlcnQtcG9saWN5LW1ncgogICAgICAgIHNwZWM6CiAgICAgICAgICBuYW1lc3BhY2VTZWxlY3RvcjoKICAgICAgICAgICAgaW5jbHVkZToKICAgICAgICAgICAgICAtIG9wZW5zaGlmdC1jb25maWctbWFuYWdlZAogICAgICAgICAgICAgIC0gb3BlbnNoaWZ0LWt1YmUtYXBpc2VydmVyCiAgICAgICAgICAgICAgLSBvcGVuc2hpZnQta3ViZS1zY2hlZHVsZXIKICAgICAgICAgICAgICAtIG9wZW5zaGlmdC1rdWJlLWNvbnRyb2xsZXItbWFuYWdlcgogICAgICAgICAgcmVtZWRpYXRpb25BY3Rpb246IGluZm9ybQogICAgICAgICAgbWluaW11bUR1cmF0aW9uOiAyNGgKLS0tCmFwaVZlcnNpb246IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQpraW5kOiBQbGFjZW1lbnRCaW5kaW5nCm1ldGFkYXRhOgogIG5hbWU6IGJpbmRpbmctcG9saWN5LWNlcnQtb2NwNApwbGFjZW1lbnRSZWY6CiAgbmFtZTogcGxhY2VtZW50LXBvbGljeS1jZXJ0LW9jcDQKICBraW5kOiBQbGFjZW1lbnRSdWxlCiAgYXBpR3JvdXA6IGFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8Kc3ViamVjdHM6CiAgLSBuYW1lOiBwb2xpY3ktY2VydC1vY3A0CiAgICBraW5kOiBQb2xpY3kKICAgIGFwaUdyb3VwOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8KLS0tCmFwaVZlcnNpb246IGFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKa2luZDogUGxhY2VtZW50UnVsZQptZXRhZGF0YToKICBuYW1lOiBwbGFjZW1lbnQtcG9saWN5LWNlcnQtb2NwNApzcGVjOgogIGNsdXN0ZXJDb25kaXRpb25zOgogICAgLSBzdGF0dXM6ICJUcnVlIgogICAgICB0eXBlOiBNYW5hZ2VkQ2x1c3RlckNvbmRpdGlvbkF2YWlsYWJsZQogIGNsdXN0ZXJTZWxlY3RvcjoKICAgIG1hdGNoRXhwcmVzc2lvbnM6CiAgICAgIC0ge2tleTogdmVuZG9yLCBvcGVyYXRvcjogSW4sIHZhbHVlczogWyJPcGVuU2hpZnQiXX0K
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSEtCQUFCQ2dBMEZpRUUxNGpRUmlXTnRzRU9taGkzOFdLY2NxVWMwMUFGQWwvWUorTVdISE5wWjI1bGNrQmwKYm5SbGNuQnlhWE5sTG1OdmJRQUtDUkR4WXB4eXBSelRVRVU4Qy80b2NzaWQ5c2dLekEwbXJqWDhwU25Ka0QrbQp4K2dPZjZOdzhtQVJWWWdYZ21LRldSNDdDNGp1cTBpS1Y5R001VElEQkQwU09rTFVwVU1NbTJCenJBaWNMTHcwCmhudjl2Ni9OYmlwakplcVFNYkRDbWVmQnZLQ25hTnEzcGg5SUpTU0ZpaGVnanlkRDFkbzZzNVpYYTdIdnA2MFAKOTlIRDZBdS9IRGVlTXdsemJEaXZXTHVlY1FmMHl4N3Z5ZmJQaHFaSFZ0dzk1YzlKNUh1eVlOWExhek1KK1oyZwpmTzlUYUl2MktaU0xYQXJRUkI0N3FVUkJHVlk5Vk9CWTVZcmlJd1Z5R0U2bFZZREpPSWIwNUUyVG10UTNvLy9wCkZ4T3poUnlaZ1hWZnhOR0tDSndXWG5Dc0tUK2t5bVZieS82ZDZaNjZTb2F2MDRadFdjb1dFckN1dmo2SHBaUkMKa3p2STFoaDQ3SU5BQWxXa09adDVCVmovMi9nbjRyVDdNQ2xiSk4vUzhmUythcitkWEdSQldEQ2NCRTR2cXhkWQpFR2N5Q3Q2aTV3cXovSVorNFp5dytrMlZqL3FlSDJubWIrUzNwTVppekZBTmQwdXhHWFlSdzNHUXpyOTFQRUM1CmxxenEvSGs4Vlpoa09JT1VrMnpVdHlwRUhZbmsrNS9XVXN3SEVQTT0KPTZ5REcKLS0tLS1FTkQgUEdQIFNJR05BVFVSRS0tLS0tCg==
+spec:
+  remediationAction: inform
+  disabled: false
+  policy-templates:
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: CertificatePolicy
+        metadata:
+          name: openshift-cert-policy
+        spec:
+          namespaceSelector:
+            include:
+              - openshift-service-ca-operator
+              - openshift-service-ca
+              - openshift-operator-lifecycle-manager
+              - openshift-apiserver
+              - openshift-apiserver-operator
+              - openshift-authentication
+              - openshift-authentication-operator
+              - openshift-cluster-machine-approver
+              - openshift-cluster-samples-operator
+              - openshift-cluster-storage-operator
+              - openshift-cluster-version
+              - openshift-config-operator
+              - openshift-console
+              - openshift-console-operator
+              - openshift-controller-manager
+              - openshift-controller-manager-operator
+              - openshift-dns
+              - openshift-dns-operator
+              - openshift-etcd
+              - openshift-etcd-operator
+              - openshift-image-registry
+              - openshift-ingress-operator
+              - openshift-insights
+              - openshift-kube-scheduler-operator
+              - openshift-kube-storage-version-migrator-operator
+              - openshift-machine-api
+              - openshift-machine-config-operator
+              - openshift-marketplace
+              - openshift-monitoring
+              - openshift-multus
+          remediationAction: inform
+          minimumDuration: 20100h
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: CertificatePolicy
+        metadata:
+          name: openshift-cert-policy-ingress
+        spec:
+          namespaceSelector:
+            include:
+              - openshift-ingress
+          remediationAction: inform
+          minimumDuration: 24h
+          minimumCADuration: 400h
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: CertificatePolicy
+        metadata:
+          name: openshift-cert-policy-csr
+        spec:
+          namespaceSelector:
+            include:
+              - openshift-kube-apiserver-operator
+              - openshift-kube-controller-manager-operator
+          remediationAction: inform
+          minimumDuration: 400h
+          minimumCADuration: 24h
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: CertificatePolicy
+        metadata:
+          name: openshift-cert-policy-mgr
+        spec:
+          namespaceSelector:
+            include:
+              - openshift-config-managed
+              - openshift-kube-apiserver
+              - openshift-kube-scheduler
+              - openshift-kube-controller-manager
+          remediationAction: inform
+          minimumDuration: 24h
+---
+apiVersion: policy.open-cluster-management.io/v1
+kind: PlacementBinding
+metadata:
+  name: binding-policy-cert-ocp4
+placementRef:
+  name: placement-policy-cert-ocp4
+  kind: PlacementRule
+  apiGroup: apps.open-cluster-management.io
+subjects:
+  - name: policy-cert-ocp4
+    kind: Policy
+    apiGroup: policy.open-cluster-management.io
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  name: placement-policy-cert-ocp4
+spec:
+  clusterConditions:
+    - status: "True"
+      type: ManagedClusterConditionAvailable
+  clusterSelector:
+    matchExpressions:
+      - {key: vendor, operator: In, values: ["OpenShift"]}

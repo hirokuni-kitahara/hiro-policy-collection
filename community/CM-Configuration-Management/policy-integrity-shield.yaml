@@ -36,7 +36,7 @@ spec:
         remediationAction: enforce
         severity: high
         object-templates:
-        - complianceType: mustnothave
+        - complianceType: musthave
           objectDefinition:
             apiVersion: operators.coreos.com/v1
             kind: OperatorGroup
@@ -79,7 +79,7 @@ spec:
         remediationAction: enforce
         severity: high
         object-templates:
-        - complianceType: mustnothave
+        - complianceType: musthave
           objectDefinition:
             apiVersion: operators.coreos.com/v1alpha1
             kind: Subscription
@@ -126,9 +126,9 @@ spec:
                   exclude:
                   - "kube-*"
                   - "openshift-*"
-                  log:
-                    logLevel: trace
-                    includeRequest: true
+                log:
+                  logLevel: trace
+                  includeRequest: true
               signPolicy:
                 policies:
                 - namespaces:

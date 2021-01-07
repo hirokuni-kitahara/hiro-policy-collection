@@ -1,0 +1,201 @@
+apiVersion: policy.open-cluster-management.io/v1
+kind: Policy
+metadata:
+  name: policy-integrity-shield
+  annotations:
+    policy.open-cluster-management.io/standards: NIST SP 800-53
+    policy.open-cluster-management.io/categories: CM Configuration Management
+    policy.open-cluster-management.io/controls: CM-5 Access Restrictions for Change
+    integrityshield.io/message: YXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBvbGljeQptZXRhZGF0YToKICBuYW1lOiBwb2xpY3ktaW50ZWdyaXR5LXNoaWVsZAogIGFubm90YXRpb25zOgogICAgcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3N0YW5kYXJkczogTklTVCBTUCA4MDAtNTMKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9jYXRlZ29yaWVzOiBDTSBDb25maWd1cmF0aW9uIE1hbmFnZW1lbnQKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9jb250cm9sczogQ00tNSBBY2Nlc3MgUmVzdHJpY3Rpb25zIGZvciBDaGFuZ2UKc3BlYzoKICByZW1lZGlhdGlvbkFjdGlvbjogZW5mb3JjZQogIGRpc2FibGVkOiBmYWxzZQogIHBvbGljeS10ZW1wbGF0ZXM6CiAgLSBvYmplY3REZWZpbml0aW9uOgogICAgICBhcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKICAgICAga2luZDogQ29uZmlndXJhdGlvblBvbGljeQogICAgICBtZXRhZGF0YToKICAgICAgICBuYW1lOiBwb2xpY3ktaW50ZWdyaXR5LXNoaWVsZC1uYW1lc3BhY2UKICAgICAgc3BlYzoKICAgICAgICByZW1lZGlhdGlvbkFjdGlvbjogZW5mb3JjZQogICAgICAgIHNldmVyaXR5OiBIaWdoCiAgICAgICAgb2JqZWN0LXRlbXBsYXRlczoKICAgICAgICAtIGNvbXBsaWFuY2VUeXBlOiBtdXN0bm90aGF2ZQogICAgICAgICAgb2JqZWN0RGVmaW5pdGlvbjoKICAgICAgICAgICAga2luZDogTmFtZXNwYWNlCiAgICAgICAgICAgIGFwaVZlcnNpb246IHYxCiAgICAgICAgICAgIG1ldGFkYXRhOgogICAgICAgICAgICAgIG5hbWU6IGludGVncml0eS1zaGllbGQtb3BlcmF0b3Itc3lzdGVtCiAgLSBvYmplY3REZWZpbml0aW9uOgogICAgICBhcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKICAgICAga2luZDogQ29uZmlndXJhdGlvblBvbGljeQogICAgICBtZXRhZGF0YToKICAgICAgICBuYW1lOiBwb2xpY3ktaW50ZWdyaXR5LXNoaWVsZC1vZwogICAgICBzcGVjOgogICAgICAgIHJlbWVkaWF0aW9uQWN0aW9uOiBlbmZvcmNlCiAgICAgICAgc2V2ZXJpdHk6IGhpZ2gKICAgICAgICBvYmplY3QtdGVtcGxhdGVzOgogICAgICAgIC0gY29tcGxpYW5jZVR5cGU6IG11c3Rub3RoYXZlCiAgICAgICAgICBvYmplY3REZWZpbml0aW9uOgogICAgICAgICAgICBhcGlWZXJzaW9uOiBvcGVyYXRvcnMuY29yZW9zLmNvbS92MQogICAgICAgICAgICBraW5kOiBPcGVyYXRvckdyb3VwCiAgICAgICAgICAgIG1ldGFkYXRhOgogICAgICAgICAgICAgIG5hbWU6IGludGVncml0eS1vcGVyYXRvci1ncm91cAogICAgICAgICAgICAgIG5hbWVzcGFjZTogaW50ZWdyaXR5LXNoaWVsZC1vcGVyYXRvci1zeXN0ZW0KICAgICAgICAgICAgc3BlYzoKICAgICAgICAgICAgICB0YXJnZXROYW1lc3BhY2VzOgogICAgICAgICAgICAgIC0gaW50ZWdyaXR5LXNoaWVsZC1vcGVyYXRvci1zeXN0ZW0KICAtIG9iamVjdERlZmluaXRpb246CiAgICAgIGFwaVZlcnNpb246IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQogICAgICBraW5kOiBDb25maWd1cmF0aW9uUG9saWN5CiAgICAgIG1ldGFkYXRhOgogICAgICAgIG5hbWU6IHBvbGljeS1pbnRlZ3JpdHktc2hpZWxkLWNhdHJzYwogICAgICBzcGVjOgogICAgICAgIHJlbWVkaWF0aW9uQWN0aW9uOiBlbmZvcmNlCiAgICAgICAgc2V2ZXJpdHk6IGhpZ2gKICAgICAgICBvYmplY3QtdGVtcGxhdGVzOgogICAgICAgIC0gY29tcGxpYW5jZVR5cGU6IG11c3Rub3RoYXZlCiAgICAgICAgICBvYmplY3REZWZpbml0aW9uOgogICAgICAgICAgICBhcGlWZXJzaW9uOiBvcGVyYXRvcnMuY29yZW9zLmNvbS92MWFscGhhMQogICAgICAgICAgICBraW5kOiBDYXRhbG9nU291cmNlCiAgICAgICAgICAgIG1ldGFkYXRhOgogICAgICAgICAgICAgIG5hbWU6IGludGVncml0eS1zaGllbGQtb3BlcmF0b3ItY2F0YWxvZwogICAgICAgICAgICAgIG5hbWVzcGFjZTogb3BlbnNoaWZ0LW1hcmtldHBsYWNlCiAgICAgICAgICAgIHNwZWM6CiAgICAgICAgICAgICAgZGlzcGxheU5hbWU6IEludGVncml0eSBTaGllbGQgT3BlcmF0b3IKICAgICAgICAgICAgICBpbWFnZTogcXVheS5pby9vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC9pbnRlZ3JpdHktc2hpZWxkLW9wZXJhdG9yLWluZGV4OjAuMS4yCiAgICAgICAgICAgICAgcHVibGlzaGVyOiBJQk0KICAgICAgICAgICAgICBzb3VyY2VUeXBlOiBncnBjCiAgICAgICAgICAgICAgdXBkYXRlU3RyYXRlZ3k6CiAgICAgICAgICAgICAgICByZWdpc3RyeVBvbGw6CiAgICAgICAgICAgICAgICAgIGludGVydmFsOiA0NW0KICAtIG9iamVjdERlZmluaXRpb246CiAgICAgIGFwaVZlcnNpb246IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQogICAgICBraW5kOiBDb25maWd1cmF0aW9uUG9saWN5CiAgICAgIG1ldGFkYXRhOgogICAgICAgIG5hbWU6IHBvbGljeS1pbnRlZ3JpdHktc2hpZWxkLXN1YgogICAgICBzcGVjOgogICAgICAgIHJlbWVkaWF0aW9uQWN0aW9uOiBlbmZvcmNlCiAgICAgICAgc2V2ZXJpdHk6IGhpZ2gKICAgICAgICBvYmplY3QtdGVtcGxhdGVzOgogICAgICAgIC0gY29tcGxpYW5jZVR5cGU6IG11c3Rub3RoYXZlCiAgICAgICAgICBvYmplY3REZWZpbml0aW9uOgogICAgICAgICAgICBhcGlWZXJzaW9uOiBvcGVyYXRvcnMuY29yZW9zLmNvbS92MWFscGhhMQogICAgICAgICAgICBraW5kOiBTdWJzY3JpcHRpb24KICAgICAgICAgICAgbWV0YWRhdGE6CiAgICAgICAgICAgICAgbmFtZTogaW50ZWdyaXR5LXNoaWVsZC1vcGVyYXRvcgogICAgICAgICAgICAgIG5hbWVzcGFjZTogaW50ZWdyaXR5LXNoaWVsZC1vcGVyYXRvci1zeXN0ZW0KICAgICAgICAgICAgc3BlYzoKICAgICAgICAgICAgICBjaGFubmVsOiBhbHBoYQogICAgICAgICAgICAgIGluc3RhbGxQbGFuQXBwcm92YWw6IEF1dG9tYXRpYwogICAgICAgICAgICAgIG5hbWU6IGludGVncml0eS1zaGllbGQtb3BlcmF0b3IKICAgICAgICAgICAgICBzb3VyY2U6IGludGVncml0eS1zaGllbGQtb3BlcmF0b3ItY2F0YWxvZwogICAgICAgICAgICAgIHNvdXJjZU5hbWVzcGFjZTogb3BlbnNoaWZ0LW1hcmtldHBsYWNlCiAgICAgICAgICAgICAgc3RhcnRpbmdDU1Y6IGludGVncml0eS1zaGllbGQtb3BlcmF0b3IudjAuMS4yCiAgLSBvYmplY3REZWZpbml0aW9uOgogICAgICBhcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKICAgICAga2luZDogQ29uZmlndXJhdGlvblBvbGljeQogICAgICBtZXRhZGF0YToKICAgICAgICBuYW1lOiBwb2xpY3ktaW50ZWdyaXR5LXNoaWVsZC1jcgogICAgICBzcGVjOgogICAgICAgIHJlbWVkaWF0aW9uQWN0aW9uOiBlbmZvcmNlCiAgICAgICAgc2V2ZXJpdHk6IGhpZ2gKICAgICAgICBvYmplY3QtdGVtcGxhdGVzOgogICAgICAgIC0gY29tcGxpYW5jZVR5cGU6IG11c3Rub3RoYXZlCiAgICAgICAgICBvYmplY3REZWZpbml0aW9uOgogICAgICAgICAgICBhcGlWZXJzaW9uOiBhcGlzLmludGVncml0eXNoaWVsZC5pby92MWFscGhhMQogICAgICAgICAgICBraW5kOiBJbnRlZ3JpdHlTaGllbGQKICAgICAgICAgICAgbWV0YWRhdGE6CiAgICAgICAgICAgICAgbmFtZTogaW50ZWdyaXR5LXNoaWVsZC1zZXJ2ZXIKICAgICAgICAgICAgICBuYW1lc3BhY2U6IGludGVncml0eS1zaGllbGQtb3BlcmF0b3Itc3lzdGVtCiAgICAgICAgICAgIHNwZWM6CiAgICAgICAgICAgICAgbG9nZ2VyOgogICAgICAgICAgICAgICAgaW1hZ2U6IHF1YXkuaW8vb3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQvaW50ZWdyaXR5LXNoaWVsZC1sb2dnaW5nOjAuMS4yCiAgICAgICAgICAgICAgc2VydmVyOgogICAgICAgICAgICAgICAgaW1hZ2U6IHF1YXkuaW8vb3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQvaW50ZWdyaXR5LXNoaWVsZC1zZXJ2ZXI6MC4xLjIKICAgICAgICAgICAgICBhZmZpbml0eToge30KICAgICAgICAgICAgICBzaGllbGRDb25maWc6CiAgICAgICAgICAgICAgICBpU2hpZWxkQWRtaW5Vc2VyTmFtZTogInN5c3RlbTpzZXJ2aWNlYWNjb3VudDpvcGVuLWNsdXN0ZXItbWFuYWdlbWVudC1hZ2VudC1hZGRvbjprbHVzdGVybGV0LWFkZG9uLXBvbGljeWN0cmwiCiAgICAgICAgICAgICAgICBpblNjb3BlTmFtZXNwYWNlU2VsZWN0b3I6CiAgICAgICAgICAgICAgICAgIGluY2x1ZGU6CiAgICAgICAgICAgICAgICAgIC0gIioiCiAgICAgICAgICAgICAgICAgIGV4Y2x1ZGU6CiAgICAgICAgICAgICAgICAgIC0gImt1YmUtKiIKICAgICAgICAgICAgICAgICAgLSAib3BlbnNoaWZ0LSoiCiAgICAgICAgICAgICAgc2lnblBvbGljeToKICAgICAgICAgICAgICAgIHBvbGljaWVzOgogICAgICAgICAgICAgICAgLSBuYW1lc3BhY2VzOgogICAgICAgICAgICAgICAgICAtICIqIgogICAgICAgICAgICAgICAgICBzaWduZXJzOgogICAgICAgICAgICAgICAgICAtICJTYW1wbGVTaWduZXIiCiAgICAgICAgICAgICAgICAtIHNjb3BlOiAiQ2x1c3RlciIKICAgICAgICAgICAgICAgICAgc2lnbmVyczoKICAgICAgICAgICAgICAgICAgLSAiU2FtcGxlU2lnbmVyIgogICAgICAgICAgICAgICAgc2lnbmVyczoKICAgICAgICAgICAgICAgIC0gbmFtZTogIlNhbXBsZVNpZ25lciIKICAgICAgICAgICAgICAgICAga2V5Q29uZmlnOiBzYW1wbGUtc2lnbmVyLWtleWNvbmZpZwogICAgICAgICAgICAgICAgICBzdWJqZWN0czoKICAgICAgICAgICAgICAgICAgLSBlbWFpbDogImhpcm9rdW5pLmtpdGFoYXJhMUBpYm0uY29tIgogICAgICAgICAgICAgIGtleUNvbmZpZzoKICAgICAgICAgICAgICAtIG5hbWU6IHNhbXBsZS1zaWduZXIta2V5Y29uZmlnCiAgICAgICAgICAgICAgICBzZWNyZXROYW1lOiBrZXlyaW5nLXNlY3JldAogICAgICAgICAgICAgIHJlc291cmNlU2lnbmluZ1Byb2ZpbGVzOgogICAgICAgICAgICAgIC0gbmFtZTogcG9saWN5LXJzcAogICAgICAgICAgICAgICAgcHJvdGVjdFJ1bGVzOgogICAgICAgICAgICAgICAgLSBtYXRjaDoKICAgICAgICAgICAgICAgICAgLSBhcGlHcm91cDogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvCiAgICAgICAgICAgICAgICBpZ25vcmVSdWxlczoKICAgICAgICAgICAgICAgIC0gbWF0Y2g6CiAgICAgICAgICAgICAgICAgIC0gdXNlcm5hbWU6ICJzeXN0ZW06c2VydmljZWFjY291bnQ6b3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQtYWdlbnQ6KiIKICAgICAgICAgICAgICAgICAgLSB1c2VybmFtZTogInN5c3RlbTpzZXJ2aWNlYWNjb3VudDpvcGVuLWNsdXN0ZXItbWFuYWdlbWVudC1hZ2VudC1hZGRvbjoqIgogICAgICAgICAgICAgICAgZm9yY2VDaGVja1J1bGVzOgogICAgICAgICAgICAgICAgLSBtYXRjaDoKICAgICAgICAgICAgICAgICAgLSBhcGlHcm91cDogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvCiAgICAgICAgICAgICAgICAgICAga2luZDogUG9saWN5CiAgICAgICAgICAgICAgICBrdXN0b21pemVQYXR0ZXJuczoKICAgICAgICAgICAgICAgIC0gbWF0Y2g6CiAgICAgICAgICAgICAgICAgIC0gYXBpR3JvdXA6IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pbwogICAgICAgICAgICAgICAgICAgIGtpbmQ6IFBvbGljeQogICAgICAgICAgICAgICAgICBuYW1lUHJlZml4OiAiKi4iCiAgICAgICAgICAgICAgICB1bnByb3RlY3RBdHRyczoKICAgICAgICAgICAgICAgIC0gbWF0Y2g6CiAgICAgICAgICAgICAgICAgIC0gYXBpR3JvdXA6IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pbwogICAgICAgICAgICAgICAgICBhdHRyczoKICAgICAgICAgICAgICAgICAgLSAibWV0YWRhdGEuYW5ub3RhdGlvbnMuXCJhcHBzLm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL2hvc3RpbmctZGVwbG95YWJsZVwiIgogICAgICAgICAgICAgICAgICAtICJtZXRhZGF0YS5hbm5vdGF0aW9ucy5cImFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vaG9zdGluZy1zdWJzY3JpcHRpb25cIiIKICAgICAgICAgICAgICAgICAgLSAibWV0YWRhdGEuYW5ub3RhdGlvbnMuXCJhcHBzLm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3N5bmMtc291cmNlXCIiCiAgICAgICAgICAgICAgICAgIC0gIm1ldGFkYXRhLmxhYmVscy5cInBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9jbHVzdGVyLW5hbWVcIiIKICAgICAgICAgICAgICAgICAgLSAibWV0YWRhdGEubGFiZWxzLlwicG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL2NsdXN0ZXItbmFtZXNwYWNlXCIiCiAgICAgICAgICAgICAgICAgIC0gIm1ldGFkYXRhLmxhYmVscy5cInBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9yb290LXBvbGljeVwiIgogICAgICAgICAgICAgICAgdGFyZ2V0TmFtZXNwYWNlU2VsZWN0b3I6CiAgICAgICAgICAgICAgICAgIGxhYmVsU2VsZWN0b3I6CiAgICAgICAgICAgICAgICAgICAgbWF0Y2hFeHByZXNzaW9uczoKICAgICAgICAgICAgICAgICAgICAtIGtleTogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL2lzQ2x1c3Rlck5hbWVzcGFjZQogICAgICAgICAgICAgICAgICAgICAgb3BlcmF0b3I6IEluCiAgICAgICAgICAgICAgICAgICAgICB2YWx1ZXM6IFsidHJ1ZSJdCi0tLQphcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKa2luZDogUGxhY2VtZW50QmluZGluZwptZXRhZGF0YToKICBuYW1lOiBiaW5kaW5nLXBvbGljeS1pbnRlZ3JpdHktc2hpZWxkCnBsYWNlbWVudFJlZjoKICBuYW1lOiBwbGFjZW1lbnQtcG9saWN5LWludGVncml0eS1zaGllbGQKICBraW5kOiBQbGFjZW1lbnRSdWxlCiAgYXBpR3JvdXA6IGFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8Kc3ViamVjdHM6Ci0gbmFtZTogcG9saWN5LWludGVncml0eS1zaGllbGQKICBraW5kOiBQb2xpY3kKICBhcGlHcm91cDogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvCi0tLQphcGlWZXJzaW9uOiBhcHBzLm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBsYWNlbWVudFJ1bGUKbWV0YWRhdGE6CiAgbmFtZTogcGxhY2VtZW50LXBvbGljeS1pbnRlZ3JpdHktc2hpZWxkCnNwZWM6CiAgY2x1c3RlckNvbmRpdGlvbnM6CiAgLSBzdGF0dXM6ICJUcnVlIgogICAgdHlwZTogTWFuYWdlZENsdXN0ZXJDb25kaXRpb25BdmFpbGFibGUKICBjbHVzdGVyU2VsZWN0b3I6CiAgICBtYXRjaEV4cHJlc3Npb25zOgogICAgLSB7a2V5OiBlbnZpcm9ubWVudCwgb3BlcmF0b3I6IEluLCB2YWx1ZXM6IFsiZGV2Il19Cg==
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRRlBCQUFCQ0FBNUZpRUUrU2psQVN5SlZoa3FGVDNLT1Q2Y3pnLzRpcmtGQWwvMm4vTWJIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVEaytuTTRQK0lxNU9Ia0gvQWx5cVkvOCtsaTE0d1AyRTM2dApqSnlwRjFhTEpPWjJxTnJLOHhHVTEyNmxkaWFudjNhNm1odnE2Zi9hR0dqYmdmNmk0NVdzeU9LaGhtbE5vV0tRClZqU0Z2UEJ3dFZuWWJmeDYzVXlJcEMxbGxadWQ5dHU2d1NlN3d5bk9sYmZNM3piVE1VMThkRVB1NHF3b2J0MUMKMnBhdWgwbVFTd2h5dnM1Q0VVd1ZRT1ZrWjBjM01BMUt2QVFNaWFxUUtrQlJQK3JnV0dYVFRBRmJ1dXFhWTUvVQptYWZwVGFNRnN6SVRtWUhjRS9rOXdwN1VtNU40TUF0NnlLeWVRZmpTZUM5dGxybGMyT3A2VmxZVmJPTHlTeExiCk84Uks4akVBVmpBQUNCbkJ2VEoxVVFYMG9jY1V1Q1hsUUlMQmh1QVAxeE80VGxxUS9reUllOUdoL0FkOU1iZG4KUU9ZPQo9UjBJSAotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
+spec:
+  remediationAction: enforce
+  disabled: false
+  policy-templates:
+  - objectDefinition:
+      apiVersion: policy.open-cluster-management.io/v1
+      kind: ConfigurationPolicy
+      metadata:
+        name: policy-integrity-shield-namespace
+      spec:
+        remediationAction: enforce
+        severity: High
+        object-templates:
+        - complianceType: mustnothave
+          objectDefinition:
+            kind: Namespace
+            apiVersion: v1
+            metadata:
+              name: integrity-shield-operator-system
+  - objectDefinition:
+      apiVersion: policy.open-cluster-management.io/v1
+      kind: ConfigurationPolicy
+      metadata:
+        name: policy-integrity-shield-og
+      spec:
+        remediationAction: enforce
+        severity: high
+        object-templates:
+        - complianceType: mustnothave
+          objectDefinition:
+            apiVersion: operators.coreos.com/v1
+            kind: OperatorGroup
+            metadata:
+              name: integrity-operator-group
+              namespace: integrity-shield-operator-system
+            spec:
+              targetNamespaces:
+              - integrity-shield-operator-system
+  - objectDefinition:
+      apiVersion: policy.open-cluster-management.io/v1
+      kind: ConfigurationPolicy
+      metadata:
+        name: policy-integrity-shield-catrsc
+      spec:
+        remediationAction: enforce
+        severity: high
+        object-templates:
+        - complianceType: mustnothave
+          objectDefinition:
+            apiVersion: operators.coreos.com/v1alpha1
+            kind: CatalogSource
+            metadata:
+              name: integrity-shield-operator-catalog
+              namespace: openshift-marketplace
+            spec:
+              displayName: Integrity Shield Operator
+              image: quay.io/open-cluster-management/integrity-shield-operator-index:0.1.2
+              publisher: IBM
+              sourceType: grpc
+              updateStrategy:
+                registryPoll:
+                  interval: 45m
+  - objectDefinition:
+      apiVersion: policy.open-cluster-management.io/v1
+      kind: ConfigurationPolicy
+      metadata:
+        name: policy-integrity-shield-sub
+      spec:
+        remediationAction: enforce
+        severity: high
+        object-templates:
+        - complianceType: mustnothave
+          objectDefinition:
+            apiVersion: operators.coreos.com/v1alpha1
+            kind: Subscription
+            metadata:
+              name: integrity-shield-operator
+              namespace: integrity-shield-operator-system
+            spec:
+              channel: alpha
+              installPlanApproval: Automatic
+              name: integrity-shield-operator
+              source: integrity-shield-operator-catalog
+              sourceNamespace: openshift-marketplace
+              startingCSV: integrity-shield-operator.v0.1.2
+  - objectDefinition:
+      apiVersion: policy.open-cluster-management.io/v1
+      kind: ConfigurationPolicy
+      metadata:
+        name: policy-integrity-shield-cr
+      spec:
+        remediationAction: enforce
+        severity: high
+        object-templates:
+        - complianceType: mustnothave
+          objectDefinition:
+            apiVersion: apis.integrityshield.io/v1alpha1
+            kind: IntegrityShield
+            metadata:
+              name: integrity-shield-server
+              namespace: integrity-shield-operator-system
+            spec:
+              logger:
+                image: quay.io/open-cluster-management/integrity-shield-logging:0.1.2
+              server:
+                image: quay.io/open-cluster-management/integrity-shield-server:0.1.2
+              affinity: {}
+              shieldConfig:
+                iShieldAdminUserName: "system:serviceaccount:open-cluster-management-agent-addon:klusterlet-addon-policyctrl"
+                inScopeNamespaceSelector:
+                  include:
+                  - "*"
+                  exclude:
+                  - "kube-*"
+                  - "openshift-*"
+              signPolicy:
+                policies:
+                - namespaces:
+                  - "*"
+                  signers:
+                  - "SampleSigner"
+                - scope: "Cluster"
+                  signers:
+                  - "SampleSigner"
+                signers:
+                - name: "SampleSigner"
+                  keyConfig: sample-signer-keyconfig
+                  subjects:
+                  - email: "hirokuni.kitahara1@ibm.com"
+              keyConfig:
+              - name: sample-signer-keyconfig
+                secretName: keyring-secret
+              resourceSigningProfiles:
+              - name: policy-rsp
+                protectRules:
+                - match:
+                  - apiGroup: policy.open-cluster-management.io
+                ignoreRules:
+                - match:
+                  - username: "system:serviceaccount:open-cluster-management-agent:*"
+                  - username: "system:serviceaccount:open-cluster-management-agent-addon:*"
+                forceCheckRules:
+                - match:
+                  - apiGroup: policy.open-cluster-management.io
+                    kind: Policy
+                kustomizePatterns:
+                - match:
+                  - apiGroup: policy.open-cluster-management.io
+                    kind: Policy
+                  namePrefix: "*."
+                unprotectAttrs:
+                - match:
+                  - apiGroup: policy.open-cluster-management.io
+                  attrs:
+                  - "metadata.annotations.\"apps.open-cluster-management.io/hosting-deployable\""
+                  - "metadata.annotations.\"apps.open-cluster-management.io/hosting-subscription\""
+                  - "metadata.annotations.\"apps.open-cluster-management.io/sync-source\""
+                  - "metadata.labels.\"policy.open-cluster-management.io/cluster-name\""
+                  - "metadata.labels.\"policy.open-cluster-management.io/cluster-namespace\""
+                  - "metadata.labels.\"policy.open-cluster-management.io/root-policy\""
+                targetNamespaceSelector:
+                  labelSelector:
+                    matchExpressions:
+                    - key: policy.open-cluster-management.io/isClusterNamespace
+                      operator: In
+                      values: ["true"]
+---
+apiVersion: policy.open-cluster-management.io/v1
+kind: PlacementBinding
+metadata:
+  name: binding-policy-integrity-shield
+placementRef:
+  name: placement-policy-integrity-shield
+  kind: PlacementRule
+  apiGroup: apps.open-cluster-management.io
+subjects:
+- name: policy-integrity-shield
+  kind: Policy
+  apiGroup: policy.open-cluster-management.io
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  name: placement-policy-integrity-shield
+spec:
+  clusterConditions:
+  - status: "True"
+    type: ManagedClusterConditionAvailable
+  clusterSelector:
+    matchExpressions:
+    - {key: environment, operator: In, values: ["dev"]}

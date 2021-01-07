@@ -11,68 +11,71 @@ metadata:
   annotations:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: CA Security Assessment and Authorization
-    policy.open-cluster-management.io/controls: CA-2 Security Assessments, CA-7 Continuous Monitoring
+    policy.open-cluster-management.io/controls: CA-2 Security Assessments, CA-7 Continuous
+      Monitoring
+    integrityshield.io/message: IyBUaGlzIHBvbGljeSB2ZXJpZmllcyB0aGUgaW5zdGFsbGF0aW9uIG9mIHRoZSBvZmZpY2lhbCAmIHN1cHBvcnRlZCB2ZXJzaW9uIG9mCiMgdGhlIENvbXBsaWFuY2UgT3BlcmF0b3Igb24gdGhlIG1hbmFnZWQgY2x1c3RlcnMuCiMKIyBJZiBzZXQgdG8gImVuZm9yY2UiIGl0J2xsIGluc3RhbGwgdGhlIG9wZXJhdG9yLgojCiMgTm90ZSB0aGF0IE9wZW5TaGlmdCA0LjYgaXMgcmVxdWlyZWQuCmFwaVZlcnNpb246IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQpraW5kOiBQb2xpY3kKbWV0YWRhdGE6CiAgbmFtZTogcG9saWN5LWNvbXAtb3BlcmF0b3IKICBhbm5vdGF0aW9uczoKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9zdGFuZGFyZHM6IE5JU1QgU1AgODAwLTUzCiAgICBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vY2F0ZWdvcmllczogQ0EgU2VjdXJpdHkgQXNzZXNzbWVudCBhbmQgQXV0aG9yaXphdGlvbgogICAgcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL2NvbnRyb2xzOiBDQS0yIFNlY3VyaXR5IEFzc2Vzc21lbnRzLCBDQS03IENvbnRpbnVvdXMKICAgICAgTW9uaXRvcmluZwpzcGVjOgogIHJlbWVkaWF0aW9uQWN0aW9uOiBpbmZvcm0KICBkaXNhYmxlZDogZmFsc2UKICBwb2xpY3ktdGVtcGxhdGVzOgogIC0gb2JqZWN0RGVmaW5pdGlvbjoKICAgICAgYXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCiAgICAgIGtpbmQ6IENvbmZpZ3VyYXRpb25Qb2xpY3kKICAgICAgbWV0YWRhdGE6CiAgICAgICAgbmFtZTogY29tcC1vcGVyYXRvci1ucwogICAgICBzcGVjOgogICAgICAgIHJlbWVkaWF0aW9uQWN0aW9uOiBpbmZvcm0gIyB3aWxsIGJlIG92ZXJyaWRkZW4gYnkgcmVtZWRpYXRpb25BY3Rpb24gaW4gcGFyZW50IHBvbGljeQogICAgICAgIHNldmVyaXR5OiBoaWdoCiAgICAgICAgb2JqZWN0LXRlbXBsYXRlczoKICAgICAgICAtIGNvbXBsaWFuY2VUeXBlOiBtdXN0aGF2ZQogICAgICAgICAgb2JqZWN0RGVmaW5pdGlvbjoKICAgICAgICAgICAgYXBpVmVyc2lvbjogdjEKICAgICAgICAgICAga2luZDogTmFtZXNwYWNlCiAgICAgICAgICAgIG1ldGFkYXRhOgogICAgICAgICAgICAgIG5hbWU6IG9wZW5zaGlmdC1jb21wbGlhbmNlCiAgLSBvYmplY3REZWZpbml0aW9uOgogICAgICBhcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKICAgICAga2luZDogQ29uZmlndXJhdGlvblBvbGljeQogICAgICBtZXRhZGF0YToKICAgICAgICBuYW1lOiBjb21wLW9wZXJhdG9yLW9wZXJhdG9yLWdyb3VwCiAgICAgIHNwZWM6CiAgICAgICAgcmVtZWRpYXRpb25BY3Rpb246IGluZm9ybSAjIHdpbGwgYmUgb3ZlcnJpZGRlbiBieSByZW1lZGlhdGlvbkFjdGlvbiBpbiBwYXJlbnQgcG9saWN5CiAgICAgICAgc2V2ZXJpdHk6IGhpZ2gKICAgICAgICBvYmplY3QtdGVtcGxhdGVzOgogICAgICAgIC0gY29tcGxpYW5jZVR5cGU6IG11c3RoYXZlCiAgICAgICAgICBvYmplY3REZWZpbml0aW9uOgogICAgICAgICAgICBhcGlWZXJzaW9uOiBvcGVyYXRvcnMuY29yZW9zLmNvbS92MQogICAgICAgICAgICBraW5kOiBPcGVyYXRvckdyb3VwCiAgICAgICAgICAgIG1ldGFkYXRhOgogICAgICAgICAgICAgIG5hbWU6IGNvbXBsaWFuY2Utb3BlcmF0b3IKICAgICAgICAgICAgICBuYW1lc3BhY2U6IG9wZW5zaGlmdC1jb21wbGlhbmNlCiAgICAgICAgICAgIHNwZWM6CiAgICAgICAgICAgICAgc2VsZWN0b3I6CiAgICAgICAgICAgICAgICBtYXRjaExhYmVsczoKICAgICAgICAgICAgICAgICAgcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL2lzQ2x1c3Rlck5hbWVzcGFjZTogInRydWUiCiAgLSBvYmplY3REZWZpbml0aW9uOgogICAgICBhcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKICAgICAga2luZDogQ29uZmlndXJhdGlvblBvbGljeQogICAgICBtZXRhZGF0YToKICAgICAgICBuYW1lOiBjb21wLW9wZXJhdG9yLXN1YnNjcmlwdGlvbgogICAgICBzcGVjOgogICAgICAgIHJlbWVkaWF0aW9uQWN0aW9uOiBpbmZvcm0gIyB3aWxsIGJlIG92ZXJyaWRkZW4gYnkgcmVtZWRpYXRpb25BY3Rpb24gaW4gcGFyZW50IHBvbGljeQogICAgICAgIHNldmVyaXR5OiBoaWdoCiAgICAgICAgb2JqZWN0LXRlbXBsYXRlczoKICAgICAgICAtIGNvbXBsaWFuY2VUeXBlOiBtdXN0aGF2ZQogICAgICAgICAgb2JqZWN0RGVmaW5pdGlvbjoKICAgICAgICAgICAgYXBpVmVyc2lvbjogb3BlcmF0b3JzLmNvcmVvcy5jb20vdjFhbHBoYTEKICAgICAgICAgICAga2luZDogU3Vic2NyaXB0aW9uCiAgICAgICAgICAgIG1ldGFkYXRhOgogICAgICAgICAgICAgIG5hbWU6IGNvbXBsaWFuY2Utb3BlcmF0b3IKICAgICAgICAgICAgICBuYW1lc3BhY2U6IG9wZW5zaGlmdC1jb21wbGlhbmNlCiAgICAgICAgICAgIHNwZWM6CiAgICAgICAgICAgICAgY2hhbm5lbDogIjQuNiIKICAgICAgICAgICAgICBpbnN0YWxsUGxhbkFwcHJvdmFsOiBBdXRvbWF0aWMKICAgICAgICAgICAgICBuYW1lOiBjb21wbGlhbmNlLW9wZXJhdG9yCiAgICAgICAgICAgICAgc291cmNlOiByZWRoYXQtb3BlcmF0b3JzCiAgICAgICAgICAgICAgc291cmNlTmFtZXNwYWNlOiBvcGVuc2hpZnQtbWFya2V0cGxhY2UKLS0tCmFwaVZlcnNpb246IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQpraW5kOiBQbGFjZW1lbnRCaW5kaW5nCm1ldGFkYXRhOgogIG5hbWU6IGJpbmRpbmctcG9saWN5LWNvbXAtb3BlcmF0b3IKcGxhY2VtZW50UmVmOgogIG5hbWU6IHBsYWNlbWVudC1wb2xpY3ktY29tcC1vcGVyYXRvcgogIGtpbmQ6IFBsYWNlbWVudFJ1bGUKICBhcGlHcm91cDogYXBwcy5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pbwpzdWJqZWN0czoKLSBuYW1lOiBwb2xpY3ktY29tcC1vcGVyYXRvcgogIGtpbmQ6IFBvbGljeQogIGFwaUdyb3VwOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8KLS0tCmFwaVZlcnNpb246IGFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKa2luZDogUGxhY2VtZW50UnVsZQptZXRhZGF0YToKICBuYW1lOiBwbGFjZW1lbnQtcG9saWN5LWNvbXAtb3BlcmF0b3IKc3BlYzoKICBjbHVzdGVyQ29uZGl0aW9uczoKICAtIHN0YXR1czogIlRydWUiCiAgICB0eXBlOiBNYW5hZ2VkQ2x1c3RlckNvbmRpdGlvbkF2YWlsYWJsZQogIGNsdXN0ZXJTZWxlY3RvcjoKICAgIG1hdGNoRXhwcmVzc2lvbnM6CiAgICAtIHtrZXk6IHZlbmRvciwgb3BlcmF0b3I6IEluLCB2YWx1ZXM6IFsiT3BlblNoaWZ0Il19Cg==
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRRlBCQUFCQ0FBNUZpRUUrU2psQVN5SlZoa3FGVDNLT1Q2Y3pnLzRpcmtGQWwvMnBaNGJIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVEaytuTTRQK0lxNUtsd0gvQTZaVWNQTVN1SHZGMG11T3VaNgpoazJVRkxIQ0RtUCtEa3VURGp2OTc4R1hrZWxzUkYrTGlHbzgwR3c0MVREQ1hsandBazdIdVdObE02d3F1WmV1CjZsTmZpRHpNdm1Ta09JYU0wLzRrL0NzaSt4SjRTQ1pSSjNPYU15NWswRXc3UnZzTmo5WTIrYkYzQVNMSklSTlIKL1pKTXdlWWpJMEpXcmNEMk52aS9tOFVIRkk1MlAyRFpEV2hzTUUyeVBxeE11QmFzT3hrU3ROUk9ya0lwVllRSgpUaW1UTk5zc2NSMGVueE5IQkxLTFZxRUxKeDRQRXN5VmRHM29ZT0RQRW9oMy9Xd21RcXd5akxsS1lzL2liS29KCnJ5TnZZVSsxR0xsN3dHK2JTclR0ODhxbXRqc1IwcGsvV2pqS1BBc3FUaVg5bnVKNkdmMUExbytmZE9rUDJXZE8KcmtzPQo9STl6NAotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
 spec:
   remediationAction: inform
   disabled: false
   policy-templates:
-    - objectDefinition:
-        apiVersion: policy.open-cluster-management.io/v1
-        kind: ConfigurationPolicy
-        metadata:
-          name: comp-operator-ns
-        spec:
-          remediationAction: inform # will be overridden by remediationAction in parent policy
-          severity: high
-          object-templates:
-            - complianceType: musthave
-              objectDefinition:
-                apiVersion: v1
-                kind: Namespace
-                metadata:
-                  name: openshift-compliance
-    - objectDefinition:
-        apiVersion: policy.open-cluster-management.io/v1
-        kind: ConfigurationPolicy
-        metadata:
-          name: comp-operator-operator-group
-        spec:
-          remediationAction: inform # will be overridden by remediationAction in parent policy
-          severity: high
-          object-templates:
-            - complianceType: musthave
-              objectDefinition:
-                apiVersion: operators.coreos.com/v1
-                kind: OperatorGroup
-                metadata:
-                  name: compliance-operator
-                  namespace: openshift-compliance
-                spec:
-                  selector:
-                    matchLabels:
-                      policy.open-cluster-management.io/isClusterNamespace: "true"
-    - objectDefinition:
-        apiVersion: policy.open-cluster-management.io/v1
-        kind: ConfigurationPolicy
-        metadata:
-          name: comp-operator-subscription
-        spec:
-          remediationAction: inform  # will be overridden by remediationAction in parent policy
-          severity: high
-          object-templates:
-            - complianceType: musthave
-              objectDefinition:
-                apiVersion: operators.coreos.com/v1alpha1
-                kind: Subscription
-                metadata:
-                  name: compliance-operator
-                  namespace: openshift-compliance
-                spec:
-                  channel: "4.6"
-                  installPlanApproval: Automatic
-                  name: compliance-operator
-                  source: redhat-operators
-                  sourceNamespace: openshift-marketplace
+  - objectDefinition:
+      apiVersion: policy.open-cluster-management.io/v1
+      kind: ConfigurationPolicy
+      metadata:
+        name: comp-operator-ns
+      spec:
+        remediationAction: inform # will be overridden by remediationAction in parent policy
+        severity: high
+        object-templates:
+        - complianceType: musthave
+          objectDefinition:
+            apiVersion: v1
+            kind: Namespace
+            metadata:
+              name: openshift-compliance
+  - objectDefinition:
+      apiVersion: policy.open-cluster-management.io/v1
+      kind: ConfigurationPolicy
+      metadata:
+        name: comp-operator-operator-group
+      spec:
+        remediationAction: inform # will be overridden by remediationAction in parent policy
+        severity: high
+        object-templates:
+        - complianceType: musthave
+          objectDefinition:
+            apiVersion: operators.coreos.com/v1
+            kind: OperatorGroup
+            metadata:
+              name: compliance-operator
+              namespace: openshift-compliance
+            spec:
+              selector:
+                matchLabels:
+                  policy.open-cluster-management.io/isClusterNamespace: "true"
+  - objectDefinition:
+      apiVersion: policy.open-cluster-management.io/v1
+      kind: ConfigurationPolicy
+      metadata:
+        name: comp-operator-subscription
+      spec:
+        remediationAction: inform # will be overridden by remediationAction in parent policy
+        severity: high
+        object-templates:
+        - complianceType: musthave
+          objectDefinition:
+            apiVersion: operators.coreos.com/v1alpha1
+            kind: Subscription
+            metadata:
+              name: compliance-operator
+              namespace: openshift-compliance
+            spec:
+              channel: "4.6"
+              installPlanApproval: Automatic
+              name: compliance-operator
+              source: redhat-operators
+              sourceNamespace: openshift-marketplace
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
@@ -83,9 +86,9 @@ placementRef:
   kind: PlacementRule
   apiGroup: apps.open-cluster-management.io
 subjects:
-  - name: policy-comp-operator
-    kind: Policy
-    apiGroup: policy.open-cluster-management.io
+- name: policy-comp-operator
+  kind: Policy
+  apiGroup: policy.open-cluster-management.io
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
@@ -93,8 +96,8 @@ metadata:
   name: placement-policy-comp-operator
 spec:
   clusterConditions:
-    - status: "True"
-      type: ManagedClusterConditionAvailable
+  - status: "True"
+    type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-      - {key: vendor, operator: In, values: ["OpenShift"]}
+    - {key: vendor, operator: In, values: ["OpenShift"]}

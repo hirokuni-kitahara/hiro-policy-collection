@@ -6,35 +6,37 @@ metadata:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: CM Configuration Management
     policy.open-cluster-management.io/controls: CM-2 Baseline Configuration
+    integrityshield.io/message: YXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBvbGljeQptZXRhZGF0YToKICBuYW1lOiBwb2xpY3ktbGltaXRtZW1vcnkKICBhbm5vdGF0aW9uczoKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9zdGFuZGFyZHM6IE5JU1QgU1AgODAwLTUzCiAgICBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vY2F0ZWdvcmllczogQ00gQ29uZmlndXJhdGlvbiBNYW5hZ2VtZW50CiAgICBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vY29udHJvbHM6IENNLTIgQmFzZWxpbmUgQ29uZmlndXJhdGlvbgpzcGVjOgogIHJlbWVkaWF0aW9uQWN0aW9uOiBpbmZvcm0KICBkaXNhYmxlZDogZmFsc2UKICBwb2xpY3ktdGVtcGxhdGVzOgogIC0gb2JqZWN0RGVmaW5pdGlvbjoKICAgICAgYXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCiAgICAgIGtpbmQ6IENvbmZpZ3VyYXRpb25Qb2xpY3kKICAgICAgbWV0YWRhdGE6CiAgICAgICAgbmFtZTogcG9saWN5LWxpbWl0cmFuZ2UtZXhhbXBsZQogICAgICBzcGVjOgogICAgICAgIHJlbWVkaWF0aW9uQWN0aW9uOiBpbmZvcm0gIyB0aGUgcG9saWN5LXRlbXBsYXRlIHNwZWMucmVtZWRpYXRpb25BY3Rpb24gaXMgb3ZlcnJpZGRlbiBieSB0aGUgcHJlY2VkaW5nIHBhcmFtZXRlciB2YWx1ZSBmb3Igc3BlYy5yZW1lZGlhdGlvbkFjdGlvbi4KICAgICAgICBzZXZlcml0eTogbWVkaXVtCiAgICAgICAgbmFtZXNwYWNlU2VsZWN0b3I6CiAgICAgICAgICBleGNsdWRlOiBbImt1YmUtKiJdCiAgICAgICAgICBpbmNsdWRlOiBbImRlZmF1bHQiXQogICAgICAgIG9iamVjdC10ZW1wbGF0ZXM6CiAgICAgICAgLSBjb21wbGlhbmNlVHlwZTogbXVzdGhhdmUKICAgICAgICAgIG9iamVjdERlZmluaXRpb246CiAgICAgICAgICAgIGFwaVZlcnNpb246IHYxCiAgICAgICAgICAgIGtpbmQ6IExpbWl0UmFuZ2UgIyBsaW1pdCBtZW1vcnkgdXNhZ2UKICAgICAgICAgICAgbWV0YWRhdGE6CiAgICAgICAgICAgICAgbmFtZTogbWVtLWxpbWl0LXJhbmdlCiAgICAgICAgICAgIHNwZWM6CiAgICAgICAgICAgICAgbGltaXRzOgogICAgICAgICAgICAgIC0gZGVmYXVsdDoKICAgICAgICAgICAgICAgICAgbWVtb3J5OiA1MTJNaQogICAgICAgICAgICAgICAgZGVmYXVsdFJlcXVlc3Q6CiAgICAgICAgICAgICAgICAgIG1lbW9yeTogMjU2TWkKICAgICAgICAgICAgICAgIHR5cGU6IENvbnRhaW5lcgotLS0KYXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBsYWNlbWVudEJpbmRpbmcKbWV0YWRhdGE6CiAgbmFtZTogYmluZGluZy1wb2xpY3ktbGltaXRtZW1vcnkKcGxhY2VtZW50UmVmOgogIG5hbWU6IHBsYWNlbWVudC1wb2xpY3ktbGltaXRtZW1vcnkKICBraW5kOiBQbGFjZW1lbnRSdWxlCiAgYXBpR3JvdXA6IGFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8Kc3ViamVjdHM6Ci0gbmFtZTogcG9saWN5LWxpbWl0bWVtb3J5CiAga2luZDogUG9saWN5CiAgYXBpR3JvdXA6IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pbwotLS0KYXBpVmVyc2lvbjogYXBwcy5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQpraW5kOiBQbGFjZW1lbnRSdWxlCm1ldGFkYXRhOgogIG5hbWU6IHBsYWNlbWVudC1wb2xpY3ktbGltaXRtZW1vcnkKc3BlYzoKICBjbHVzdGVyQ29uZGl0aW9uczoKICAtIHN0YXR1czogIlRydWUiCiAgICB0eXBlOiBNYW5hZ2VkQ2x1c3RlckNvbmRpdGlvbkF2YWlsYWJsZQogIGNsdXN0ZXJTZWxlY3RvcjoKICAgIG1hdGNoRXhwcmVzc2lvbnM6CiAgICAtIHtrZXk6IGVudmlyb25tZW50LCBvcGVyYXRvcjogSW4sIHZhbHVlczogWyJkZXYiXX0K
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRRlBCQUFCQ0FBNUZpRUUrU2psQVN5SlZoa3FGVDNLT1Q2Y3pnLzRpcmtGQWwvMnBad2JIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVEaytuTTRQK0lxNTQ2b0gvMkFXaFl6R0tTdWk3bXNZbzhEOQpzWVlvc1ZnbGVzekFlSk1vV2NESDVsNXRDcFhBaE9JSFFManpScWZWVlRUYUNPQlRMUWI5RlFzdnFmNG4zUGQ1CkJSalVOZ3V2MzJheVlsUjVPSm5zU0ZKZTVkY2crYmRrSVZRSEN4YXhUaDB2Umo5VG9jVjBmYlZCK0MrZUs0SFcKU2tWWFV6NDhIZ0o2OWRTM2lYTm1na3k4ZzJhTlV1bWNtQkcvT1NWSER4YjN4ZlNWTVh3cVdZaXd6M3hWQzFJbwpMdUpKWEhoaGZKUHZPK2dEM3gxajgrSnFzbVVuRzc3U0dxZERrU2Z6amRKcjI4NUJFNndvcGlNRXB4ZUZKSE9nCjgzTmdFUGFJQ2JRbXQrYVdPZmdoVW9XeU84M2Nhc3EyTEd1bGRobElkeHlqMDlheDdXUG54N0dBVWhCU2NGdjcKWlI0PQo9RVY4SAotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
 spec:
   remediationAction: inform
   disabled: false
   policy-templates:
-    - objectDefinition:
-        apiVersion: policy.open-cluster-management.io/v1
-        kind: ConfigurationPolicy
-        metadata:
-          name: policy-limitrange-example
-        spec:
-          remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-          severity: medium
-          namespaceSelector:
-            exclude: ["kube-*"]
-            include: ["default"]
-          object-templates:
-            - complianceType: musthave
-              objectDefinition:
-                apiVersion: v1
-                kind: LimitRange # limit memory usage
-                metadata:
-                  name: mem-limit-range
-                spec:
-                  limits:
-                  - default:
-                      memory: 512Mi
-                    defaultRequest:
-                      memory: 256Mi
-                    type: Container
+  - objectDefinition:
+      apiVersion: policy.open-cluster-management.io/v1
+      kind: ConfigurationPolicy
+      metadata:
+        name: policy-limitrange-example
+      spec:
+        remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+        severity: medium
+        namespaceSelector:
+          exclude: ["kube-*"]
+          include: ["default"]
+        object-templates:
+        - complianceType: musthave
+          objectDefinition:
+            apiVersion: v1
+            kind: LimitRange # limit memory usage
+            metadata:
+              name: mem-limit-range
+            spec:
+              limits:
+              - default:
+                  memory: 512Mi
+                defaultRequest:
+                  memory: 256Mi
+                type: Container
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
@@ -59,4 +61,4 @@ spec:
     type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-      - {key: environment, operator: In, values: ["dev"]}
+    - {key: environment, operator: In, values: ["dev"]}

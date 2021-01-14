@@ -6,50 +6,48 @@ metadata:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: SI System and Information Integrity
     policy.open-cluster-management.io/controls: SI-4 Information System Monitoring
-    integrityshield.io/message: YXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBvbGljeQptZXRhZGF0YToKICBuYW1lOiBwb2xpY3ktaW1hZ2VtYW5pZmVzdHZ1bG4KICBhbm5vdGF0aW9uczoKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9zdGFuZGFyZHM6IE5JU1QgU1AgODAwLTUzCiAgICBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vY2F0ZWdvcmllczogU0kgU3lzdGVtIGFuZCBJbmZvcm1hdGlvbiBJbnRlZ3JpdHkKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9jb250cm9sczogU0ktNCBJbmZvcm1hdGlvbiBTeXN0ZW0gTW9uaXRvcmluZwpzcGVjOgogIHJlbWVkaWF0aW9uQWN0aW9uOiBpbmZvcm0KICBkaXNhYmxlZDogZmFsc2UKICBwb2xpY3ktdGVtcGxhdGVzOgogIC0gb2JqZWN0RGVmaW5pdGlvbjoKICAgICAgYXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCiAgICAgIGtpbmQ6IENvbmZpZ3VyYXRpb25Qb2xpY3kKICAgICAgbWV0YWRhdGE6CiAgICAgICAgbmFtZTogcG9saWN5LWltYWdlbWFuaWZlc3R2dWxuLWV4YW1wbGUtc3ViCiAgICAgIHNwZWM6CiAgICAgICAgcmVtZWRpYXRpb25BY3Rpb246IGluZm9ybSAjIHRoZSBwb2xpY3ktdGVtcGxhdGUgc3BlYy5yZW1lZGlhdGlvbkFjdGlvbiBpcyBvdmVycmlkZGVuIGJ5IHRoZSBwcmVjZWRpbmcgcGFyYW1ldGVyIHZhbHVlIGZvciBzcGVjLnJlbWVkaWF0aW9uQWN0aW9uLgogICAgICAgIHNldmVyaXR5OiBoaWdoCiAgICAgICAgb2JqZWN0LXRlbXBsYXRlczoKICAgICAgICAtIGNvbXBsaWFuY2VUeXBlOiBtdXN0aGF2ZQogICAgICAgICAgb2JqZWN0RGVmaW5pdGlvbjoKICAgICAgICAgICAgYXBpVmVyc2lvbjogb3BlcmF0b3JzLmNvcmVvcy5jb20vdjFhbHBoYTEKICAgICAgICAgICAga2luZDogU3Vic2NyaXB0aW9uCiAgICAgICAgICAgIG1ldGFkYXRhOgogICAgICAgICAgICAgIG5hbWU6IGNvbnRhaW5lci1zZWN1cml0eS1vcGVyYXRvcgogICAgICAgICAgICAgIG5hbWVzcGFjZTogb3BlbnNoaWZ0LW9wZXJhdG9ycwogICAgICAgICAgICBzcGVjOgogICAgICAgICAgICAgIGNoYW5uZWw6IHF1YXktdjMuMwogICAgICAgICAgICAgIGluc3RhbGxQbGFuQXBwcm92YWw6IEF1dG9tYXRpYwogICAgICAgICAgICAgIG5hbWU6IGNvbnRhaW5lci1zZWN1cml0eS1vcGVyYXRvcgogICAgICAgICAgICAgIHNvdXJjZTogcmVkaGF0LW9wZXJhdG9ycwogICAgICAgICAgICAgIHNvdXJjZU5hbWVzcGFjZTogb3BlbnNoaWZ0LW1hcmtldHBsYWNlCiAgLSBvYmplY3REZWZpbml0aW9uOgogICAgICBhcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKICAgICAga2luZDogQ29uZmlndXJhdGlvblBvbGljeQogICAgICBtZXRhZGF0YToKICAgICAgICBuYW1lOiBwb2xpY3ktaW1hZ2VtYW5pZmVzdHZ1bG4tZXhhbXBsZS1pbXYKICAgICAgc3BlYzoKICAgICAgICByZW1lZGlhdGlvbkFjdGlvbjogaW5mb3JtICMgdGhlIHBvbGljeS10ZW1wbGF0ZSBzcGVjLnJlbWVkaWF0aW9uQWN0aW9uIGlzIG92ZXJyaWRkZW4gYnkgdGhlIHByZWNlZGluZyBwYXJhbWV0ZXIgdmFsdWUgZm9yIHNwZWMucmVtZWRpYXRpb25BY3Rpb24uCiAgICAgICAgc2V2ZXJpdHk6IGhpZ2gKICAgICAgICBuYW1lc3BhY2VTZWxlY3RvcjoKICAgICAgICAgIGV4Y2x1ZGU6IFsia3ViZS0qIl0KICAgICAgICAgIGluY2x1ZGU6IFsiKiJdCiAgICAgICAgb2JqZWN0LXRlbXBsYXRlczoKICAgICAgICAtIGNvbXBsaWFuY2VUeXBlOiBtdXN0bm90aGF2ZSAjIG11c3Rub3RoYXZlIGFueSBJbWFnZU1hbmlmZXN0VnVsbiBvYmplY3QKICAgICAgICAgIG9iamVjdERlZmluaXRpb246CiAgICAgICAgICAgIGFwaVZlcnNpb246IHNlY3NjYW4ucXVheS5yZWRoYXQuY29tL3YxYWxwaGExCiAgICAgICAgICAgIGtpbmQ6IEltYWdlTWFuaWZlc3RWdWxuICMgY2hlY2tpbmcgZm9yIGEga2luZAotLS0KYXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBsYWNlbWVudEJpbmRpbmcKbWV0YWRhdGE6CiAgbmFtZTogYmluZGluZy1wb2xpY3ktaW1hZ2VtYW5pZmVzdHZ1bG4KcGxhY2VtZW50UmVmOgogIG5hbWU6IHBsYWNlbWVudC1wb2xpY3ktaW1hZ2VtYW5pZmVzdHZ1bG4KICBraW5kOiBQbGFjZW1lbnRSdWxlCiAgYXBpR3JvdXA6IGFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8Kc3ViamVjdHM6Ci0gbmFtZTogcG9saWN5LWltYWdlbWFuaWZlc3R2dWxuCiAga2luZDogUG9saWN5CiAgYXBpR3JvdXA6IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pbwotLS0KYXBpVmVyc2lvbjogYXBwcy5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQpraW5kOiBQbGFjZW1lbnRSdWxlCm1ldGFkYXRhOgogIG5hbWU6IHBsYWNlbWVudC1wb2xpY3ktaW1hZ2VtYW5pZmVzdHZ1bG4Kc3BlYzoKICBjbHVzdGVyQ29uZGl0aW9uczoKICAtIHN0YXR1czogIlRydWUiCiAgICB0eXBlOiBNYW5hZ2VkQ2x1c3RlckNvbmRpdGlvbkF2YWlsYWJsZQogIGNsdXN0ZXJTZWxlY3RvcjoKICAgIG1hdGNoRXhwcmVzc2lvbnM6CiAgICAtIHtrZXk6IGVudmlyb25tZW50LCBvcGVyYXRvcjogSW4sIHZhbHVlczogWyJkZXYiXX0K
-    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRRlBCQUFCQ0FBNUZpRUUrU2psQVN5SlZoa3FGVDNLT1Q2Y3pnLzRpcmtGQWwvMnBaMGJIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVEaytuTTRQK0lxNWhHSUlBSWZoNktlZnViN0lMeTZIWHlMMQovNDZudUxYV00xODJLLzQrLzZUSnZDSk9vSjlZMXlZU3FhY1pBanpoSjlFaFh4QXQ5MXgxWVl2dDNVcURRQXE3CkE0d1VGeFlCVHBpVkdFREFJUi9mbVlSaFYwdytUT2psTmlVbE05NWRuT21lUFlLcjQzNlN6bHFwUGQwaGZnMGkKem43NE5hMXdZaXZ2NHZaQTdFK1FpSDJVbEhWaE01Q1JPWU5iRWlRTUFiT0l0UXFoNmtLZkpHaWxXRzU5cHMrcApPdlRCQXlVMHFqQ21TVUxFZDhRaUZHVi93WmhsOE1QUXJLOFQwM1BtSU52TUhsTUlya3dTZXloNGxxbDJkSjZECjh4em5oYjFKMnhaMXBXS2NhRUlJNWhEMkx4d21PZWRYWDJkWXNaZ3JETzc3b2x4RDRSczhDNkI0MnJMQWQzNG0KQ2tBPQo9QXJZbwotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
 spec:
   remediationAction: inform
   disabled: false
   policy-templates:
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-imagemanifestvuln-example-sub
-      spec:
-        remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: high
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            apiVersion: operators.coreos.com/v1alpha1
-            kind: Subscription
-            metadata:
-              name: container-security-operator
-              namespace: openshift-operators
-            spec:
-              channel: quay-v3.3
-              installPlanApproval: Automatic
-              name: container-security-operator
-              source: redhat-operators
-              sourceNamespace: openshift-marketplace
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-imagemanifestvuln-example-imv
-      spec:
-        remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: high
-        namespaceSelector:
-          exclude: ["kube-*"]
-          include: ["*"]
-        object-templates:
-        - complianceType: mustnothave # mustnothave any ImageManifestVuln object
-          objectDefinition:
-            apiVersion: secscan.quay.redhat.com/v1alpha1
-            kind: ImageManifestVuln # checking for a kind
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-imagemanifestvuln-example-sub
+        spec:
+          remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: high
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: operators.coreos.com/v1alpha1
+                kind: Subscription
+                metadata:
+                  name: container-security-operator
+                  namespace: openshift-operators
+                spec:
+                  channel: quay-v3.3
+                  installPlanApproval: Automatic
+                  name: container-security-operator
+                  source: redhat-operators
+                  sourceNamespace: openshift-marketplace
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-imagemanifestvuln-example-imv
+        spec:
+          remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: high
+          namespaceSelector:
+            exclude: ["kube-*"]
+            include: ["*"]
+          object-templates:
+            - complianceType: mustnothave # mustnothave any ImageManifestVuln object
+              objectDefinition:
+                apiVersion: secscan.quay.redhat.com/v1alpha1
+                kind: ImageManifestVuln # checking for a kind
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
@@ -74,4 +72,4 @@ spec:
     type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-    - {key: environment, operator: In, values: ["dev"]}
+      - {key: environment, operator: In, values: ["dev"]}

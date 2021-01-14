@@ -6,24 +6,22 @@ metadata:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: AC Access Control
     policy.open-cluster-management.io/controls: AC-3 Access Enforcement
-    integrityshield.io/message: YXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBvbGljeQptZXRhZGF0YToKICBuYW1lOiBwb2xpY3ktbGltaXRjbHVzdGVyYWRtaW4KICBhbm5vdGF0aW9uczoKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9zdGFuZGFyZHM6IE5JU1QgU1AgODAwLTUzCiAgICBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vY2F0ZWdvcmllczogQUMgQWNjZXNzIENvbnRyb2wKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9jb250cm9sczogQUMtMyBBY2Nlc3MgRW5mb3JjZW1lbnQKc3BlYzoKICByZW1lZGlhdGlvbkFjdGlvbjogaW5mb3JtCiAgZGlzYWJsZWQ6IGZhbHNlCiAgcG9saWN5LXRlbXBsYXRlczoKICAtIG9iamVjdERlZmluaXRpb246CiAgICAgIGFwaVZlcnNpb246IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQogICAgICBraW5kOiBJYW1Qb2xpY3kgIyBsaW1pdCBjbHVzdGVyYWRtaW5yb2xlIGFuZCByZXBvcnQgdmlvbGF0aW9uCiAgICAgIG1ldGFkYXRhOgogICAgICAgIG5hbWU6IHBvbGljeS1saW1pdGNsdXN0ZXJhZG1pbi1leGFtcGxlCiAgICAgIHNwZWM6CiAgICAgICAgc2V2ZXJpdHk6IG1lZGl1bQogICAgICAgIG5hbWVzcGFjZVNlbGVjdG9yOgogICAgICAgICAgaW5jbHVkZTogWyIqIl0KICAgICAgICAgIGV4Y2x1ZGU6IFsia3ViZS0qIiwgIm9wZW5zaGlmdC0qIl0KICAgICAgICByZW1lZGlhdGlvbkFjdGlvbjogaW5mb3JtICMgdGhlIHBvbGljeS10ZW1wbGF0ZSBzcGVjLnJlbWVkaWF0aW9uQWN0aW9uIGlzIG92ZXJyaWRkZW4gYnkgdGhlIHByZWNlZGluZyBwYXJhbWV0ZXIgdmFsdWUgZm9yIHNwZWMucmVtZWRpYXRpb25BY3Rpb24uCiAgICAgICAgbWF4Q2x1c3RlclJvbGVCaW5kaW5nVXNlcnM6IDUKLS0tCmFwaVZlcnNpb246IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQpraW5kOiBQbGFjZW1lbnRCaW5kaW5nCm1ldGFkYXRhOgogIG5hbWU6IGJpbmRpbmctcG9saWN5LWxpbWl0Y2x1c3RlcmFkbWluCnBsYWNlbWVudFJlZjoKICBuYW1lOiBwbGFjZW1lbnQtcG9saWN5LWxpbWl0Y2x1c3RlcmFkbWluCiAga2luZDogUGxhY2VtZW50UnVsZQogIGFwaUdyb3VwOiBhcHBzLm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvCnN1YmplY3RzOgotIG5hbWU6IHBvbGljeS1saW1pdGNsdXN0ZXJhZG1pbgogIGtpbmQ6IFBvbGljeQogIGFwaUdyb3VwOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8KLS0tCmFwaVZlcnNpb246IGFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKa2luZDogUGxhY2VtZW50UnVsZQptZXRhZGF0YToKICBuYW1lOiBwbGFjZW1lbnQtcG9saWN5LWxpbWl0Y2x1c3RlcmFkbWluCnNwZWM6CiAgY2x1c3RlckNvbmRpdGlvbnM6CiAgLSBzdGF0dXM6ICJUcnVlIgogICAgdHlwZTogTWFuYWdlZENsdXN0ZXJDb25kaXRpb25BdmFpbGFibGUKICBjbHVzdGVyU2VsZWN0b3I6CiAgICBtYXRjaEV4cHJlc3Npb25zOgogICAgLSB7a2V5OiBlbnZpcm9ubWVudCwgb3BlcmF0b3I6IEluLCB2YWx1ZXM6IFsiZGV2Il19Cg==
-    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRRlBCQUFCQ0FBNUZpRUUrU2psQVN5SlZoa3FGVDNLT1Q2Y3pnLzRpcmtGQWwvMnBaMGJIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVEaytuTTRQK0lxNWdNWUgvMDlyRWc3ekRiSUFjVEFJOW82aQpWeEptRmZ2cDRoeEx5SVlRTnMxNXBMN1lrVWRLS1VNaWZWa1Y0OUtwUjJDazFqMmorWnA0OUZNWVBsZ1hZenZlCjA1UnlzaUx0VmtZYmFyZmhPSlhKTVRwWUxsUGVRRGk2Y1RNL0VSRUx6OWRGSTI4TWhQQzZSeVhYNjJzSS9hWUYKVVFUNVF5UDdPd2svbkVsYkVIOTJwNmcyTnV0N1pCS2FPUFpDV04wZUl4L0NKTVVJa25GMU93YzdPREh1bEZiUgozdzQ3QW12L3BSdlFxMVFhNGc5aldRVElWN1JOaUlZOVZETGRwYlBqNUtEbEZ5TFA4WHlBcDdKdllQZkZLOHJFClZqRmdjTmR1dWRVdW1pMHNCV3ZBZnNTS0NBaFVxNmZaM0RpZy90b2JiT1cxNVZWKzVrZ2VYbjVtRTlhWFFNOHgKRUY4PQo9aFozVQotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
 spec:
   remediationAction: inform
   disabled: false
   policy-templates:
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: IamPolicy # limit clusteradminrole and report violation
-      metadata:
-        name: policy-limitclusteradmin-example
-      spec:
-        severity: medium
-        namespaceSelector:
-          include: ["*"]
-          exclude: ["kube-*", "openshift-*"]
-        remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        maxClusterRoleBindingUsers: 5
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: IamPolicy # limit clusteradminrole and report violation
+        metadata:
+          name: policy-limitclusteradmin-example
+        spec:
+          severity: medium
+          namespaceSelector:
+            include: ["*"]
+            exclude: ["kube-*", "openshift-*"]
+          remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          maxClusterRoleBindingUsers: 5
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
@@ -48,4 +46,4 @@ spec:
     type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-    - {key: environment, operator: In, values: ["dev"]}
+      - {key: environment, operator: In, values: ["dev"]}

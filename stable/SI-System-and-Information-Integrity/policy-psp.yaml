@@ -6,53 +6,51 @@ metadata:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: SI System and Information Integrity
     policy.open-cluster-management.io/controls: SI-3 Malicious Code Protection
-    integrityshield.io/message: YXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBvbGljeQptZXRhZGF0YToKICBuYW1lOiBwb2xpY3ktcG9kc2VjdXJpdHlwb2xpY3kKICBhbm5vdGF0aW9uczoKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9zdGFuZGFyZHM6IE5JU1QgU1AgODAwLTUzCiAgICBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vY2F0ZWdvcmllczogU0kgU3lzdGVtIGFuZCBJbmZvcm1hdGlvbiBJbnRlZ3JpdHkKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9jb250cm9sczogU0ktMyBNYWxpY2lvdXMgQ29kZSBQcm90ZWN0aW9uCnNwZWM6CiAgcmVtZWRpYXRpb25BY3Rpb246IGluZm9ybQogIGRpc2FibGVkOiBmYWxzZQogIHBvbGljeS10ZW1wbGF0ZXM6CiAgLSBvYmplY3REZWZpbml0aW9uOgogICAgICBhcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKICAgICAga2luZDogQ29uZmlndXJhdGlvblBvbGljeQogICAgICBtZXRhZGF0YToKICAgICAgICBuYW1lOiBwb2xpY3ktcG9kc2VjdXJpdHlwb2xpY3ktZXhhbXBsZQogICAgICBzcGVjOgogICAgICAgIHJlbWVkaWF0aW9uQWN0aW9uOiBpbmZvcm0gIyB0aGUgcG9saWN5LXRlbXBsYXRlIHNwZWMucmVtZWRpYXRpb25BY3Rpb24gaXMgb3ZlcnJpZGRlbiBieSB0aGUgcHJlY2VkaW5nIHBhcmFtZXRlciB2YWx1ZSBmb3Igc3BlYy5yZW1lZGlhdGlvbkFjdGlvbi4KICAgICAgICBzZXZlcml0eTogaGlnaAogICAgICAgIG5hbWVzcGFjZVNlbGVjdG9yOgogICAgICAgICAgZXhjbHVkZTogWyJrdWJlLSoiXQogICAgICAgICAgaW5jbHVkZTogWyJkZWZhdWx0Il0KICAgICAgICBvYmplY3QtdGVtcGxhdGVzOgogICAgICAgIC0gY29tcGxpYW5jZVR5cGU6IG11c3RoYXZlCiAgICAgICAgICBvYmplY3REZWZpbml0aW9uOgogICAgICAgICAgICBhcGlWZXJzaW9uOiBwb2xpY3kvdjFiZXRhMQogICAgICAgICAgICBraW5kOiBQb2RTZWN1cml0eVBvbGljeSAjIG5vIHByaXZpbGVnZWQgcG9kcwogICAgICAgICAgICBtZXRhZGF0YToKICAgICAgICAgICAgICBuYW1lOiBzYW1wbGUtcmVzdHJpY3RlZC1wc3AKICAgICAgICAgICAgICBhbm5vdGF0aW9uczoKICAgICAgICAgICAgICAgIHNlY2NvbXAuc2VjdXJpdHkuYWxwaGEua3ViZXJuZXRlcy5pby9hbGxvd2VkUHJvZmlsZU5hbWVzOiAnKicKICAgICAgICAgICAgc3BlYzoKICAgICAgICAgICAgICBwcml2aWxlZ2VkOiBmYWxzZSAjIG5vIHByaXZpbGllZGdlZCBwb2RzCiAgICAgICAgICAgICAgYWxsb3dQcml2aWxlZ2VFc2NhbGF0aW9uOiBmYWxzZQogICAgICAgICAgICAgIGFsbG93ZWRDYXBhYmlsaXRpZXM6CiAgICAgICAgICAgICAgLSAnKicKICAgICAgICAgICAgICB2b2x1bWVzOgogICAgICAgICAgICAgIC0gJyonCiAgICAgICAgICAgICAgaG9zdE5ldHdvcms6IHRydWUKICAgICAgICAgICAgICBob3N0UG9ydHM6CiAgICAgICAgICAgICAgLSBtaW46IDEwMDAgIyBwb3J0cyA8IDEwMDAgYXJlIHJlc2VydmVkCiAgICAgICAgICAgICAgICBtYXg6IDY1NTM1CiAgICAgICAgICAgICAgaG9zdElQQzogZmFsc2UKICAgICAgICAgICAgICBob3N0UElEOiBmYWxzZQogICAgICAgICAgICAgIHJ1bkFzVXNlcjoKICAgICAgICAgICAgICAgIHJ1bGU6ICdSdW5Bc0FueScKICAgICAgICAgICAgICBzZUxpbnV4OgogICAgICAgICAgICAgICAgcnVsZTogJ1J1bkFzQW55JwogICAgICAgICAgICAgIHN1cHBsZW1lbnRhbEdyb3VwczoKICAgICAgICAgICAgICAgIHJ1bGU6ICdSdW5Bc0FueScKICAgICAgICAgICAgICBmc0dyb3VwOgogICAgICAgICAgICAgICAgcnVsZTogJ1J1bkFzQW55JwotLS0KYXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBsYWNlbWVudEJpbmRpbmcKbWV0YWRhdGE6CiAgbmFtZTogYmluZGluZy1wb2xpY3ktcG9kc2VjdXJpdHlwb2xpY3kKcGxhY2VtZW50UmVmOgogIG5hbWU6IHBsYWNlbWVudC1wb2xpY3ktcG9kc2VjdXJpdHlwb2xpY3kKICBraW5kOiBQbGFjZW1lbnRSdWxlCiAgYXBpR3JvdXA6IGFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8Kc3ViamVjdHM6Ci0gbmFtZTogcG9saWN5LXBvZHNlY3VyaXR5cG9saWN5CiAga2luZDogUG9saWN5CiAgYXBpR3JvdXA6IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pbwotLS0KYXBpVmVyc2lvbjogYXBwcy5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQpraW5kOiBQbGFjZW1lbnRSdWxlCm1ldGFkYXRhOgogIG5hbWU6IHBsYWNlbWVudC1wb2xpY3ktcG9kc2VjdXJpdHlwb2xpY3kKc3BlYzoKICBjbHVzdGVyQ29uZGl0aW9uczoKICAtIHN0YXR1czogIlRydWUiCiAgICB0eXBlOiBNYW5hZ2VkQ2x1c3RlckNvbmRpdGlvbkF2YWlsYWJsZQogIGNsdXN0ZXJTZWxlY3RvcjoKICAgIG1hdGNoRXhwcmVzc2lvbnM6CiAgICAtIHtrZXk6IGVudmlyb25tZW50LCBvcGVyYXRvcjogSW4sIHZhbHVlczogWyJkZXYiXX0K
-    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRRlBCQUFCQ0FBNUZpRUUrU2psQVN5SlZoa3FGVDNLT1Q2Y3pnLzRpcmtGQWwvMnBaNGJIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVEaytuTTRQK0lxNUs4d0lBSUhjMHdWbzhiSWNQUG0vck52Swo2c1BsRENvWnlLTWlVRzJVTkEwam5LY3RwMGp4d1lXUXdKcU8xeENObUQxS2NJOW1wZHdEbS9DcTZuWElqT3UzCmJhUHkvS0Qwb1JjWDcvb0RBdzljQ2NjU3JZS0pVMnc1Z1JlN3JuSTVaaVladmRON1pJQWc0alpZME15WFhnVkMKaC9uUGEvaDdHMGF1SXJCMjBYNmtLR01UcHR4cE5YTkgyaUxkeEliUHpVZUNjeTRtUFI0Uk5JTlg5MVVsWlNTagpKVW0xNEEyYzExcmdxd2hQdEJpaUc1aC9GcWpYUmI1NDNYOHUzdzBjZE8rRmN2OU5PcCs4Y0pGaDZvTndLOGx0ClZOTC9FYlhzSktPa3NOeW03ZEtsSEV2ZGI3NlFUbU9aYzh1djRIRFJmY1h4QVZoZjdtdURWb2JBM1laWTBFbG0KL3BjPQo9UlNQSAotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
 spec:
   remediationAction: inform
   disabled: false
   policy-templates:
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-podsecuritypolicy-example
-      spec:
-        remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: high
-        namespaceSelector:
-          exclude: ["kube-*"]
-          include: ["default"]
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            apiVersion: policy/v1beta1
-            kind: PodSecurityPolicy # no privileged pods
-            metadata:
-              name: sample-restricted-psp
-              annotations:
-                seccomp.security.alpha.kubernetes.io/allowedProfileNames: '*'
-            spec:
-              privileged: false # no priviliedged pods
-              allowPrivilegeEscalation: false
-              allowedCapabilities:
-              - '*'
-              volumes:
-              - '*'
-              hostNetwork: true
-              hostPorts:
-              - min: 1000 # ports < 1000 are reserved
-                max: 65535
-              hostIPC: false
-              hostPID: false
-              runAsUser:
-                rule: 'RunAsAny'
-              seLinux:
-                rule: 'RunAsAny'
-              supplementalGroups:
-                rule: 'RunAsAny'
-              fsGroup:
-                rule: 'RunAsAny'
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-podsecuritypolicy-example
+        spec:
+          remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: high
+          namespaceSelector:
+            exclude: ["kube-*"]
+            include: ["default"]
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: policy/v1beta1
+                kind: PodSecurityPolicy # no privileged pods
+                metadata:
+                  name: sample-restricted-psp
+                  annotations:
+                    seccomp.security.alpha.kubernetes.io/allowedProfileNames: '*'
+                spec:
+                  privileged: false # no priviliedged pods
+                  allowPrivilegeEscalation: false
+                  allowedCapabilities:
+                  - '*'
+                  volumes:
+                  - '*'
+                  hostNetwork: true
+                  hostPorts:
+                  - min: 1000 # ports < 1000 are reserved
+                    max: 65535
+                  hostIPC: false
+                  hostPID: false
+                  runAsUser:
+                    rule: 'RunAsAny'
+                  seLinux:
+                    rule: 'RunAsAny'
+                  supplementalGroups:
+                    rule: 'RunAsAny'
+                  fsGroup:
+                    rule: 'RunAsAny'
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
@@ -77,4 +75,4 @@ spec:
     type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-    - {key: environment, operator: In, values: ["dev"]}
+      - {key: environment, operator: In, values: ["dev"]}

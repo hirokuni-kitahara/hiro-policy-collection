@@ -6,36 +6,34 @@ metadata:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: CM Configuration Management
     policy.open-cluster-management.io/controls: CM-2 Baseline Configuration
-    integrityshield.io/message: YXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBvbGljeQptZXRhZGF0YToKICBuYW1lOiBwb2xpY3ktcG9kCiAgYW5ub3RhdGlvbnM6CiAgICBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vc3RhbmRhcmRzOiBOSVNUIFNQIDgwMC01MwogICAgcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL2NhdGVnb3JpZXM6IENNIENvbmZpZ3VyYXRpb24gTWFuYWdlbWVudAogICAgcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL2NvbnRyb2xzOiBDTS0yIEJhc2VsaW5lIENvbmZpZ3VyYXRpb24Kc3BlYzoKICByZW1lZGlhdGlvbkFjdGlvbjogaW5mb3JtCiAgZGlzYWJsZWQ6IGZhbHNlCiAgcG9saWN5LXRlbXBsYXRlczoKICAtIG9iamVjdERlZmluaXRpb246CiAgICAgIGFwaVZlcnNpb246IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQogICAgICBraW5kOiBDb25maWd1cmF0aW9uUG9saWN5CiAgICAgIG1ldGFkYXRhOgogICAgICAgIG5hbWU6IHBvbGljeS1wb2QtZXhhbXBsZQogICAgICBzcGVjOgogICAgICAgIHJlbWVkaWF0aW9uQWN0aW9uOiBpbmZvcm0gIyB0aGUgcG9saWN5LXRlbXBsYXRlIHNwZWMucmVtZWRpYXRpb25BY3Rpb24gaXMgb3ZlcnJpZGRlbiBieSB0aGUgcHJlY2VkaW5nIHBhcmFtZXRlciB2YWx1ZSBmb3Igc3BlYy5yZW1lZGlhdGlvbkFjdGlvbi4KICAgICAgICBzZXZlcml0eTogbG93CiAgICAgICAgbmFtZXNwYWNlU2VsZWN0b3I6CiAgICAgICAgICBleGNsdWRlOiBbImt1YmUtKiJdCiAgICAgICAgICBpbmNsdWRlOiBbImRlZmF1bHQiXQogICAgICAgIG9iamVjdC10ZW1wbGF0ZXM6CiAgICAgICAgLSBjb21wbGlhbmNlVHlwZTogbXVzdGhhdmUKICAgICAgICAgIG9iamVjdERlZmluaXRpb246CiAgICAgICAgICAgIGFwaVZlcnNpb246IHYxCiAgICAgICAgICAgIGtpbmQ6IFBvZCAjIG5naW54IHBvZCBtdXN0IGV4aXN0CiAgICAgICAgICAgIG1ldGFkYXRhOgogICAgICAgICAgICAgIG5hbWU6IHNhbXBsZS1uZ2lueC1wb2QKICAgICAgICAgICAgc3BlYzoKICAgICAgICAgICAgICBjb250YWluZXJzOgogICAgICAgICAgICAgIC0gaW1hZ2U6IG5naW54OjEuNy45CiAgICAgICAgICAgICAgICBuYW1lOiBuZ2lueAogICAgICAgICAgICAgICAgcG9ydHM6CiAgICAgICAgICAgICAgICAtIGNvbnRhaW5lclBvcnQ6IDgwCi0tLQphcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKa2luZDogUGxhY2VtZW50QmluZGluZwptZXRhZGF0YToKICBuYW1lOiBiaW5kaW5nLXBvbGljeS1wb2QKcGxhY2VtZW50UmVmOgogIG5hbWU6IHBsYWNlbWVudC1wb2xpY3ktcG9kCiAga2luZDogUGxhY2VtZW50UnVsZQogIGFwaUdyb3VwOiBhcHBzLm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvCnN1YmplY3RzOgotIG5hbWU6IHBvbGljeS1wb2QKICBraW5kOiBQb2xpY3kKICBhcGlHcm91cDogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvCi0tLQphcGlWZXJzaW9uOiBhcHBzLm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBsYWNlbWVudFJ1bGUKbWV0YWRhdGE6CiAgbmFtZTogcGxhY2VtZW50LXBvbGljeS1wb2QKc3BlYzoKICBjbHVzdGVyQ29uZGl0aW9uczoKICAtIHN0YXR1czogIlRydWUiCiAgICB0eXBlOiBNYW5hZ2VkQ2x1c3RlckNvbmRpdGlvbkF2YWlsYWJsZQogIGNsdXN0ZXJTZWxlY3RvcjoKICAgIG1hdGNoRXhwcmVzc2lvbnM6CiAgICAtIHtrZXk6IGVudmlyb25tZW50LCBvcGVyYXRvcjogSW4sIHZhbHVlczogWyJkZXYiXX0K
-    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRRlBCQUFCQ0FBNUZpRUUrU2psQVN5SlZoa3FGVDNLT1Q2Y3pnLzRpcmtGQWwvMnBad2JIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVEaytuTTRQK0lxNTZvc0gvUk1UR2xQUUZSRW4wVFJkNDl1cQpMZUpxWFI3bWU5YzdEaVhmMmNRZWluc2VGSUpidExwYkJVU0d1TjN0dGVlYmJtUGEyTlpWY2VmTU9pUkg5WFVUCnRCTEtTbDRsa3F6b1JuWE5za2FGaElXcllIdW00SWJvbGh1enNoV0NDU2xVOVVDQ3lLcVRWckZTcWN1bE9jaTEKci9oUGU5YkpnaFNhRGVab0lCMlAxV1ZSMW00MlREU3FrT2RoaVdaTU5HWjhGa0o0NzlHcUtVZEk3MHZ4VkNNbQpPb2haQzlpTUcwR1FxSWEvcnpBbmpTVXhES3RxQ3Q0U1ZBK01BdnRDYUpCb1hKWjNHZjhZMUxLdmE2WTlibmdoCmNQOURzNFlSb25GZUpyMmdwcWVFYTJuckFqaTJENWg3aGRxNkFBVDVMYitaWCsrN050U2lxZTJYQW5Ld2t1YXUKY3AwPQo9TE9GWgotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
 spec:
   remediationAction: inform
   disabled: false
   policy-templates:
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-pod-example
-      spec:
-        remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: low
-        namespaceSelector:
-          exclude: ["kube-*"]
-          include: ["default"]
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            apiVersion: v1
-            kind: Pod # nginx pod must exist
-            metadata:
-              name: sample-nginx-pod
-            spec:
-              containers:
-              - image: nginx:1.7.9
-                name: nginx
-                ports:
-                - containerPort: 80
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-pod-example
+        spec:
+          remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: low
+          namespaceSelector:
+            exclude: ["kube-*"]
+            include: ["default"]
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: v1
+                kind: Pod # nginx pod must exist
+                metadata:
+                  name: sample-nginx-pod
+                spec:
+                  containers:
+                  - image: nginx:1.7.9
+                    name: nginx
+                    ports:
+                    - containerPort: 80
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
@@ -60,4 +58,4 @@ spec:
     type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-    - {key: environment, operator: In, values: ["dev"]}
+      - {key: environment, operator: In, values: ["dev"]}

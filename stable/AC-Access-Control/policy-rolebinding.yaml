@@ -6,38 +6,36 @@ metadata:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: AC Access Control
     policy.open-cluster-management.io/controls: AC-3 Access Enforcement
-    integrityshield.io/message: YXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBvbGljeQptZXRhZGF0YToKICBuYW1lOiBwb2xpY3ktcm9sZWJpbmRpbmcKICBhbm5vdGF0aW9uczoKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9zdGFuZGFyZHM6IE5JU1QgU1AgODAwLTUzCiAgICBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vY2F0ZWdvcmllczogQUMgQWNjZXNzIENvbnRyb2wKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9jb250cm9sczogQUMtMyBBY2Nlc3MgRW5mb3JjZW1lbnQKc3BlYzoKICByZW1lZGlhdGlvbkFjdGlvbjogaW5mb3JtCiAgZGlzYWJsZWQ6IGZhbHNlCiAgcG9saWN5LXRlbXBsYXRlczoKICAtIG9iamVjdERlZmluaXRpb246CiAgICAgIGFwaVZlcnNpb246IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQogICAgICBraW5kOiBDb25maWd1cmF0aW9uUG9saWN5CiAgICAgIG1ldGFkYXRhOgogICAgICAgIG5hbWU6IHBvbGljeS1yb2xlYmluZGluZy1leGFtcGxlCiAgICAgIHNwZWM6CiAgICAgICAgcmVtZWRpYXRpb25BY3Rpb246IGluZm9ybSAjIHRoZSBwb2xpY3ktdGVtcGxhdGUgc3BlYy5yZW1lZGlhdGlvbkFjdGlvbiBpcyBvdmVycmlkZGVuIGJ5IHRoZSBwcmVjZWRpbmcgcGFyYW1ldGVyIHZhbHVlIGZvciBzcGVjLnJlbWVkaWF0aW9uQWN0aW9uLgogICAgICAgIHNldmVyaXR5OiBoaWdoCiAgICAgICAgbmFtZXNwYWNlU2VsZWN0b3I6CiAgICAgICAgICBleGNsdWRlOiBbImt1YmUtKiJdCiAgICAgICAgICBpbmNsdWRlOiBbImRlZmF1bHQiXQogICAgICAgIG9iamVjdC10ZW1wbGF0ZXM6CiAgICAgICAgLSBjb21wbGlhbmNlVHlwZTogbXVzdGhhdmUKICAgICAgICAgIG9iamVjdERlZmluaXRpb246CiAgICAgICAgICAgIGtpbmQ6IFJvbGVCaW5kaW5nICMgcm9sZSBiaW5kaW5nIG11c3QgZXhpc3QKICAgICAgICAgICAgYXBpVmVyc2lvbjogcmJhYy5hdXRob3JpemF0aW9uLms4cy5pby92MQogICAgICAgICAgICBtZXRhZGF0YToKICAgICAgICAgICAgICBuYW1lOiBzYW1wbGUtcm9sZWJpbmRpbmcKICAgICAgICAgICAgc3ViamVjdHM6CiAgICAgICAgICAgIC0ga2luZDogVXNlcgogICAgICAgICAgICAgIG5hbWU6IGFkbWluICMgTmFtZSBpcyBjYXNlIHNlbnNpdGl2ZQogICAgICAgICAgICAgIGFwaUdyb3VwOiByYmFjLmF1dGhvcml6YXRpb24uazhzLmlvCiAgICAgICAgICAgIHJvbGVSZWY6CiAgICAgICAgICAgICAga2luZDogUm9sZSAjdGhpcyBtdXN0IGJlIFJvbGUgb3IgQ2x1c3RlclJvbGUKICAgICAgICAgICAgICBuYW1lOiBvcGVyYXRvciAjIHRoaXMgbXVzdCBtYXRjaCB0aGUgbmFtZSBvZiB0aGUgUm9sZSBvciBDbHVzdGVyUm9sZSB5b3Ugd2lzaCB0byBiaW5kIHRvCiAgICAgICAgICAgICAgYXBpR3JvdXA6IHJiYWMuYXV0aG9yaXphdGlvbi5rOHMuaW8KLS0tCmFwaVZlcnNpb246IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQpraW5kOiBQbGFjZW1lbnRCaW5kaW5nCm1ldGFkYXRhOgogIG5hbWU6IGJpbmRpbmctcG9saWN5LXJvbGViaW5kaW5nCnBsYWNlbWVudFJlZjoKICBuYW1lOiBwbGFjZW1lbnQtcG9saWN5LXJvbGViaW5kaW5nCiAga2luZDogUGxhY2VtZW50UnVsZQogIGFwaUdyb3VwOiBhcHBzLm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvCnN1YmplY3RzOgotIG5hbWU6IHBvbGljeS1yb2xlYmluZGluZwogIGtpbmQ6IFBvbGljeQogIGFwaUdyb3VwOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8KLS0tCmFwaVZlcnNpb246IGFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKa2luZDogUGxhY2VtZW50UnVsZQptZXRhZGF0YToKICBuYW1lOiBwbGFjZW1lbnQtcG9saWN5LXJvbGViaW5kaW5nCnNwZWM6CiAgY2x1c3RlckNvbmRpdGlvbnM6CiAgLSBzdGF0dXM6ICJUcnVlIgogICAgdHlwZTogTWFuYWdlZENsdXN0ZXJDb25kaXRpb25BdmFpbGFibGUKICBjbHVzdGVyU2VsZWN0b3I6CiAgICBtYXRjaEV4cHJlc3Npb25zOgogICAgLSB7a2V5OiBlbnZpcm9ubWVudCwgb3BlcmF0b3I6IEluLCB2YWx1ZXM6IFsiZGV2Il19Cg==
-    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRRlBCQUFCQ0FBNUZpRUUrU2psQVN5SlZoa3FGVDNLT1Q2Y3pnLzRpcmtGQWwvMnBaMGJIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVEaytuTTRQK0lxNWcySUlBSTNRREZzM3NpYS9zbVlPWW5PUApUT2dQM3JGZ25wazBqVk02WEFHbG1sOFUxdE9ldWhBR2JxOHJHMXJUTFc5bGxCNVFSZnI2U3ljUEk1TFlvRE92Ck9kZmcxM1Yra0x4Znl6Q0h1T0pGbVpSbDAvZEVVQlVHUXVaNk05Y0NEN29zNXlkVFdwT1lWK3JyNktwbE5NVWoKK013K0c1UlIweU9qTmE5NFQ2L2xlblRZSlJSZ2tmTlZ0V3lyR1hiaEx4RGlGREQvSmdlVkhOL3NuMnlDeXllZgoyc1lsZFQrREVRZkQyRy9yYjhTZlYrT3JDUmM0SmtTclcyMHBETTZCZ3hxd0UrekRubkFjSVlPLzB4Sm9aVXhaCkpVaE5qUHBqWEovWERHdFliZEtMZFdVcW1YeEl6L1o2NWpwTytsWk9uTDFtaGNqYldtYmRvNTZVMlhwTUh1RncKdlh3PQo9cytHbAotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
 spec:
   remediationAction: inform
   disabled: false
   policy-templates:
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-rolebinding-example
-      spec:
-        remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: high
-        namespaceSelector:
-          exclude: ["kube-*"]
-          include: ["default"]
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            kind: RoleBinding # role binding must exist
-            apiVersion: rbac.authorization.k8s.io/v1
-            metadata:
-              name: sample-rolebinding
-            subjects:
-            - kind: User
-              name: admin # Name is case sensitive
-              apiGroup: rbac.authorization.k8s.io
-            roleRef:
-              kind: Role #this must be Role or ClusterRole
-              name: operator # this must match the name of the Role or ClusterRole you wish to bind to
-              apiGroup: rbac.authorization.k8s.io
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-rolebinding-example
+        spec:
+          remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: high
+          namespaceSelector:
+            exclude: ["kube-*"]
+            include: ["default"]
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                kind: RoleBinding # role binding must exist
+                apiVersion: rbac.authorization.k8s.io/v1
+                metadata:
+                  name: sample-rolebinding
+                subjects:
+                - kind: User
+                  name: admin # Name is case sensitive
+                  apiGroup: rbac.authorization.k8s.io
+                roleRef:
+                  kind: Role #this must be Role or ClusterRole
+                  name: operator # this must match the name of the Role or ClusterRole you wish to bind to
+                  apiGroup: rbac.authorization.k8s.io
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
@@ -62,4 +60,4 @@ spec:
     type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-    - {key: environment, operator: In, values: ["dev"]}
+      - {key: environment, operator: In, values: ["dev"]}

@@ -6,69 +6,64 @@ metadata:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: SI System and Information Integrity
     policy.open-cluster-management.io/controls: SI-3 Malicious Code Protection
-    integrityshield.io/message: YXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBvbGljeQptZXRhZGF0YToKICBuYW1lOiBwb2xpY3ktc2VjdXJpdHljb250ZXh0Y29uc3RyYWludHMKICBhbm5vdGF0aW9uczoKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9zdGFuZGFyZHM6IE5JU1QgU1AgODAwLTUzCiAgICBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vY2F0ZWdvcmllczogU0kgU3lzdGVtIGFuZCBJbmZvcm1hdGlvbiBJbnRlZ3JpdHkKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9jb250cm9sczogU0ktMyBNYWxpY2lvdXMgQ29kZSBQcm90ZWN0aW9uCnNwZWM6CiAgcmVtZWRpYXRpb25BY3Rpb246IGluZm9ybQogIGRpc2FibGVkOiBmYWxzZQogIHBvbGljeS10ZW1wbGF0ZXM6CiAgLSBvYmplY3REZWZpbml0aW9uOgogICAgICBhcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKICAgICAga2luZDogQ29uZmlndXJhdGlvblBvbGljeQogICAgICBtZXRhZGF0YToKICAgICAgICBuYW1lOiBwb2xpY3ktc2VjdXJpdHljb250ZXh0Y29uc3RyYWludHMtZXhhbXBsZQogICAgICBzcGVjOgogICAgICAgIHJlbWVkaWF0aW9uQWN0aW9uOiBpbmZvcm0gIyB0aGUgcG9saWN5LXRlbXBsYXRlIHNwZWMucmVtZWRpYXRpb25BY3Rpb24gaXMgb3ZlcnJpZGRlbiBieSB0aGUgcHJlY2VkaW5nIHBhcmFtZXRlciB2YWx1ZSBmb3Igc3BlYy5yZW1lZGlhdGlvbkFjdGlvbi4KICAgICAgICBzZXZlcml0eTogaGlnaAogICAgICAgIG5hbWVzcGFjZVNlbGVjdG9yOgogICAgICAgICAgZXhjbHVkZTogWyJrdWJlLSoiXQogICAgICAgICAgaW5jbHVkZTogWyJkZWZhdWx0Il0KICAgICAgICBvYmplY3QtdGVtcGxhdGVzOgogICAgICAgIC0gY29tcGxpYW5jZVR5cGU6IG11c3RoYXZlCiAgICAgICAgICBvYmplY3REZWZpbml0aW9uOgogICAgICAgICAgICBhcGlWZXJzaW9uOiBzZWN1cml0eS5vcGVuc2hpZnQuaW8vdjEKICAgICAgICAgICAga2luZDogU2VjdXJpdHlDb250ZXh0Q29uc3RyYWludHMgIyByZXN0cmljdGVkIHNjYwogICAgICAgICAgICBtZXRhZGF0YToKICAgICAgICAgICAgICBhbm5vdGF0aW9uczoKICAgICAgICAgICAgICAgIGt1YmVybmV0ZXMuaW8vZGVzY3JpcHRpb246IHJlc3RyaWN0ZWQgZGVuaWVzIGFjY2VzcyB0byBhbGwgaG9zdCBmZWF0dXJlcwogICAgICAgICAgICAgICAgICBhbmQgcmVxdWlyZXMgcG9kcyB0byBiZSBydW4gd2l0aCBhIFVJRCwgYW5kIFNFTGludXggY29udGV4dCB0aGF0CiAgICAgICAgICAgICAgICAgIGFyZSBhbGxvY2F0ZWQgdG8gdGhlIG5hbWVzcGFjZS4gIFRoaXMgaXMgdGhlIG1vc3QgcmVzdHJpY3RpdmUgU0NDCiAgICAgICAgICAgICAgICAgIGFuZCBpdCBpcyB1c2VkIGJ5IGRlZmF1bHQgZm9yIGF1dGhlbnRpY2F0ZWQgdXNlcnMuCiAgICAgICAgICAgICAgbmFtZTogc2FtcGxlLXJlc3RyaWN0ZWQtc2NjCiAgICAgICAgICAgIGFsbG93SG9zdERpclZvbHVtZVBsdWdpbjogZmFsc2UKICAgICAgICAgICAgYWxsb3dIb3N0SVBDOiBmYWxzZQogICAgICAgICAgICBhbGxvd0hvc3ROZXR3b3JrOiBmYWxzZQogICAgICAgICAgICBhbGxvd0hvc3RQSUQ6IGZhbHNlCiAgICAgICAgICAgIGFsbG93SG9zdFBvcnRzOiBmYWxzZQogICAgICAgICAgICBhbGxvd1ByaXZpbGVnZUVzY2FsYXRpb246IHRydWUKICAgICAgICAgICAgYWxsb3dQcml2aWxlZ2VkQ29udGFpbmVyOiBmYWxzZQogICAgICAgICAgICBhbGxvd2VkQ2FwYWJpbGl0aWVzOiBbXQogICAgICAgICAgICBkZWZhdWx0QWRkQ2FwYWJpbGl0aWVzOiBbXQogICAgICAgICAgICBmc0dyb3VwOgogICAgICAgICAgICAgIHR5cGU6IE11c3RSdW5BcwogICAgICAgICAgICBncm91cHM6CiAgICAgICAgICAgIC0gc3lzdGVtOmF1dGhlbnRpY2F0ZWQKICAgICAgICAgICAgcHJpb3JpdHk6IDEwCiAgICAgICAgICAgIHJlYWRPbmx5Um9vdEZpbGVzeXN0ZW06IGZhbHNlCiAgICAgICAgICAgIHJlcXVpcmVkRHJvcENhcGFiaWxpdGllczoKICAgICAgICAgICAgLSBLSUxMCiAgICAgICAgICAgIC0gTUtOT0QKICAgICAgICAgICAgLSBTRVRVSUQKICAgICAgICAgICAgLSBTRVRHSUQKICAgICAgICAgICAgcnVuQXNVc2VyOgogICAgICAgICAgICAgIHR5cGU6IE11c3RSdW5Bc1JhbmdlCiAgICAgICAgICAgIHNlTGludXhDb250ZXh0OgogICAgICAgICAgICAgIHR5cGU6IE11c3RSdW5BcwogICAgICAgICAgICBzdXBwbGVtZW50YWxHcm91cHM6CiAgICAgICAgICAgICAgdHlwZTogUnVuQXNBbnkKICAgICAgICAgICAgdXNlcnM6IFtdCiAgICAgICAgICAgIHZvbHVtZXM6CiAgICAgICAgICAgIC0gY29uZmlnTWFwCiAgICAgICAgICAgIC0gZG93bndhcmRBUEkKICAgICAgICAgICAgLSBlbXB0eURpcgogICAgICAgICAgICAtIHBlcnNpc3RlbnRWb2x1bWVDbGFpbQogICAgICAgICAgICAtIHByb2plY3RlZAogICAgICAgICAgICAtIHNlY3JldAotLS0KYXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBsYWNlbWVudEJpbmRpbmcKbWV0YWRhdGE6CiAgbmFtZTogYmluZGluZy1wb2xpY3ktc2VjdXJpdHljb250ZXh0Y29uc3RyYWludHMKcGxhY2VtZW50UmVmOgogIG5hbWU6IHBsYWNlbWVudC1wb2xpY3ktc2VjdXJpdHljb250ZXh0Y29uc3RyYWludHMKICBraW5kOiBQbGFjZW1lbnRSdWxlCiAgYXBpR3JvdXA6IGFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8Kc3ViamVjdHM6Ci0gbmFtZTogcG9saWN5LXNlY3VyaXR5Y29udGV4dGNvbnN0cmFpbnRzCiAga2luZDogUG9saWN5CiAgYXBpR3JvdXA6IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pbwotLS0KYXBpVmVyc2lvbjogYXBwcy5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQpraW5kOiBQbGFjZW1lbnRSdWxlCm1ldGFkYXRhOgogIG5hbWU6IHBsYWNlbWVudC1wb2xpY3ktc2VjdXJpdHljb250ZXh0Y29uc3RyYWludHMKc3BlYzoKICBjbHVzdGVyQ29uZGl0aW9uczoKICAtIHN0YXR1czogIlRydWUiCiAgICB0eXBlOiBNYW5hZ2VkQ2x1c3RlckNvbmRpdGlvbkF2YWlsYWJsZQogIGNsdXN0ZXJTZWxlY3RvcjoKICAgIG1hdGNoRXhwcmVzc2lvbnM6CiAgICAtIHtrZXk6IGVudmlyb25tZW50LCBvcGVyYXRvcjogSW4sIHZhbHVlczogWyJkZXYiXX0K
-    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRRlBCQUFCQ0FBNUZpRUUrU2psQVN5SlZoa3FGVDNLT1Q2Y3pnLzRpcmtGQWwvMnBaMGJIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVEaytuTTRQK0lxNWVvQUgvMEUzQlRuTDB3UnpRYmlRSllBegpERyt6Q2pHMGNOZWtua3RFY1VFTzJ1NEhOSTh3V3pYU2l0MDBaT04vN3VIWE5RcU05d3VMSkVLUEo4bVRwc3Y3CkVDVjVvRHZoRkFCb1cvbXFRTVpCUmVHdGRmeTg4SmlhRXM5L1FudjFUNHVWanhUZThyQUVPSUdQbWUyZ2hiRnYKZ0dLL1hUKzc2RHU4amRmekpNVmY0enpXK1hjSlZqM0Zqc3lsRklQMCtpZUhGeWdCVTJvVmtKODhtTjJNZlh2SgpzcW5YNzROZnhKYWgvTHRJT3VodHphMjBWcVBGRXoxWHRhQXR2dDhoaEcwd3R2c3hIdVlSWmlFUmJZTVM5R0NECnVQaWNRZW5EaHNsaHdmVzRzYys3czlYaXFuVXh6eEVQMFNZaFhPaEpLRnJMYlJyODRpM2JIUnRpd2NkNDNpQ1MKTStrPQo9eUdpdwotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
 spec:
   remediationAction: inform
   disabled: false
   policy-templates:
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-securitycontextconstraints-example
-      spec:
-        remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: high
-        namespaceSelector:
-          exclude: ["kube-*"]
-          include: ["default"]
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            apiVersion: security.openshift.io/v1
-            kind: SecurityContextConstraints # restricted scc
-            metadata:
-              annotations:
-                kubernetes.io/description: restricted denies access to all host features
-                  and requires pods to be run with a UID, and SELinux context that
-                  are allocated to the namespace.  This is the most restrictive SCC
-                  and it is used by default for authenticated users.
-              name: sample-restricted-scc
-            allowHostDirVolumePlugin: false
-            allowHostIPC: false
-            allowHostNetwork: false
-            allowHostPID: false
-            allowHostPorts: false
-            allowPrivilegeEscalation: true
-            allowPrivilegedContainer: false
-            allowedCapabilities: []
-            defaultAddCapabilities: []
-            fsGroup:
-              type: MustRunAs
-            groups:
-            - system:authenticated
-            priority: 10
-            readOnlyRootFilesystem: false
-            requiredDropCapabilities:
-            - KILL
-            - MKNOD
-            - SETUID
-            - SETGID
-            runAsUser:
-              type: MustRunAsRange
-            seLinuxContext:
-              type: MustRunAs
-            supplementalGroups:
-              type: RunAsAny
-            users: []
-            volumes:
-            - configMap
-            - downwardAPI
-            - emptyDir
-            - persistentVolumeClaim
-            - projected
-            - secret
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-securitycontextconstraints-example
+        spec:
+          remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: high
+          namespaceSelector:
+            exclude: ["kube-*"]
+            include: ["default"]
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: security.openshift.io/v1
+                kind: SecurityContextConstraints # restricted scc
+                metadata:
+                  annotations:
+                    kubernetes.io/description: restricted denies access to all host features and requires pods to be run with a UID, and SELinux context that are allocated to the namespace.  This is the most restrictive SCC and it is used by default for authenticated users.
+                  name: sample-restricted-scc
+                allowHostDirVolumePlugin: false
+                allowHostIPC: false
+                allowHostNetwork: false
+                allowHostPID: false
+                allowHostPorts: false
+                allowPrivilegeEscalation: true
+                allowPrivilegedContainer: false
+                allowedCapabilities: []
+                defaultAddCapabilities: []
+                fsGroup:
+                  type: MustRunAs
+                groups:
+                - system:authenticated
+                priority: 10
+                readOnlyRootFilesystem: false
+                requiredDropCapabilities:
+                - KILL
+                - MKNOD
+                - SETUID
+                - SETGID
+                runAsUser:
+                  type: MustRunAsRange
+                seLinuxContext:
+                  type: MustRunAs
+                supplementalGroups:
+                  type: RunAsAny
+                users: []
+                volumes:
+                - configMap
+                - downwardAPI
+                - emptyDir
+                - persistentVolumeClaim
+                - projected
+                - secret
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
@@ -93,4 +88,4 @@ spec:
     type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-    - {key: environment, operator: In, values: ["dev"]}
+      - {key: environment, operator: In, values: ["dev"]}

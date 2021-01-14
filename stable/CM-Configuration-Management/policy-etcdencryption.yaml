@@ -6,35 +6,47 @@ metadata:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: CM Configuration Management
     policy.open-cluster-management.io/controls: CM-2 Baseline Configuration
-    integrityshield.io/message: YXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBvbGljeQptZXRhZGF0YToKICBuYW1lOiBwb2xpY3ktZXRjZGVuY3J5cHRpb24KICBhbm5vdGF0aW9uczoKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9zdGFuZGFyZHM6IE5JU1QgU1AgODAwLTUzCiAgICBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vY2F0ZWdvcmllczogQ00gQ29uZmlndXJhdGlvbiBNYW5hZ2VtZW50CiAgICBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vY29udHJvbHM6IENNLTIgQmFzZWxpbmUgQ29uZmlndXJhdGlvbgpzcGVjOgogIHJlbWVkaWF0aW9uQWN0aW9uOiBpbmZvcm0KICBkaXNhYmxlZDogZmFsc2UKICBwb2xpY3ktdGVtcGxhdGVzOgogIC0gb2JqZWN0RGVmaW5pdGlvbjoKICAgICAgYXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCiAgICAgIGtpbmQ6IENvbmZpZ3VyYXRpb25Qb2xpY3kKICAgICAgbWV0YWRhdGE6CiAgICAgICAgbmFtZTogZW5hYmxlLWV0Y2QtZW5jcnlwdGlvbgogICAgICBzcGVjOgogICAgICAgIHJlbWVkaWF0aW9uQWN0aW9uOiBpbmZvcm0KICAgICAgICBzZXZlcml0eTogbG93CiAgICAgICAgbmFtZXNwYWNlU2VsZWN0b3I6CiAgICAgICAgICBleGNsdWRlOgogICAgICAgICAgLSBrdWJlLSoKICAgICAgICAgIGluY2x1ZGU6CiAgICAgICAgICAtIGRlZmF1bHQKICAgICAgICBvYmplY3QtdGVtcGxhdGVzOgogICAgICAgIC0gY29tcGxpYW5jZVR5cGU6IG11c3RoYXZlCiAgICAgICAgICBvYmplY3REZWZpbml0aW9uOgogICAgICAgICAgICBhcGlWZXJzaW9uOiBjb25maWcub3BlbnNoaWZ0LmlvL3YxCiAgICAgICAgICAgIGtpbmQ6IEFQSVNlcnZlcgogICAgICAgICAgICBtZXRhZGF0YToKICAgICAgICAgICAgICBuYW1lOiBjbHVzdGVyCiAgICAgICAgICAgIHNwZWM6CiAgICAgICAgICAgICAgZW5jcnlwdGlvbjoKICAgICAgICAgICAgICAgIHR5cGU6IGFlc2NiYwotLS0KYXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBsYWNlbWVudEJpbmRpbmcKbWV0YWRhdGE6CiAgbmFtZTogYmluZGluZy1wb2xpY3ktZXRjZGVuY3J5cHRpb24KcGxhY2VtZW50UmVmOgogIG5hbWU6IHBsYWNlbWVudC1wb2xpY3ktZXRjZGVuY3J5cHRpb24KICBraW5kOiBQbGFjZW1lbnRSdWxlCiAgYXBpR3JvdXA6IGFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8Kc3ViamVjdHM6Ci0gbmFtZTogcG9saWN5LWV0Y2RlbmNyeXB0aW9uCiAga2luZDogUG9saWN5CiAgYXBpR3JvdXA6IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pbwotLS0KYXBpVmVyc2lvbjogYXBwcy5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQpraW5kOiBQbGFjZW1lbnRSdWxlCm1ldGFkYXRhOgogIG5hbWU6IHBsYWNlbWVudC1wb2xpY3ktZXRjZGVuY3J5cHRpb24Kc3BlYzoKICBjbHVzdGVyQ29uZGl0aW9uczoKICAtIHN0YXR1czogIlRydWUiCiAgICB0eXBlOiBNYW5hZ2VkQ2x1c3RlckNvbmRpdGlvbkF2YWlsYWJsZQogIGNsdXN0ZXJTZWxlY3RvcjoKICAgIG1hdGNoRXhwcmVzc2lvbnM6CiAgICAtIHtrZXk6IGVudmlyb25tZW50LCBvcGVyYXRvcjogSW4sIHZhbHVlczogWyJkZXYiXX0K
-    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRRlBCQUFCQ0FBNUZpRUUrU2psQVN5SlZoa3FGVDNLT1Q2Y3pnLzRpcmtGQWwvMnBaMGJIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVEaytuTTRQK0lxNVE3TUgvUm45andGaWx1azlYOE9KYXp5MQpuL2dmSHdwMk5pT2tnL3NEK2hZak5qeFZBNXM2WnZwRTJRT3V0a1hzRmZBLzVsMDRXcWpKVC9PSlNQb01HeXA5Ck5XNlZ3bnVZN2hoUGdQWVByb1FOSFNyWWdPNXVHL2NPWjZIMXRSN3Z1SE9Zamd5S1VxMy9ZcUhxelpNcEY1cVYKNjY1OVNpZmtBeDJmMDV1ZVhXUVI0NmR5WVVtaG9QOEVXUVJadmFzMWlwaEd4R092SUNsVmRVbVVCZkZ6S01pVAoyRExUay93a010VzNUU09IWEpKNlcrc282Q2cxVUFGZVQ5YkgrUFRQbGYwK0NCdkhINmJEWlljUlRSR2JRYmRnCjZkempwVUZ2ZFRzVUNPWWZ4aGVXbmdkS1ZIRTVCdTl2SllWWXpjOFVjWENMczFjUnFFNGVlbFprTHgwYlp1aE8KeERFPQo9dGdlQgotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
 spec:
   remediationAction: inform
   disabled: false
   policy-templates:
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: enable-etcd-encryption
-      spec:
-        remediationAction: inform
-        severity: low
-        namespaceSelector:
-          exclude:
-          - kube-*
-          include:
-          - default
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            apiVersion: config.openshift.io/v1
-            kind: APIServer
-            metadata:
-              name: cluster
-            spec:
-              encryption:
-                type: aescbc
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: enable-etcd-encryption
+        spec:
+          remediationAction: inform
+          severity: low
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: config.openshift.io/v1
+                kind: APIServer
+                metadata:
+                  name: cluster
+                spec:
+                  encryption:
+                    type: aescbc
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: enable-etcd-encryption-status-kubeapi
+        spec:
+          remediationAction: inform
+          severity: low
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                apiVersion: operator.openshift.io/v1
+                kind: KubeAPIServer
+                metadata:
+                  name: cluster
+                status:
+                  conditions:
+                    - message: 'All resources encrypted: secrets, configmaps'
+                      reason: EncryptionCompleted
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
@@ -59,4 +71,5 @@ spec:
     type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-    - {key: environment, operator: In, values: ["dev"]}
+      - {key: environment, operator: In, values: ["dev"]}
+

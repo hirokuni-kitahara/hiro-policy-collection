@@ -5,26 +5,23 @@ metadata:
   annotations:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: SC System and Communications Protection
-    policy.open-cluster-management.io/controls: SC-8 Transmission Confidentiality
-      and Integrity
-    integrityshield.io/message: YXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBvbGljeQptZXRhZGF0YToKICBuYW1lOiBwb2xpY3ktY2VydGlmaWNhdGUKICBhbm5vdGF0aW9uczoKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9zdGFuZGFyZHM6IE5JU1QgU1AgODAwLTUzCiAgICBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vY2F0ZWdvcmllczogU0MgU3lzdGVtIGFuZCBDb21tdW5pY2F0aW9ucyBQcm90ZWN0aW9uCiAgICBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vY29udHJvbHM6IFNDLTggVHJhbnNtaXNzaW9uIENvbmZpZGVudGlhbGl0eQogICAgICBhbmQgSW50ZWdyaXR5CnNwZWM6CiAgcmVtZWRpYXRpb25BY3Rpb246IGluZm9ybQogIGRpc2FibGVkOiBmYWxzZQogIHBvbGljeS10ZW1wbGF0ZXM6CiAgLSBvYmplY3REZWZpbml0aW9uOgogICAgICBhcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKICAgICAga2luZDogQ2VydGlmaWNhdGVQb2xpY3kgIyBjZXJ0IG1hbmFnZW1lbnQgZXhwaXJhdGlvbgogICAgICBtZXRhZGF0YToKICAgICAgICBuYW1lOiBwb2xpY3ktY2VydGlmaWNhdGUtZXhhbXBsZQogICAgICBzcGVjOgogICAgICAgIG5hbWVzcGFjZVNlbGVjdG9yOgogICAgICAgICAgaW5jbHVkZTogWyJkZWZhdWx0Il0KICAgICAgICAgIGV4Y2x1ZGU6IFsia3ViZS0qIl0KICAgICAgICByZW1lZGlhdGlvbkFjdGlvbjogaW5mb3JtICMgdGhlIHBvbGljeS10ZW1wbGF0ZSBzcGVjLnJlbWVkaWF0aW9uQWN0aW9uIGlzIG92ZXJyaWRkZW4gYnkgdGhlIHByZWNlZGluZyBwYXJhbWV0ZXIgdmFsdWUgZm9yIHNwZWMucmVtZWRpYXRpb25BY3Rpb24uCiAgICAgICAgc2V2ZXJpdHk6IGxvdwogICAgICAgIG1pbmltdW1EdXJhdGlvbjogMzAwaAotLS0KYXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBsYWNlbWVudEJpbmRpbmcKbWV0YWRhdGE6CiAgbmFtZTogYmluZGluZy1wb2xpY3ktY2VydGlmaWNhdGUKcGxhY2VtZW50UmVmOgogIG5hbWU6IHBsYWNlbWVudC1wb2xpY3ktY2VydGlmaWNhdGUKICBraW5kOiBQbGFjZW1lbnRSdWxlCiAgYXBpR3JvdXA6IGFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8Kc3ViamVjdHM6Ci0gbmFtZTogcG9saWN5LWNlcnRpZmljYXRlCiAga2luZDogUG9saWN5CiAgYXBpR3JvdXA6IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pbwotLS0KYXBpVmVyc2lvbjogYXBwcy5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQpraW5kOiBQbGFjZW1lbnRSdWxlCm1ldGFkYXRhOgogIG5hbWU6IHBsYWNlbWVudC1wb2xpY3ktY2VydGlmaWNhdGUKc3BlYzoKICBjbHVzdGVyQ29uZGl0aW9uczoKICAtIHN0YXR1czogIlRydWUiCiAgICB0eXBlOiBNYW5hZ2VkQ2x1c3RlckNvbmRpdGlvbkF2YWlsYWJsZQogIGNsdXN0ZXJTZWxlY3RvcjoKICAgIG1hdGNoRXhwcmVzc2lvbnM6CiAgICAtIHtrZXk6IGVudmlyb25tZW50LCBvcGVyYXRvcjogSW4sIHZhbHVlczogWyJkZXYiXX0K
-    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRRlBCQUFCQ0FBNUZpRUUrU2psQVN5SlZoa3FGVDNLT1Q2Y3pnLzRpcmtGQWwvMnBaMGJIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVEaytuTTRQK0lxNXpIc0gvMUlYVC9ieEVPaWY5OEV3N2xYTQplTGpmTUJRMHJaT3p5NDRRTDVHN2lOcSszelN6Rmg0a2M4ZFNsQ0NMd3FqSEZFSWI2cVU4dkx1bytWZXdJYytrCnZzdUIyN29PYlVFaFNINjRYUGdJMEErZHFJK25pY25vTThXTXdmSEt2bGxzTzgvTVlpNDY3VG5SckhsNTB4YTMKbXA0OVplNzdWcCtQeDdiakt3bW80bEFlUHR4QlBvbnIwZG5PVS9uSkVxa0NJb0h6cGxFYlptbGMzakRwN1dFRApDRk9mTncwZ1lqODJTTGY1QWVBT29qOWtYOXo2K1o4U3VRZTNJWkIwYW4zQ2hhVVJyZkR3dHdkdml5Qm5KT052CjNzL3V2Um1TK3Vqbk9BV3Q3TmdBRE9xUWkwNDdwbHVDQTUvMjl2UlZPWTlzOGdkZEYwU1F2MDRlSGp4WHlSSGcKWi9NPQo9Ym5HUwotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
+    policy.open-cluster-management.io/controls: SC-8 Transmission Confidentiality and Integrity
 spec:
   remediationAction: inform
   disabled: false
   policy-templates:
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: CertificatePolicy # cert management expiration
-      metadata:
-        name: policy-certificate-example
-      spec:
-        namespaceSelector:
-          include: ["default"]
-          exclude: ["kube-*"]
-        remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
-        severity: low
-        minimumDuration: 300h
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: CertificatePolicy # cert management expiration
+        metadata:
+          name: policy-certificate-example
+        spec:
+          namespaceSelector:
+            include: ["default"]
+            exclude: ["kube-*"]
+          remediationAction: inform # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
+          severity: low
+          minimumDuration: 300h
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
@@ -49,4 +46,4 @@ spec:
     type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-    - {key: environment, operator: In, values: ["dev"]}
+      - {key: environment, operator: In, values: ["dev"]}

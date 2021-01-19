@@ -19,7 +19,7 @@ spec:
         remediationAction: enforce
         severity: High
         object-templates:
-        - complianceType: musthave
+        - complianceType: mustnothave
           objectDefinition:
             kind: Namespace
             apiVersion: v1
@@ -34,7 +34,7 @@ spec:
         remediationAction: enforce
         severity: high
         object-templates:
-        - complianceType: musthave
+        - complianceType: mustnothave
           objectDefinition:
             apiVersion: operators.coreos.com/v1
             kind: OperatorGroup
@@ -53,7 +53,7 @@ spec:
         remediationAction: enforce
         severity: high
         object-templates:
-        - complianceType: musthave
+        - complianceType: mustnothave
           objectDefinition:
             apiVersion: operators.coreos.com/v1alpha1
             kind: CatalogSource
@@ -77,7 +77,7 @@ spec:
         remediationAction: enforce
         severity: high
         object-templates:
-        - complianceType: musthave
+        - complianceType: mustnothave
           objectDefinition:
             apiVersion: operators.coreos.com/v1alpha1
             kind: Subscription
@@ -100,7 +100,7 @@ spec:
         remediationAction: enforce
         severity: high
         object-templates:
-        - complianceType: musthave
+        - complianceType: mustnothave
           objectDefinition:
             apiVersion: apis.integrityshield.io/v1alpha1
             kind: IntegrityShield

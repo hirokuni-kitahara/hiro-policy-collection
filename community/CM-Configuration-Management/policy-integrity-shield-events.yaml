@@ -27,11 +27,9 @@ spec:
                 apiVersion: v1
                 kind: Event
                 metadata:
-                  manager: ishield-server
                   annotations:
                     integrityshield.io/eventType: verify-result
                     integrityshield.io/eventResult: deny
-                reportingComponent: IntegrityShield
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding

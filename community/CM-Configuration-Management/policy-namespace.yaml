@@ -19,7 +19,7 @@ spec:
         remediationAction: enforce
         severity: High
         object-templates:
-        - complianceType: mustnothave
+        - complianceType: musthave
           objectDefinition:
             kind: Namespace
             apiVersion: v1

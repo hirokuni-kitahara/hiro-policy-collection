@@ -1,3 +1,8 @@
+# This policy checks if Integrity Shield has denied one or
+# more requests on the managed clusters.
+#
+# "inform" This policy will show "Not compliant" on UI when something was denied.
+
 apiVersion: policy.open-cluster-management.io/v1
 kind: Policy
 metadata:
@@ -30,6 +35,23 @@ spec:
                   annotations:
                     integrityshield.io/eventType: verify-result
                     integrityshield.io/eventResult: deny
+  - objectDefinition:
+      # This configuration policy checks if the operator reconciled all resources correctly or not
+      # Once all of them are finished, webhook should be there, and this policy reports `Compliant`
+      apiVersion: policy.open-cluster-management.io/v1
+      kind: ConfigurationPolicy
+      metadata:
+        name: policy-integrity-shield-webhook
+      spec:
+        remediationAction: inform # this must be always `inform`.
+        severity: low
+        object-templates:
+        - complianceType: musthave
+          objectDefinition:
+            apiVersion: admissionregistration.k8s.io/v1
+            kind: MutatingWebhookConfiguration
+            metadata:
+              name: ishield-webhook-config
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding

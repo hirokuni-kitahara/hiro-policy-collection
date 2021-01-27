@@ -11,30 +11,32 @@ metadata:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: CM Configuration Management
     policy.open-cluster-management.io/controls: CM-5 Access Restrictions for Change
+    integrityshield.io/message: IyBUaGlzIHBvbGljeSBjaGVja3MgaWYgSW50ZWdyaXR5IFNoaWVsZCBoYXMgZGVuaWVkIG9uZSBvcgojIG1vcmUgcmVxdWVzdHMgb24gdGhlIG1hbmFnZWQgY2x1c3RlcnMuCiMKIyAiaW5mb3JtIiBUaGlzIHBvbGljeSB3aWxsIHNob3cgIk5vdCBjb21wbGlhbnQiIG9uIFVJIHdoZW4gc29tZXRoaW5nIHdhcyBkZW5pZWQuCgphcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKa2luZDogUG9saWN5Cm1ldGFkYXRhOgogIG5hbWU6IHBvbGljeS1pbnRlZ3JpdHktc2hpZWxkLWV2ZW50cwogIGFubm90YXRpb25zOgogICAgcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3N0YW5kYXJkczogTklTVCBTUCA4MDAtNTMKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9jYXRlZ29yaWVzOiBDTSBDb25maWd1cmF0aW9uIE1hbmFnZW1lbnQKICAgIHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby9jb250cm9sczogQ00tNSBBY2Nlc3MgUmVzdHJpY3Rpb25zIGZvciBDaGFuZ2UKc3BlYzoKICByZW1lZGlhdGlvbkFjdGlvbjogaW5mb3JtCiAgZGlzYWJsZWQ6IGZhbHNlCiAgcG9saWN5LXRlbXBsYXRlczoKICAtIG9iamVjdERlZmluaXRpb246CiAgICAgIGFwaVZlcnNpb246IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQogICAgICBraW5kOiBDb25maWd1cmF0aW9uUG9saWN5CiAgICAgIG1ldGFkYXRhOgogICAgICAgIG5hbWU6IHBvbGljeS1pbnRlZ3JpdHktc2hpZWxkLWFkbWlzc2lvbgogICAgICBzcGVjOgogICAgICAgIHJlbWVkaWF0aW9uQWN0aW9uOiBpbmZvcm0gIyB3aWxsIGJlIG92ZXJyaWRkZW4gYnkgcmVtZWRpYXRpb25BY3Rpb24gaW4gcGFyZW50IHBvbGljeQogICAgICAgIHNldmVyaXR5OiBsb3cKICAgICAgICBuYW1lc3BhY2VTZWxlY3RvcjoKICAgICAgICAgIGluY2x1ZGU6IFsiKiJdCiAgICAgICAgICBleGNsdWRlOiBbImt1YmUtKiIsICJvcGVuc2hpZnQtKiJdCiAgICAgICAgb2JqZWN0LXRlbXBsYXRlczoKICAgICAgICAtIGNvbXBsaWFuY2VUeXBlOiBtdXN0bm90aGF2ZQogICAgICAgICAgb2JqZWN0RGVmaW5pdGlvbjoKICAgICAgICAgICAgYXBpVmVyc2lvbjogdjEKICAgICAgICAgICAga2luZDogRXZlbnQKICAgICAgICAgICAgbWV0YWRhdGE6CiAgICAgICAgICAgICAgYW5ub3RhdGlvbnM6CiAgICAgICAgICAgICAgICBpbnRlZ3JpdHlzaGllbGQuaW8vZXZlbnRUeXBlOiB2ZXJpZnktcmVzdWx0CiAgICAgICAgICAgICAgICBpbnRlZ3JpdHlzaGllbGQuaW8vZXZlbnRSZXN1bHQ6IGRlbnkKICAtIG9iamVjdERlZmluaXRpb246CiAgICAgICMgVGhpcyBjb25maWd1cmF0aW9uIHBvbGljeSBjaGVja3MgaWYgdGhlIG9wZXJhdG9yIHJlY29uY2lsZWQgYWxsIHJlc291cmNlcyBjb3JyZWN0bHkgb3Igbm90CiAgICAgICMgT25jZSBhbGwgb2YgdGhlbSBhcmUgZmluaXNoZWQsIHdlYmhvb2sgc2hvdWxkIGJlIHRoZXJlLCBhbmQgdGhpcyBwb2xpY3kgcmVwb3J0cyBgQ29tcGxpYW50YAogICAgICBhcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKICAgICAga2luZDogQ29uZmlndXJhdGlvblBvbGljeQogICAgICBtZXRhZGF0YToKICAgICAgICBuYW1lOiBwb2xpY3ktaW50ZWdyaXR5LXNoaWVsZC13ZWJob29rCiAgICAgIHNwZWM6CiAgICAgICAgcmVtZWRpYXRpb25BY3Rpb246IGluZm9ybSAjIHRoaXMgbXVzdCBiZSBhbHdheXMgYGluZm9ybWAuCiAgICAgICAgc2V2ZXJpdHk6IGxvdwogICAgICAgIG9iamVjdC10ZW1wbGF0ZXM6CiAgICAgICAgLSBjb21wbGlhbmNlVHlwZTogbXVzdGhhdmUKICAgICAgICAgIG9iamVjdERlZmluaXRpb246CiAgICAgICAgICAgIGFwaVZlcnNpb246IGFkbWlzc2lvbnJlZ2lzdHJhdGlvbi5rOHMuaW8vdjEKICAgICAgICAgICAga2luZDogTXV0YXRpbmdXZWJob29rQ29uZmlndXJhdGlvbgogICAgICAgICAgICBtZXRhZGF0YToKICAgICAgICAgICAgICBuYW1lOiBpc2hpZWxkLXdlYmhvb2stY29uZmlnCi0tLQphcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKa2luZDogUGxhY2VtZW50QmluZGluZwptZXRhZGF0YToKICBuYW1lOiBiaW5kaW5nLXBvbGljeS1pbnRlZ3JpdHktc2hpZWxkLWV2ZW50cwpwbGFjZW1lbnRSZWY6CiAgbmFtZTogcGxhY2VtZW50LXBvbGljeS1pbnRlZ3JpdHktc2hpZWxkLWV2ZW50cwogIGtpbmQ6IFBsYWNlbWVudFJ1bGUKICBhcGlHcm91cDogYXBwcy5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pbwpzdWJqZWN0czoKLSBuYW1lOiBwb2xpY3ktaW50ZWdyaXR5LXNoaWVsZC1ldmVudHMKICBraW5kOiBQb2xpY3kKICBhcGlHcm91cDogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvCi0tLQphcGlWZXJzaW9uOiBhcHBzLm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBsYWNlbWVudFJ1bGUKbWV0YWRhdGE6CiAgbmFtZTogcGxhY2VtZW50LXBvbGljeS1pbnRlZ3JpdHktc2hpZWxkLWV2ZW50cwpzcGVjOgogIGNsdXN0ZXJDb25kaXRpb25zOgogIC0gc3RhdHVzOiAiVHJ1ZSIKICAgIHR5cGU6IE1hbmFnZWRDbHVzdGVyQ29uZGl0aW9uQXZhaWxhYmxlCiAgY2x1c3RlclNlbGVjdG9yOgogICAgbWF0Y2hFeHByZXNzaW9uczoKICAgIC0ge2tleTogZW52aXJvbm1lbnQsIG9wZXJhdG9yOiBJbiwgdmFsdWVzOiBbImRldiJdfQo=
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRRlBCQUFCQ0FBNUZpRUUrU2psQVN5SlZoa3FGVDNLT1Q2Y3pnLzRpcmtGQW1BUkZIY2JIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVEaytuTTRQK0lxNXV2NEgvUkJtRW5KWHlEOTg4WWVLU3ZFbwpwS2FNS2EvL2ZseFlPb09GVUk0K1FieVZPdW1ydlhWbDhIZFltSTNIbWdaSGJMb2hUV04yODFWNjk0WHJIU29rClJjWVlZKzRjc0IrTGw2MG03a0w1L1JNZDFFc0VMY2FoaGxXU1RTZDhQbW5hbGF4Znd0RXhJK2xoTDNGaTJnRFEKQ2dieG1yK241d3dSbWxCQ1hhTThvNGdvSlIva052OS9WbSthUENhVzBZL0hJNDN1LzRPYzVCc3JRNkpEK3JFbwpHZWlQK090dWEvRFRlUzgzSnpFT3pTM1oweGNDK1BlU2dZc1hVZjl5VTRHcS9ldnRPeGt4b21BT0liWDFTSTdpCkM0cmNBT2ZqbERvRFUwM3EwNzB5OEcvTUZYRFNXS2hwMFByWE1xb2I3YlVCTVJvcTIyMVZtNnBzQ29HR2x6N2sKWVNzPQo9aWNDWAotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
 spec:
   remediationAction: inform
   disabled: false
   policy-templates:
-    - objectDefinition:
-        apiVersion: policy.open-cluster-management.io/v1
-        kind: ConfigurationPolicy
-        metadata:
-          name: policy-integrity-shield-admission
-        spec:
-          remediationAction: inform # will be overridden by remediationAction in parent policy
-          severity: low
-          namespaceSelector:
-            include: ["*"]
-            exclude: ["kube-*", "openshift-*"]
-          object-templates:
-            - complianceType: mustnothave
-              objectDefinition:
-                apiVersion: v1
-                kind: Event
-                metadata:
-                  annotations:
-                    integrityshield.io/eventType: verify-result
-                    integrityshield.io/eventResult: deny
+  - objectDefinition:
+      apiVersion: policy.open-cluster-management.io/v1
+      kind: ConfigurationPolicy
+      metadata:
+        name: policy-integrity-shield-admission
+      spec:
+        remediationAction: inform # will be overridden by remediationAction in parent policy
+        severity: low
+        namespaceSelector:
+          include: ["*"]
+          exclude: ["kube-*", "openshift-*"]
+        object-templates:
+        - complianceType: mustnothave
+          objectDefinition:
+            apiVersion: v1
+            kind: Event
+            metadata:
+              annotations:
+                integrityshield.io/eventType: verify-result
+                integrityshield.io/eventResult: deny
   - objectDefinition:
       # This configuration policy checks if the operator reconciled all resources correctly or not
       # Once all of them are finished, webhook should be there, and this policy reports `Compliant`
@@ -62,9 +64,9 @@ placementRef:
   kind: PlacementRule
   apiGroup: apps.open-cluster-management.io
 subjects:
-  - name: policy-integrity-shield-events
-    kind: Policy
-    apiGroup: policy.open-cluster-management.io
+- name: policy-integrity-shield-events
+  kind: Policy
+  apiGroup: policy.open-cluster-management.io
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
@@ -72,9 +74,8 @@ metadata:
   name: placement-policy-integrity-shield-events
 spec:
   clusterConditions:
-    - status: "True"
-      type: ManagedClusterConditionAvailable
+  - status: "True"
+    type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-      - {key: environment, operator: In, values: ["dev"]}
-
+    - {key: environment, operator: In, values: ["dev"]}

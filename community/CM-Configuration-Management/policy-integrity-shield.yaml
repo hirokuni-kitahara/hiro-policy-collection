@@ -25,7 +25,7 @@ spec:
         remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
         severity: High
         object-templates:
-        - complianceType: mustnothave
+        - complianceType: musthave
           objectDefinition:
             kind: Namespace
             apiVersion: v1
@@ -40,7 +40,7 @@ spec:
         remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
         severity: high
         object-templates:
-        - complianceType: mustnothave
+        - complianceType: musthave
           objectDefinition:
             apiVersion: operators.coreos.com/v1
             kind: OperatorGroup
@@ -59,7 +59,7 @@ spec:
         remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
         severity: high
         object-templates:
-        - complianceType: mustnothave
+        - complianceType: musthave
           objectDefinition:
             apiVersion: operators.coreos.com/v1alpha1
             kind: Subscription
@@ -82,7 +82,7 @@ spec:
         remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
         severity: high
         object-templates:
-        - complianceType: mustnothave
+        - complianceType: musthave
           objectDefinition:
             apiVersion: apis.integrityshield.io/v1alpha1
             kind: IntegrityShield

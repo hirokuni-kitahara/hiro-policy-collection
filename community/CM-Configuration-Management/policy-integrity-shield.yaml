@@ -149,6 +149,7 @@ spec:
                   - "metadata.annotations.\"apps.open-cluster-management.io/hosting-deployable\""
                   - "metadata.annotations.\"apps.open-cluster-management.io/hosting-subscription\""
                   - "metadata.annotations.\"apps.open-cluster-management.io/sync-source\""
+                  - "metadata.annotations.\"apps.open-cluster-management.io/reconcile-option\""
                   - "metadata.labels.\"policy.open-cluster-management.io/cluster-name\""
                   - "metadata.labels.\"policy.open-cluster-management.io/cluster-namespace\""
                   - "metadata.labels.\"policy.open-cluster-management.io/root-policy\""

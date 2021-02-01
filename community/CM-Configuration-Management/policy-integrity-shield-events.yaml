@@ -6,7 +6,7 @@
 apiVersion: policy.open-cluster-management.io/v1
 kind: Policy
 metadata:
-  name: policy-integrity-shield-events
+  name: update-test-policy-integrity-shield-events
   annotations:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: CM Configuration Management
@@ -19,7 +19,7 @@ spec:
       apiVersion: policy.open-cluster-management.io/v1
       kind: ConfigurationPolicy
       metadata:
-        name: policy-integrity-shield-admission
+        name: update-test-policy-integrity-shield-admission
       spec:
         remediationAction: inform # will be overridden by remediationAction in parent policy
         severity: low
@@ -41,7 +41,7 @@ spec:
   #     apiVersion: policy.open-cluster-management.io/v1
   #     kind: ConfigurationPolicy
   #     metadata:
-  #       name: policy-integrity-shield-webhook
+  #       name: update-test-policy-integrity-shield-webhook
   #     spec:
   #       remediationAction: inform # this must be always `inform`.
   #       severity: low
@@ -56,20 +56,20 @@ spec:
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
 metadata:
-  name: binding-policy-integrity-shield-events
+  name: update-test-binding-policy-integrity-shield-events
 placementRef:
-  name: placement-policy-integrity-shield-events
+  name: update-test-placement-policy-integrity-shield-events
   kind: PlacementRule
   apiGroup: apps.open-cluster-management.io
 subjects:
-- name: policy-integrity-shield-events
+- name: update-test-policy-integrity-shield-events
   kind: Policy
   apiGroup: policy.open-cluster-management.io
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: placement-policy-integrity-shield-events
+  name: update-test-placement-policy-integrity-shield-events
 spec:
   clusterConditions:
   - status: "True"

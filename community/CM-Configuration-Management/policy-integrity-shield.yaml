@@ -5,7 +5,7 @@
 apiVersion: policy.open-cluster-management.io/v1
 kind: Policy
 metadata:
-  name: policy-integrity-shield
+  name: update-test-policy-integrity-shield
   annotations:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: CM Configuration Management
@@ -18,7 +18,7 @@ spec:
       apiVersion: policy.open-cluster-management.io/v1
       kind: ConfigurationPolicy
       metadata:
-        name: policy-integrity-shield-namespace
+        name: update-test-policy-integrity-shield-namespace
       spec:
         remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
         severity: High
@@ -33,7 +33,7 @@ spec:
       apiVersion: policy.open-cluster-management.io/v1
       kind: ConfigurationPolicy
       metadata:
-        name: policy-integrity-shield-og
+        name: update-test-policy-integrity-shield-og
       spec:
         remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
         severity: high
@@ -52,7 +52,7 @@ spec:
       apiVersion: policy.open-cluster-management.io/v1
       kind: ConfigurationPolicy
       metadata:
-        name: policy-integrity-shield-sub
+        name: update-test-policy-integrity-shield-sub
       spec:
         remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
         severity: high
@@ -75,7 +75,7 @@ spec:
       apiVersion: policy.open-cluster-management.io/v1
       kind: ConfigurationPolicy
       metadata:
-        name: policy-integrity-shield-cr
+        name: update-test-policy-integrity-shield-cr
       spec:
         remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
         severity: high
@@ -125,7 +125,7 @@ spec:
               - name: sample-signer-keyconfig
                 secretName: keyring-secret
               resourceSigningProfiles:
-              - name: policy-rsp
+              - name: update-test-policy-rsp
                 protectRules:
                 - match:
                   - apiGroup: policy.open-cluster-management.io
@@ -162,20 +162,20 @@ spec:
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
 metadata:
-  name: binding-policy-integrity-shield
+  name: update-test-binding-policy-integrity-shield
 placementRef:
-  name: placement-policy-integrity-shield
+  name: update-test-placement-policy-integrity-shield
   kind: PlacementRule
   apiGroup: apps.open-cluster-management.io
 subjects:
-- name: policy-integrity-shield
+- name: update-test-policy-integrity-shield
   kind: Policy
   apiGroup: policy.open-cluster-management.io
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: placement-policy-integrity-shield
+  name: update-test-placement-policy-integrity-shield
 spec:
   clusterConditions:
   - status: "True"

@@ -6,27 +6,27 @@ metadata:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: CM Configuration Management
     policy.open-cluster-management.io/controls: CM-5 Access Restrictions for Change
-    integrityshield.io/message: YXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBvbGljeQptZXRhZGF0YToKICBuYW1lOiBwb2xpY3ktbmFtZXNwYWNlCiAgYW5ub3RhdGlvbnM6CiAgICBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vc3RhbmRhcmRzOiBOSVNUIFNQIDgwMC01MwogICAgcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL2NhdGVnb3JpZXM6IENNIENvbmZpZ3VyYXRpb24gTWFuYWdlbWVudAogICAgcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL2NvbnRyb2xzOiBDTS01IEFjY2VzcyBSZXN0cmljdGlvbnMgZm9yIENoYW5nZQpzcGVjOgogIHJlbWVkaWF0aW9uQWN0aW9uOiBlbmZvcmNlCiAgZGlzYWJsZWQ6IGZhbHNlCiAgcG9saWN5LXRlbXBsYXRlczoKICAtIG9iamVjdERlZmluaXRpb246CiAgICAgIGFwaVZlcnNpb246IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQogICAgICBraW5kOiBDb25maWd1cmF0aW9uUG9saWN5CiAgICAgIG1ldGFkYXRhOgogICAgICAgIG5hbWU6IHBvbGljeS10ZXN0LW5hbWVzcGFjZQogICAgICBzcGVjOgogICAgICAgIHJlbWVkaWF0aW9uQWN0aW9uOiBlbmZvcmNlCiAgICAgICAgc2V2ZXJpdHk6IEhpZ2gKICAgICAgICBvYmplY3QtdGVtcGxhdGVzOgogICAgICAgIC0gY29tcGxpYW5jZVR5cGU6IG11c3RoYXZlCiAgICAgICAgICBvYmplY3REZWZpbml0aW9uOgogICAgICAgICAgICBraW5kOiBOYW1lc3BhY2UKICAgICAgICAgICAgYXBpVmVyc2lvbjogdjEKICAgICAgICAgICAgbWV0YWRhdGE6CiAgICAgICAgICAgICAgbmFtZTogcG9saWN5LXRlc3QtbnMKLS0tCmFwaVZlcnNpb246IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQpraW5kOiBQbGFjZW1lbnRCaW5kaW5nCm1ldGFkYXRhOgogIG5hbWU6IGJpbmRpbmctcG9saWN5LW5hbWVzcGFjZQpwbGFjZW1lbnRSZWY6CiAgbmFtZTogcGxhY2VtZW50LXBvbGljeS1uYW1lc3BhY2UKICBraW5kOiBQbGFjZW1lbnRSdWxlCiAgYXBpR3JvdXA6IGFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8Kc3ViamVjdHM6Ci0gbmFtZTogcG9saWN5LW5hbWVzcGFjZQogIGtpbmQ6IFBvbGljeQogIGFwaUdyb3VwOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8KLS0tCmFwaVZlcnNpb246IGFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKa2luZDogUGxhY2VtZW50UnVsZQptZXRhZGF0YToKICBuYW1lOiBwbGFjZW1lbnQtcG9saWN5LW5hbWVzcGFjZQpzcGVjOgogIGNsdXN0ZXJDb25kaXRpb25zOgogIC0gc3RhdHVzOiAiVHJ1ZSIKICAgIHR5cGU6IE1hbmFnZWRDbHVzdGVyQ29uZGl0aW9uQXZhaWxhYmxlCiAgY2x1c3RlclNlbGVjdG9yOgogICAgbWF0Y2hFeHByZXNzaW9uczoKICAgIC0ge2tleTogZW52aXJvbm1lbnQsIG9wZXJhdG9yOiBJbiwgdmFsdWVzOiBbImRldiJdfQo=
-    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRRlBCQUFCQ0FBNUZpRUUrU2psQVN5SlZoa3FGVDNLT1Q2Y3pnLzRpcmtGQW1BWkV5OGJIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVEaytuTTRQK0lxNTk0QUgvMDN5V01HYjcxTGxPZlozL0hDWApoTHMwREN4MjB0Y3pKYzF0aWFLSkFvdHFiUmY3Um0rWXVYWEh1ZlBwTVU1MmNOZTJTL0hZeFhNbnlGUnJkRWJDCmZUWnVRd3hkYU1DL1h2ODM0MFZ5aDNUYWlKWGtXQUJCUmprNndRclZWclJSSG9wUHl6Qnp3MURVV0FGalowNHcKWHB1R1pUekR4N1Z6Y3NMekg1WFVFYXV6UEpOU0JSUmlIeC9RQXZNNDVROHNRaTNsUnJVMEJ2UlQ4Qk84Z2x0WgpyV29WMmFqNHVBYnFLTlhrNWhQd3NpSytJcmk3WGtvUmtTc2ZlSllaZFUwSWpEM3lBbGdRejFIMTczYXpZSUZWCmVyTERLSm0rYkROTXQvQnZ2MXNaSzJ5VVZzT0lKazlVOFpnZGxjSEVsSTVoQU9NM0dXRTlBeEkrZEFzVkFDZisKUldBPQo9UHR3MgotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
+    integrityshield.io/message: YXBpVmVyc2lvbjogcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL3YxCmtpbmQ6IFBvbGljeQptZXRhZGF0YToKICBuYW1lOiBwb2xpY3ktbmFtZXNwYWNlCiAgYW5ub3RhdGlvbnM6CiAgICBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vc3RhbmRhcmRzOiBOSVNUIFNQIDgwMC01MwogICAgcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL2NhdGVnb3JpZXM6IENNIENvbmZpZ3VyYXRpb24gTWFuYWdlbWVudAogICAgcG9saWN5Lm9wZW4tY2x1c3Rlci1tYW5hZ2VtZW50LmlvL2NvbnRyb2xzOiBDTS01IEFjY2VzcyBSZXN0cmljdGlvbnMgZm9yIENoYW5nZQpzcGVjOgogIHJlbWVkaWF0aW9uQWN0aW9uOiBlbmZvcmNlCiAgZGlzYWJsZWQ6IGZhbHNlCiAgcG9saWN5LXRlbXBsYXRlczoKICAgIC0gb2JqZWN0RGVmaW5pdGlvbjoKICAgICAgICBhcGlWZXJzaW9uOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKICAgICAgICBraW5kOiBDb25maWd1cmF0aW9uUG9saWN5CiAgICAgICAgbWV0YWRhdGE6CiAgICAgICAgICBuYW1lOiBwb2xpY3ktdGVzdC1uYW1lc3BhY2UKICAgICAgICBzcGVjOgogICAgICAgICAgcmVtZWRpYXRpb25BY3Rpb246IGVuZm9yY2UKICAgICAgICAgIHNldmVyaXR5OiBIaWdoCiAgICAgICAgICBvYmplY3QtdGVtcGxhdGVzOgogICAgICAgICAgICAtIGNvbXBsaWFuY2VUeXBlOiBtdXN0aGF2ZQogICAgICAgICAgICAgIG9iamVjdERlZmluaXRpb246CiAgICAgICAgICAgICAgICBraW5kOiBOYW1lc3BhY2UKICAgICAgICAgICAgICAgIGFwaVZlcnNpb246IHYxCiAgICAgICAgICAgICAgICBtZXRhZGF0YToKICAgICAgICAgICAgICAgICAgbmFtZTogcG9saWN5LXRlc3QtbnMKLS0tCmFwaVZlcnNpb246IHBvbGljeS5vcGVuLWNsdXN0ZXItbWFuYWdlbWVudC5pby92MQpraW5kOiBQbGFjZW1lbnRCaW5kaW5nCm1ldGFkYXRhOgogIG5hbWU6IGJpbmRpbmctcG9saWN5LW5hbWVzcGFjZQpwbGFjZW1lbnRSZWY6CiAgbmFtZTogcGxhY2VtZW50LXBvbGljeS1uYW1lc3BhY2UKICBraW5kOiBQbGFjZW1lbnRSdWxlCiAgYXBpR3JvdXA6IGFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8Kc3ViamVjdHM6CiAgLSBuYW1lOiBwb2xpY3ktbmFtZXNwYWNlCiAgICBraW5kOiBQb2xpY3kKICAgIGFwaUdyb3VwOiBwb2xpY3kub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8KLS0tCmFwaVZlcnNpb246IGFwcHMub3Blbi1jbHVzdGVyLW1hbmFnZW1lbnQuaW8vdjEKa2luZDogUGxhY2VtZW50UnVsZQptZXRhZGF0YToKICBuYW1lOiBwbGFjZW1lbnQtcG9saWN5LW5hbWVzcGFjZQpzcGVjOgogIGNsdXN0ZXJDb25kaXRpb25zOgogICAgLSBzdGF0dXM6ICJUcnVlIgogICAgICB0eXBlOiBNYW5hZ2VkQ2x1c3RlckNvbmRpdGlvbkF2YWlsYWJsZQogIGNsdXN0ZXJTZWxlY3RvcjoKICAgIG1hdGNoRXhwcmVzc2lvbnM6CiAgICAgIC0ge2tleTogZW52aXJvbm1lbnQsIG9wZXJhdG9yOiBJbiwgdmFsdWVzOiBbImRldiJdfQo=
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSFBCQUFCQ0FBNUZpRUVWSlRXK3hrWFZWcUdrSlRYZXJVUms4em81N0VGQW1Bc3dqY2JIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVIcTFFWlBNNk9leHhUQUwvMVM0MDBvRk0za0NGZjFxVzBPMAphQUxLZnV1dklxN0t0NklqWE41RVpTV291SndBNjRjYTVVejFpTHNFSGhZc29EZ2wzaDZ1TzZoNXVOc2dJRno2Cld4UmM2RmhtZTh5NmF2aVFxU2dnTmdNWnIwOXdwM0ZBa3Eyejc5ZDI4MkdpSVF0YTNCSlZLYk5kV3orUmZYcm8KbFBYZ3kvSWp4aGFZekp6WXBqcHN5dGpwalFadERSU1Z1L08yODl2ZlYrdFZSMGpLbjRHOTQ1NVZ4dkZ2VnlIWAo4VldiYU1NbzFJNGtJTGNWcHdyUTc3OFlrQ2ZzdVF2ZTRkQ1YvbFlOOWwyazVSdHo0NURwNGVHc3Uzb1RxRUd1CnVVRjJiUkl0T0xhMFR1U0wyclUzNzNjTm51dk9rY3Nmd1hiNmJOUHNzaFpVc1BaMkVYUVd3SEtjL1JycjdoMlcKSzZaY0hjaG1ORGNndTBUZ05memxEVXFrU09EMTYydnJaU1NLMGJQcHRVSE91eEtyQ0FESzVYeGRCN3ZDL0NneQpqTHVBYVFqVmY0SW1aWGtFK205anZQbmFTV1VOblRGcDdlWERqQVJBb3B1MFByZ0E2MjNxeGN3Z2ZDaklHME9TClFNaWVIYTlpOFRPSTJyMkVPM2t0ZzlYTytPa1RaK3RLRHNFSHEydUdNWnNsMnc9PQo9QkVpSAotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
 spec:
   remediationAction: enforce
   disabled: false
   policy-templates:
-  - objectDefinition:
-      apiVersion: policy.open-cluster-management.io/v1
-      kind: ConfigurationPolicy
-      metadata:
-        name: policy-test-namespace
-      spec:
-        remediationAction: enforce
-        severity: High
-        object-templates:
-        - complianceType: musthave
-          objectDefinition:
-            kind: Namespace
-            apiVersion: v1
-            metadata:
-              name: policy-test-ns
+    - objectDefinition:
+        apiVersion: policy.open-cluster-management.io/v1
+        kind: ConfigurationPolicy
+        metadata:
+          name: policy-test-namespace
+        spec:
+          remediationAction: enforce
+          severity: High
+          object-templates:
+            - complianceType: musthave
+              objectDefinition:
+                kind: Namespace
+                apiVersion: v1
+                metadata:
+                  name: policy-test-ns
 ---
 apiVersion: policy.open-cluster-management.io/v1
 kind: PlacementBinding
@@ -37,9 +37,9 @@ placementRef:
   kind: PlacementRule
   apiGroup: apps.open-cluster-management.io
 subjects:
-- name: policy-namespace
-  kind: Policy
-  apiGroup: policy.open-cluster-management.io
+  - name: policy-namespace
+    kind: Policy
+    apiGroup: policy.open-cluster-management.io
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
@@ -47,8 +47,8 @@ metadata:
   name: placement-policy-namespace
 spec:
   clusterConditions:
-  - status: "True"
-    type: ManagedClusterConditionAvailable
+    - status: "True"
+      type: ManagedClusterConditionAvailable
   clusterSelector:
     matchExpressions:
-    - {key: environment, operator: In, values: ["dev"]}
+      - {key: environment, operator: In, values: ["dev"]}

@@ -40,7 +40,7 @@ spec:
                     matchLabels:
                       role: frontend
           remediationAction: enforce
-          severity: medium
+          severity: low
     - objectDefinition:
         apiVersion: policy.open-cluster-management.io/v1
         kind: ConfigurationPolicy

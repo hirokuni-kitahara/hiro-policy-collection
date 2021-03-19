@@ -10,8 +10,8 @@ metadata:
     policy.open-cluster-management.io/standards: NIST SP 800-53
     policy.open-cluster-management.io/categories: CM Configuration Management
     policy.open-cluster-management.io/controls: CM-5 Access Restrictions for Change
-    integrityshield.io/message: H4sIAD1RUGAAA+1ZX2/bNhB/96cg3LchVFNsATa9ed6w9aFZUGd9WftAU2eZi0RqJOXFK/rdeyQlW3ZEy0mdbBlKFEkjHu///XQnviDXS2FIpQrB12QFWiwEGGKXQIQ0lhUFs0JJohbktbSQa2HXZLYUUGQEHzu6kkmWQ0Z4URsL2iSjFwT/jUEulOYwPiPCkr9FUbQcAyehO5wq0MwqPRqxSrxDHigybZRKcFPShjkNwkqQNhHq5erV6EbILCVXnnRUgmUZsywdESJZCS0PKlrdqfEScZ9Jqaw3zjhycoQ41F5mTGcmJZevZ9dkdkW+Pz+nF98eeZ4z1EJpdHBKpm/IVMmFyGsdPPxmQ3osNyWtVoXnRS/IhHMwhrwFY7Xg3i6CASDTJZM5jEwF3Nmp8XwmvMiJp0pJEyjczIRh8wLQoQtWGPek8Z+FssJMgMZVlKj5n8DtT7AQUngu/rlb945gezBEcscpTVhbim5423UwzNTtmop548Jq/dCuuD/IC5/eex7wDJI7pwgWkcLy0SLLQJL5OpzVwJFO5qRiGlVB+8mKFTX4yPRzSjrKGXAVadcp+VXky85GcP9+WNpFCVe4IZjkcL2u0D8l+h7TfclWsENJDgRyNy6XdzzZF/BOOA8FbTd4d6LWwgE1a0yZ8nmlnMqfe64t/71c60ayzQKTcKVBuV/ly54EC0H8raH+Rau6+qIk3GRf3ssqHPClcGTqdtd+SrTLMp2D3RSZ6aNxzv5/1Yqp51+L5TGLhRXVksVKZlbPDdeictxPCdtPVDIcGxsJRUq8kT0ETbt5VTA5qSqtMMApmdRWlRhVfhK7jKq1Mwq9Xdayix4mSn259YWrPBSysFh2+gYs5kzPCxYPIjxYzNbp7N0B/ZLVefIq+e55QQDXXxHgJAiA/zfJxr3BuyF+B0FgM9XN2sFodz0ABwxo9M2JUYAQdAMrxD9ob+zlyAtgsq6SLWWPQ47Gl0LlOeh+WaLECknJXzVbOx9HyuflHSsdT8y5dFuoe7p4151WZsMzJpItfH5hIn/81KeRZxJqvl8v/9FgHZK5yiuszduL8x/6TQhJNslKIX9HvS59Ao1DyFOnqODAOFe1tGnEQIq/3c8sw6y/CdsFNA9ogARudTHu10DOODLeYPAMCqwxFXG5o0cNMohtu6wbf9MvihC4HT58U8+BRjl4ku1bopfOiFyCPhQh7xQRayqdDDnQeG50OaBp0GOIwYwh/MHM08Z4UWJckDAzpiG+jy90gA9tsO4o9RFaYd3Egxh/gAb+FDe434gbVHvUH7AISiawmekPx1Z6BCeDLffTzADXYUBJnQCNKEbDs54DGkKr4/yEhFdaLUQRH2p2OgRt+mYut7CFs+iat3WUVWCH7R1fHvKfI8LXpR8Vj2iBYtCQS2y1T6NNjdgnHwyG6YGqPAX/BmyjUnxPNl0Cv/mvxKZdO1+HIyTIVZXYLVwxi+zlM1PfLRfZK4194q2DhCQWplo2FTSx9hBkPqmZ7LAuQdS47UKTzlf75P2YVZU5NLsslXFjE82gKtTafdp+Px4qlS+VZTpT9eNJM2vJaQDZxxOCI5KSHJEbu/P7mlOwORROyBEXGc1Tl8ZPIML3OY8kRytlmx40LmHvW99QC4qTiFNgmIyEuv35FmdbY7YXW3Eb8UV+zCcAYZo+LH4JsLvaYc6NlwOkfuY2KfljbHUN4w8jSumDbwHd5xP39Ef8E2ux5z5wHnZo7F6walm8hUXnFrF9Gj23werNeXwTjkgHJAeKbdRt/Ojg7WXPu+E+eLzv5CEkuOtib1/Pfeugp9pxuxGEnWomOrew1H3ssjVmxPjaJUSTPtaPl+GONJvuHZ2ssBt26L5lu1stsbqg5KMvAZAroZV0ep/tJO9ZJz8zWI0/fBp9BkvIt54yHwAA
-    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSE5CQUFCQ0FBM0ZpRUVPS2RxVlVTZk9QdytWMDJ2VjZDYlI0eExaVjRGQW1CUVVUMFpISE5oYlhCc1pWOXoKYVdkdVpYSkFjMmxuYm1WeUxtTnZiUUFLQ1JCWG9KdEhqRXRsWG0xMkRBQ2JnaVJGR2JUL2J2TitnR0plclRmcQpuVU41dFpJZ3M0dlZkdllKalVyTVNnNEhPVEZXNkkvL3ZZOElRTW0yWG5SY2VSaEN1bDE3QmtsT3o0YS9ZeXh5CktVQjZNQlk4ZTZweitXOUJ3KzRqaVk5Rk9Uc0RrWGc0bWpPZ3ZONzhmdjJ4M2crcXdGMlVPb3YwMG9icFF4Q1UKU0lZczk2NzU0NE84LzlYUCtCM0tHR25YcTFmek5GSC9hWXhOUmdjZkh2eFVXRWlHMDhLSHBRME5KdHdFRkI2cApPSmdqTjlDV2lacmVIT2ZFMVBBemZGMDB3LytGaXdJdjZWSUxrek1yeXhCdkx0Nkd0SU9sMC8wTkdVS0FMaXVDCm5CMWhhMkJHek5VcVZxYXRUQ3E1Q1pzOGt4WWFIMDlWVVFDdVlsNGhGeXVLMXVwR2NtUVJNSGExQXFXRG5lcy8KSTNMUnh5S3ZEOERGTi9ad1VPQy9ZYmVEZ2NDSEM1NEU1dVdWMEw2U2I2UXhiSFJRYnl5V3FKRERxVlFqelNPZgpiZzFQaDhJcXo1SHBYYm4zWTVGbFp4VHBSMlpqNEJjRVgyeCtWVEtFODZGQTJTMm9OejdzVy9ZK3cwK1BtcWlaCnpNZHNMdkRIL0JZR2Y0RVZZWDNCNUNNRVpnK2tOWHFZb2tkUXJxdXdyRXc9Cj1hU0tUCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
+    integrityshield.io/message: H4sIALr1U2AAA+0ZXW/bNvDdv4JwHwoUpZpi6LDpzcuGrQ/Ngjrry9oHmjrLXCRSIyk3btH/viMp2bIjSs5XtwwlAjsmj/d9xzvyCblYCUMqVQi+IWvQYinAELsCIqSxrCiYFUoStSSvpYVcC7sh85WAIiM47eBKJlkOGeFFbSxok0yeEPybglwqzWH6nAhLPoqiaDEGTEJ3MFWgmVV6MmGVeIc4kGTaMJXgoqQNchqIlSBtItSL9cvJpZBZSs496KQEyzJmWTohRLISWhxUtLxT4yniOpNSWS+cceDkCHLIvcyYzkxKzl7PL8j8nPxwckJffXfkfs6QC6VRwSk5fUNOlVyKvNZBw2+2oMdiU9JqVXhc9BWZcQ7GkLdgrBbcy0XQAOR0xWQOE1MBd3Jq3J8JT3LmoVLSGAoXM2HYogBU6JIVxs00+rNQVugJ0KiKErX4C7j9GZZCCo/Fz7txYwu2G4Ml95TSmLWF6Jq3HYNmpm7VVMwLF0arh3bE9UGeePc+0IBHkFzbRTCIFIaPFlkGkiw2Ya8GjnAyJxXTyArKT9asqMFbph9T0mHOgItIu0nJbyJfdRaC+g/N0g5KuMIFwSSHi02F+ilR9yu2hj0wMmDFfaOcXVNjn7U7thyy2L7lrpmszQXUbNBfysflbyp/7I62+pccrWvG1gVMwpUG5b7KFz3eFSz4ewP9q1Z1dScP3Lpe3osqbPBxcKTfdsehP7TDMp2D3UaY6YNxmv5/BYqpF98i5cEihRXVisXiZV4vDNeictjvM2F/pXjhWM9IKFLihewBaKrM84LJWVVphdZNyay2qkST8nuRy6haO6FQ22Utu6nDRKHPdrpwYYdElhZjTl+CRYfpOVpxI+YGi656On83wF+yPkleJt8/rvjn+lv43z388X+TbHUbVBuMN5gBtp3cvG2G9sctkoABjYq55xRACKqBFeITyhs7FnkBTNZVsoPsUcjRyaVQeQ66n5YoMTxS8nfNNk7Hkdh5cU1KhxMdLt1F6QEvXnX3S7PBGSPJlt6/0Is/f+njyCMJAd/Pl78o2ARPrvIKA/Pq1cmP/SIEJ5tlpZB/IF9n3oGmweSpY1RwYJyrWto0IiDFb/eZZej1l2G5gGaChnzArS6m/RzIOUfE2wQ8hwJjTEVU7uCRgwxiy87rps/6SRECV+ObL+sF0CgGD7I7InrhjMgl6CELeaWIWDnpaMiRknPLywCngY8RBHOGqQ/mHjTKjXEmwlMmGPeBCY5goU2WO4JxTKmwaexAjIenATvFBe4X4sLUPtuPSAMlE1jB9JthRz2SH4MkN+PMANehJUkdAY3Zi4a5ng0aQn3j1ISA51otRRFvY/bKAm36uiw3sG6zqJq3dRRVQIc1HV8N6c8B4THpm8Mj6p5YSsgl1tf3w02NOU/eOgmmA9F4H/ibJBul4gux0xXwy/+KbdqxdxMcAUGsqsQq4ZxZRC8fGftuOMuea6wPr1Ly9FnydAAUmyD1cXvqhXvglFhd9/UabgQvn1k7lGC/qmLYMC+B1LStV5POnX7yfsqqygy1OCtlXHdFM6gKtXEX3++nY8F1V1qm03w/HDWzkZyGtPxwRLCTUpJjrsc6/qbiFGwBhSNyxDNHM+sc/yuQ8LHyQHS0UrapVuMUDu4Dx4pV7FkcA+NgJMTtL1fYAhuze/aKy4hH/zE3BcI0RVv8lWB/tG2fa0RHQH1rblLy59SlremHCaX01m+E7pbFzf6EPzEWe14LF2GFxl4NqxbFW1h23hjb2ei+bXbf7sezc0I6SXIk2CbdUpGOvm32nCY3yceHSh7LBNdV7OXreY0d1VTbmDeEsLbNROeNlro7MVujR0wvnEM07mN9IxpeULPTg62zNdbPLrvv0O5HSywuKPnsQwDkWmglHd/P95z3ecc/M1hPP3yZ/AP31ONbUB8AAA==
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSFBCQUFCQ0FBNUZpRUVWSlRXK3hrWFZWcUdrSlRYZXJVUms4em81N0VGQW1CVDlib2JIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVIcTFFWlBNNk9leDVpVUwvMXBMNHB0bUxpd1ptSU9QZnRZOAo2MVp0V0VpOE11UE13ci9tS3l6QnZmN29yVDc0RHIrUmh4MU5YbVdaNU9PWWtCMzJOcWNJUkg1YUJHRDEzNmtXClB5b3JqazMzUDZVL1hqVnVrR1MwT2FyZUpNTWVJZDYzTmE4QnJERlE0ZUJJVCtqWHFsTURnMUFjOUZvYWsvbGEKRFcvelNZRkFQYUFZMEs4V290YnZ2dThyUGdZU1ZraTRzMFRVTUFIT2N4a0NpVFphMk81R3JsWldJQmRvTkhIMApJMTBNbUZhV0Z4T3NqVjMvU1JPanMrYjNlVCtSdHVzeU9PcjQxL3phR0dlM2VNalNmazBuS1MvNEo5M3YwRTBMClBobFoxT0M4S3RZYS9OV3JObVhJeXJ0S0ZndXZDdDJxOWlKWDdCSDVNUWN1ampOVU1nMUdEV3pQdklTNnRFOEIKWER1OGw2ZkY1cFBhNjJjbDF2Mk4yRWk4RE1yMkh1VzZFMEI1ZkpEMyt4d1M1SGszeEtNemdmMWpjdFhpSXYzcgpjVjFnK1puOGRTOFkyV1dKSlVReWgrRGpDRXFJdlgwVnlSNzBKTmVGREc1eDhxcFZLbFNFNmlZWkZmc2ozTDlrClZsNnJSYTBXT3lnaGRlZnRUTCs1VGRlM0NGcitWRVBQWEYySkR2RU5BNHFITmc9PQo9L3pSZgotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
 spec:
   remediationAction: enforce
   disabled: false
@@ -25,7 +25,7 @@ spec:
           remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
           severity: High
           object-templates:
-            - complianceType: mustnothave
+            - complianceType: musthave
               objectDefinition:
                 kind: Namespace
                 apiVersion: v1
@@ -40,7 +40,7 @@ spec:
           remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
           severity: high
           object-templates:
-            - complianceType: mustnothave
+            - complianceType: musthave
               objectDefinition:
                 apiVersion: operators.coreos.com/v1
                 kind: OperatorGroup
@@ -59,7 +59,7 @@ spec:
           remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
           severity: high
           object-templates:
-            - complianceType: mustnothave
+            - complianceType: musthave
               objectDefinition:
                 apiVersion: operators.coreos.com/v1alpha1
                 kind: Subscription
@@ -72,7 +72,7 @@ spec:
                   name: integrity-shield-operator
                   source: community-operators
                   sourceNamespace: openshift-marketplace
-                  startingCSV: integrity-shield-operator.v0.1.4
+                  startingCSV: integrity-shield-operator.v0.1.6
     - objectDefinition:
         apiVersion: policy.open-cluster-management.io/v1
         kind: ConfigurationPolicy
@@ -82,7 +82,7 @@ spec:
           remediationAction: enforce # the policy-template spec.remediationAction is overridden by the preceding parameter value for spec.remediationAction.
           severity: high
           object-templates:
-            - complianceType: mustnothave
+            - complianceType: musthave
               objectDefinition:
                 apiVersion: apis.integrityshield.io/v1alpha1
                 kind: IntegrityShield
@@ -93,9 +93,9 @@ spec:
                     - cleanup.finalizers.integrityshield.io
                 spec:
                   logger:
-                    image: quay.io/open-cluster-management/integrity-shield-logging:0.1.4
+                    image: quay.io/open-cluster-management/integrity-shield-logging:0.1.6
                   server:
-                    image: quay.io/open-cluster-management/integrity-shield-server:0.1.4
+                    image: quay.io/open-cluster-management/integrity-shield-server:0.1.6
                   affinity: {}
                   shieldConfig:
                     verifyType: pgp # x509
@@ -111,12 +111,12 @@ spec:
                       - namespaces:
                           - "*"
                         signers:
-                          - "SampleSigner"
-                      - scope: "Cluster"
+                          - SampleSigner
+                      - scope: Cluster
                         signers:
-                          - "SampleSigner"
+                          - SampleSigner
                     signers:
-                      - name: "SampleSigner"
+                      - name: SampleSigner
                         keyConfig: sample-signer-keyconfig
                         subjects:
                           - email: "*"
@@ -140,8 +140,9 @@ spec:
                         - match:
                             - apiGroup: policy.open-cluster-management.io
                               kind: Policy
-                          namePrefix: "*."
-                      unprotectAttrs:
+                          namePrefix: '*.'
+                          allowNamespaceChange: true
+                      ignoreAttrs:
                         - match:
                             - apiGroup: policy.open-cluster-management.io
                           attrs:
@@ -164,8 +165,8 @@ kind: PlacementBinding
 metadata:
   name: binding-policy-integrity-shield
   annotations:
-    integrityshield.io/message: H4sIAD1RUGAAA+1ZX2/bNhB/96cg3LchVFNsATa9ed6w9aFZUGd9WftAU2eZi0RqJOXFK/rdeyQlW3ZEy0mdbBlKFEkjHu///XQnviDXS2FIpQrB12QFWiwEGGKXQIQ0lhUFs0JJohbktbSQa2HXZLYUUGQEHzu6kkmWQ0Z4URsL2iSjFwT/jUEulOYwPiPCkr9FUbQcAyehO5wq0MwqPRqxSrxDHigybZRKcFPShjkNwkqQNhHq5erV6EbILCVXnnRUgmUZsywdESJZCS0PKlrdqfEScZ9Jqaw3zjhycoQ41F5mTGcmJZevZ9dkdkW+Pz+nF98eeZ4z1EJpdHBKpm/IVMmFyGsdPPxmQ3osNyWtVoXnRS/IhHMwhrwFY7Xg3i6CASDTJZM5jEwF3Nmp8XwmvMiJp0pJEyjczIRh8wLQoQtWGPek8Z+FssJMgMZVlKj5n8DtT7AQUngu/rlb945gezBEcscpTVhbim5423UwzNTtmop548Jq/dCuuD/IC5/eex7wDJI7pwgWkcLy0SLLQJL5OpzVwJFO5qRiGlVB+8mKFTX4yPRzSjrKGXAVadcp+VXky85GcP9+WNpFCVe4IZjkcL2u0D8l+h7TfclWsENJDgRyNy6XdzzZF/BOOA8FbTd4d6LWwgE1a0yZ8nmlnMqfe64t/71c60ayzQKTcKVBuV/ly54EC0H8raH+Rau6+qIk3GRf3ssqHPClcGTqdtd+SrTLMp2D3RSZ6aNxzv5/1Yqp51+L5TGLhRXVksVKZlbPDdeictxPCdtPVDIcGxsJRUq8kT0ETbt5VTA5qSqtMMApmdRWlRhVfhK7jKq1Mwq9Xdayix4mSn259YWrPBSysFh2+gYs5kzPCxYPIjxYzNbp7N0B/ZLVefIq+e55QQDXXxHgJAiA/zfJxr3BuyF+B0FgM9XN2sFodz0ABwxo9M2JUYAQdAMrxD9ob+zlyAtgsq6SLWWPQ47Gl0LlOeh+WaLECknJXzVbOx9HyuflHSsdT8y5dFuoe7p4151WZsMzJpItfH5hIn/81KeRZxJqvl8v/9FgHZK5yiuszduL8x/6TQhJNslKIX9HvS59Ao1DyFOnqODAOFe1tGnEQIq/3c8sw6y/CdsFNA9ogARudTHu10DOODLeYPAMCqwxFXG5o0cNMohtu6wbf9MvihC4HT58U8+BRjl4ku1bopfOiFyCPhQh7xQRayqdDDnQeG50OaBp0GOIwYwh/MHM08Z4UWJckDAzpiG+jy90gA9tsO4o9RFaYd3Egxh/gAb+FDe434gbVHvUH7AISiawmekPx1Z6BCeDLffTzADXYUBJnQCNKEbDs54DGkKr4/yEhFdaLUQRH2p2OgRt+mYut7CFs+iat3WUVWCH7R1fHvKfI8LXpR8Vj2iBYtCQS2y1T6NNjdgnHwyG6YGqPAX/BmyjUnxPNl0Cv/mvxKZdO1+HIyTIVZXYLVwxi+zlM1PfLRfZK4194q2DhCQWplo2FTSx9hBkPqmZ7LAuQdS47UKTzlf75P2YVZU5NLsslXFjE82gKtTafdp+Px4qlS+VZTpT9eNJM2vJaQDZxxOCI5KSHJEbu/P7mlOwORROyBEXGc1Tl8ZPIML3OY8kRytlmx40LmHvW99QC4qTiFNgmIyEuv35FmdbY7YXW3Eb8UV+zCcAYZo+LH4JsLvaYc6NlwOkfuY2KfljbHUN4w8jSumDbwHd5xP39Ef8E2ux5z5wHnZo7F6walm8hUXnFrF9Gj23werNeXwTjkgHJAeKbdRt/Ojg7WXPu+E+eLzv5CEkuOtib1/Pfeugp9pxuxGEnWomOrew1H3ssjVmxPjaJUSTPtaPl+GONJvuHZ2ssBt26L5lu1stsbqg5KMvAZAroZV0ep/tJO9ZJz8zWI0/fBp9BkvIt54yHwAA
-    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSE5CQUFCQ0FBM0ZpRUVPS2RxVlVTZk9QdytWMDJ2VjZDYlI0eExaVjRGQW1CUVVUMFpISE5oYlhCc1pWOXoKYVdkdVpYSkFjMmxuYm1WeUxtTnZiUUFLQ1JCWG9KdEhqRXRsWG0xMkRBQ2JnaVJGR2JUL2J2TitnR0plclRmcQpuVU41dFpJZ3M0dlZkdllKalVyTVNnNEhPVEZXNkkvL3ZZOElRTW0yWG5SY2VSaEN1bDE3QmtsT3o0YS9ZeXh5CktVQjZNQlk4ZTZweitXOUJ3KzRqaVk5Rk9Uc0RrWGc0bWpPZ3ZONzhmdjJ4M2crcXdGMlVPb3YwMG9icFF4Q1UKU0lZczk2NzU0NE84LzlYUCtCM0tHR25YcTFmek5GSC9hWXhOUmdjZkh2eFVXRWlHMDhLSHBRME5KdHdFRkI2cApPSmdqTjlDV2lacmVIT2ZFMVBBemZGMDB3LytGaXdJdjZWSUxrek1yeXhCdkx0Nkd0SU9sMC8wTkdVS0FMaXVDCm5CMWhhMkJHek5VcVZxYXRUQ3E1Q1pzOGt4WWFIMDlWVVFDdVlsNGhGeXVLMXVwR2NtUVJNSGExQXFXRG5lcy8KSTNMUnh5S3ZEOERGTi9ad1VPQy9ZYmVEZ2NDSEM1NEU1dVdWMEw2U2I2UXhiSFJRYnl5V3FKRERxVlFqelNPZgpiZzFQaDhJcXo1SHBYYm4zWTVGbFp4VHBSMlpqNEJjRVgyeCtWVEtFODZGQTJTMm9OejdzVy9ZK3cwK1BtcWlaCnpNZHNMdkRIL0JZR2Y0RVZZWDNCNUNNRVpnK2tOWHFZb2tkUXJxdXdyRXc9Cj1hU0tUCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
+    integrityshield.io/message: H4sIALr1U2AAA+0ZXW/bNvDdv4JwHwoUpZpi6LDpzcuGrQ/Ngjrry9oHmjrLXCRSIyk3btH/viMp2bIjSs5XtwwlAjsmj/d9xzvyCblYCUMqVQi+IWvQYinAELsCIqSxrCiYFUoStSSvpYVcC7sh85WAIiM47eBKJlkOGeFFbSxok0yeEPybglwqzWH6nAhLPoqiaDEGTEJ3MFWgmVV6MmGVeIc4kGTaMJXgoqQNchqIlSBtItSL9cvJpZBZSs496KQEyzJmWTohRLISWhxUtLxT4yniOpNSWS+cceDkCHLIvcyYzkxKzl7PL8j8nPxwckJffXfkfs6QC6VRwSk5fUNOlVyKvNZBw2+2oMdiU9JqVXhc9BWZcQ7GkLdgrBbcy0XQAOR0xWQOE1MBd3Jq3J8JT3LmoVLSGAoXM2HYogBU6JIVxs00+rNQVugJ0KiKErX4C7j9GZZCCo/Fz7txYwu2G4Ml95TSmLWF6Jq3HYNmpm7VVMwLF0arh3bE9UGeePc+0IBHkFzbRTCIFIaPFlkGkiw2Ya8GjnAyJxXTyArKT9asqMFbph9T0mHOgItIu0nJbyJfdRaC+g/N0g5KuMIFwSSHi02F+ilR9yu2hj0wMmDFfaOcXVNjn7U7thyy2L7lrpmszQXUbNBfysflbyp/7I62+pccrWvG1gVMwpUG5b7KFz3eFSz4ewP9q1Z1dScP3Lpe3osqbPBxcKTfdsehP7TDMp2D3UaY6YNxmv5/BYqpF98i5cEihRXVisXiZV4vDNeictjvM2F/pXjhWM9IKFLihewBaKrM84LJWVVphdZNyay2qkST8nuRy6haO6FQ22Utu6nDRKHPdrpwYYdElhZjTl+CRYfpOVpxI+YGi656On83wF+yPkleJt8/rvjn+lv43z388X+TbHUbVBuMN5gBtp3cvG2G9sctkoABjYq55xRACKqBFeITyhs7FnkBTNZVsoPsUcjRyaVQeQ66n5YoMTxS8nfNNk7Hkdh5cU1KhxMdLt1F6QEvXnX3S7PBGSPJlt6/0Is/f+njyCMJAd/Pl78o2ARPrvIKA/Pq1cmP/SIEJ5tlpZB/IF9n3oGmweSpY1RwYJyrWto0IiDFb/eZZej1l2G5gGaChnzArS6m/RzIOUfE2wQ8hwJjTEVU7uCRgwxiy87rps/6SRECV+ObL+sF0CgGD7I7InrhjMgl6CELeaWIWDnpaMiRknPLywCngY8RBHOGqQ/mHjTKjXEmwlMmGPeBCY5goU2WO4JxTKmwaexAjIenATvFBe4X4sLUPtuPSAMlE1jB9JthRz2SH4MkN+PMANehJUkdAY3Zi4a5ng0aQn3j1ISA51otRRFvY/bKAm36uiw3sG6zqJq3dRRVQIc1HV8N6c8B4THpm8Mj6p5YSsgl1tf3w02NOU/eOgmmA9F4H/ibJBul4gux0xXwy/+KbdqxdxMcAUGsqsQq4ZxZRC8fGftuOMuea6wPr1Ly9FnydAAUmyD1cXvqhXvglFhd9/UabgQvn1k7lGC/qmLYMC+B1LStV5POnX7yfsqqygy1OCtlXHdFM6gKtXEX3++nY8F1V1qm03w/HDWzkZyGtPxwRLCTUpJjrsc6/qbiFGwBhSNyxDNHM+sc/yuQ8LHyQHS0UrapVuMUDu4Dx4pV7FkcA+NgJMTtL1fYAhuze/aKy4hH/zE3BcI0RVv8lWB/tG2fa0RHQH1rblLy59SlremHCaX01m+E7pbFzf6EPzEWe14LF2GFxl4NqxbFW1h23hjb2ei+bXbf7sezc0I6SXIk2CbdUpGOvm32nCY3yceHSh7LBNdV7OXreY0d1VTbmDeEsLbNROeNlro7MVujR0wvnEM07mN9IxpeULPTg62zNdbPLrvv0O5HSywuKPnsQwDkWmglHd/P95z3ecc/M1hPP3yZ/AP31ONbUB8AAA==
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSFBCQUFCQ0FBNUZpRUVWSlRXK3hrWFZWcUdrSlRYZXJVUms4em81N0VGQW1CVDlib2JIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVIcTFFWlBNNk9leDVpVUwvMXBMNHB0bUxpd1ptSU9QZnRZOAo2MVp0V0VpOE11UE13ci9tS3l6QnZmN29yVDc0RHIrUmh4MU5YbVdaNU9PWWtCMzJOcWNJUkg1YUJHRDEzNmtXClB5b3JqazMzUDZVL1hqVnVrR1MwT2FyZUpNTWVJZDYzTmE4QnJERlE0ZUJJVCtqWHFsTURnMUFjOUZvYWsvbGEKRFcvelNZRkFQYUFZMEs4V290YnZ2dThyUGdZU1ZraTRzMFRVTUFIT2N4a0NpVFphMk81R3JsWldJQmRvTkhIMApJMTBNbUZhV0Z4T3NqVjMvU1JPanMrYjNlVCtSdHVzeU9PcjQxL3phR0dlM2VNalNmazBuS1MvNEo5M3YwRTBMClBobFoxT0M4S3RZYS9OV3JObVhJeXJ0S0ZndXZDdDJxOWlKWDdCSDVNUWN1ampOVU1nMUdEV3pQdklTNnRFOEIKWER1OGw2ZkY1cFBhNjJjbDF2Mk4yRWk4RE1yMkh1VzZFMEI1ZkpEMyt4d1M1SGszeEtNemdmMWpjdFhpSXYzcgpjVjFnK1puOGRTOFkyV1dKSlVReWgrRGpDRXFJdlgwVnlSNzBKTmVGREc1eDhxcFZLbFNFNmlZWkZmc2ozTDlrClZsNnJSYTBXT3lnaGRlZnRUTCs1VGRlM0NGcitWRVBQWEYySkR2RU5BNHFITmc9PQo9L3pSZgotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
 placementRef:
   name: placement-policy-integrity-shield
   kind: PlacementRule
@@ -180,8 +181,8 @@ kind: PlacementRule
 metadata:
   name: placement-policy-integrity-shield
   annotations:
-    integrityshield.io/message: H4sIAD1RUGAAA+1ZX2/bNhB/96cg3LchVFNsATa9ed6w9aFZUGd9WftAU2eZi0RqJOXFK/rdeyQlW3ZEy0mdbBlKFEkjHu///XQnviDXS2FIpQrB12QFWiwEGGKXQIQ0lhUFs0JJohbktbSQa2HXZLYUUGQEHzu6kkmWQ0Z4URsL2iSjFwT/jUEulOYwPiPCkr9FUbQcAyehO5wq0MwqPRqxSrxDHigybZRKcFPShjkNwkqQNhHq5erV6EbILCVXnnRUgmUZsywdESJZCS0PKlrdqfEScZ9Jqaw3zjhycoQ41F5mTGcmJZevZ9dkdkW+Pz+nF98eeZ4z1EJpdHBKpm/IVMmFyGsdPPxmQ3osNyWtVoXnRS/IhHMwhrwFY7Xg3i6CASDTJZM5jEwF3Nmp8XwmvMiJp0pJEyjczIRh8wLQoQtWGPek8Z+FssJMgMZVlKj5n8DtT7AQUngu/rlb945gezBEcscpTVhbim5423UwzNTtmop548Jq/dCuuD/IC5/eex7wDJI7pwgWkcLy0SLLQJL5OpzVwJFO5qRiGlVB+8mKFTX4yPRzSjrKGXAVadcp+VXky85GcP9+WNpFCVe4IZjkcL2u0D8l+h7TfclWsENJDgRyNy6XdzzZF/BOOA8FbTd4d6LWwgE1a0yZ8nmlnMqfe64t/71c60ayzQKTcKVBuV/ly54EC0H8raH+Rau6+qIk3GRf3ssqHPClcGTqdtd+SrTLMp2D3RSZ6aNxzv5/1Yqp51+L5TGLhRXVksVKZlbPDdeictxPCdtPVDIcGxsJRUq8kT0ETbt5VTA5qSqtMMApmdRWlRhVfhK7jKq1Mwq9Xdayix4mSn259YWrPBSysFh2+gYs5kzPCxYPIjxYzNbp7N0B/ZLVefIq+e55QQDXXxHgJAiA/zfJxr3BuyF+B0FgM9XN2sFodz0ABwxo9M2JUYAQdAMrxD9ob+zlyAtgsq6SLWWPQ47Gl0LlOeh+WaLECknJXzVbOx9HyuflHSsdT8y5dFuoe7p4151WZsMzJpItfH5hIn/81KeRZxJqvl8v/9FgHZK5yiuszduL8x/6TQhJNslKIX9HvS59Ao1DyFOnqODAOFe1tGnEQIq/3c8sw6y/CdsFNA9ogARudTHu10DOODLeYPAMCqwxFXG5o0cNMohtu6wbf9MvihC4HT58U8+BRjl4ku1bopfOiFyCPhQh7xQRayqdDDnQeG50OaBp0GOIwYwh/MHM08Z4UWJckDAzpiG+jy90gA9tsO4o9RFaYd3Egxh/gAb+FDe434gbVHvUH7AISiawmekPx1Z6BCeDLffTzADXYUBJnQCNKEbDs54DGkKr4/yEhFdaLUQRH2p2OgRt+mYut7CFs+iat3WUVWCH7R1fHvKfI8LXpR8Vj2iBYtCQS2y1T6NNjdgnHwyG6YGqPAX/BmyjUnxPNl0Cv/mvxKZdO1+HIyTIVZXYLVwxi+zlM1PfLRfZK4194q2DhCQWplo2FTSx9hBkPqmZ7LAuQdS47UKTzlf75P2YVZU5NLsslXFjE82gKtTafdp+Px4qlS+VZTpT9eNJM2vJaQDZxxOCI5KSHJEbu/P7mlOwORROyBEXGc1Tl8ZPIML3OY8kRytlmx40LmHvW99QC4qTiFNgmIyEuv35FmdbY7YXW3Eb8UV+zCcAYZo+LH4JsLvaYc6NlwOkfuY2KfljbHUN4w8jSumDbwHd5xP39Ef8E2ux5z5wHnZo7F6walm8hUXnFrF9Gj23werNeXwTjkgHJAeKbdRt/Ojg7WXPu+E+eLzv5CEkuOtib1/Pfeugp9pxuxGEnWomOrew1H3ssjVmxPjaJUSTPtaPl+GONJvuHZ2ssBt26L5lu1stsbqg5KMvAZAroZV0ep/tJO9ZJz8zWI0/fBp9BkvIt54yHwAA
-    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSE5CQUFCQ0FBM0ZpRUVPS2RxVlVTZk9QdytWMDJ2VjZDYlI0eExaVjRGQW1CUVVUMFpISE5oYlhCc1pWOXoKYVdkdVpYSkFjMmxuYm1WeUxtTnZiUUFLQ1JCWG9KdEhqRXRsWG0xMkRBQ2JnaVJGR2JUL2J2TitnR0plclRmcQpuVU41dFpJZ3M0dlZkdllKalVyTVNnNEhPVEZXNkkvL3ZZOElRTW0yWG5SY2VSaEN1bDE3QmtsT3o0YS9ZeXh5CktVQjZNQlk4ZTZweitXOUJ3KzRqaVk5Rk9Uc0RrWGc0bWpPZ3ZONzhmdjJ4M2crcXdGMlVPb3YwMG9icFF4Q1UKU0lZczk2NzU0NE84LzlYUCtCM0tHR25YcTFmek5GSC9hWXhOUmdjZkh2eFVXRWlHMDhLSHBRME5KdHdFRkI2cApPSmdqTjlDV2lacmVIT2ZFMVBBemZGMDB3LytGaXdJdjZWSUxrek1yeXhCdkx0Nkd0SU9sMC8wTkdVS0FMaXVDCm5CMWhhMkJHek5VcVZxYXRUQ3E1Q1pzOGt4WWFIMDlWVVFDdVlsNGhGeXVLMXVwR2NtUVJNSGExQXFXRG5lcy8KSTNMUnh5S3ZEOERGTi9ad1VPQy9ZYmVEZ2NDSEM1NEU1dVdWMEw2U2I2UXhiSFJRYnl5V3FKRERxVlFqelNPZgpiZzFQaDhJcXo1SHBYYm4zWTVGbFp4VHBSMlpqNEJjRVgyeCtWVEtFODZGQTJTMm9OejdzVy9ZK3cwK1BtcWlaCnpNZHNMdkRIL0JZR2Y0RVZZWDNCNUNNRVpnK2tOWHFZb2tkUXJxdXdyRXc9Cj1hU0tUCi0tLS0tRU5EIFBHUCBTSUdOQVRVUkUtLS0tLQo=
+    integrityshield.io/message: H4sIALr1U2AAA+0ZXW/bNvDdv4JwHwoUpZpi6LDpzcuGrQ/Ngjrry9oHmjrLXCRSIyk3btH/viMp2bIjSs5XtwwlAjsmj/d9xzvyCblYCUMqVQi+IWvQYinAELsCIqSxrCiYFUoStSSvpYVcC7sh85WAIiM47eBKJlkOGeFFbSxok0yeEPybglwqzWH6nAhLPoqiaDEGTEJ3MFWgmVV6MmGVeIc4kGTaMJXgoqQNchqIlSBtItSL9cvJpZBZSs496KQEyzJmWTohRLISWhxUtLxT4yniOpNSWS+cceDkCHLIvcyYzkxKzl7PL8j8nPxwckJffXfkfs6QC6VRwSk5fUNOlVyKvNZBw2+2oMdiU9JqVXhc9BWZcQ7GkLdgrBbcy0XQAOR0xWQOE1MBd3Jq3J8JT3LmoVLSGAoXM2HYogBU6JIVxs00+rNQVugJ0KiKErX4C7j9GZZCCo/Fz7txYwu2G4Ml95TSmLWF6Jq3HYNmpm7VVMwLF0arh3bE9UGeePc+0IBHkFzbRTCIFIaPFlkGkiw2Ya8GjnAyJxXTyArKT9asqMFbph9T0mHOgItIu0nJbyJfdRaC+g/N0g5KuMIFwSSHi02F+ilR9yu2hj0wMmDFfaOcXVNjn7U7thyy2L7lrpmszQXUbNBfysflbyp/7I62+pccrWvG1gVMwpUG5b7KFz3eFSz4ewP9q1Z1dScP3Lpe3osqbPBxcKTfdsehP7TDMp2D3UaY6YNxmv5/BYqpF98i5cEihRXVisXiZV4vDNeictjvM2F/pXjhWM9IKFLihewBaKrM84LJWVVphdZNyay2qkST8nuRy6haO6FQ22Utu6nDRKHPdrpwYYdElhZjTl+CRYfpOVpxI+YGi656On83wF+yPkleJt8/rvjn+lv43z388X+TbHUbVBuMN5gBtp3cvG2G9sctkoABjYq55xRACKqBFeITyhs7FnkBTNZVsoPsUcjRyaVQeQ66n5YoMTxS8nfNNk7Hkdh5cU1KhxMdLt1F6QEvXnX3S7PBGSPJlt6/0Is/f+njyCMJAd/Pl78o2ARPrvIKA/Pq1cmP/SIEJ5tlpZB/IF9n3oGmweSpY1RwYJyrWto0IiDFb/eZZej1l2G5gGaChnzArS6m/RzIOUfE2wQ8hwJjTEVU7uCRgwxiy87rps/6SRECV+ObL+sF0CgGD7I7InrhjMgl6CELeaWIWDnpaMiRknPLywCngY8RBHOGqQ/mHjTKjXEmwlMmGPeBCY5goU2WO4JxTKmwaexAjIenATvFBe4X4sLUPtuPSAMlE1jB9JthRz2SH4MkN+PMANehJUkdAY3Zi4a5ng0aQn3j1ISA51otRRFvY/bKAm36uiw3sG6zqJq3dRRVQIc1HV8N6c8B4THpm8Mj6p5YSsgl1tf3w02NOU/eOgmmA9F4H/ibJBul4gux0xXwy/+KbdqxdxMcAUGsqsQq4ZxZRC8fGftuOMuea6wPr1Ly9FnydAAUmyD1cXvqhXvglFhd9/UabgQvn1k7lGC/qmLYMC+B1LStV5POnX7yfsqqygy1OCtlXHdFM6gKtXEX3++nY8F1V1qm03w/HDWzkZyGtPxwRLCTUpJjrsc6/qbiFGwBhSNyxDNHM+sc/yuQ8LHyQHS0UrapVuMUDu4Dx4pV7FkcA+NgJMTtL1fYAhuze/aKy4hH/zE3BcI0RVv8lWB/tG2fa0RHQH1rblLy59SlremHCaX01m+E7pbFzf6EPzEWe14LF2GFxl4NqxbFW1h23hjb2ei+bXbf7sezc0I6SXIk2CbdUpGOvm32nCY3yceHSh7LBNdV7OXreY0d1VTbmDeEsLbNROeNlro7MVujR0wvnEM07mN9IxpeULPTg62zNdbPLrvv0O5HSywuKPnsQwDkWmglHd/P95z3ecc/M1hPP3yZ/AP31ONbUB8AAA==
+    integrityshield.io/signature: LS0tLS1CRUdJTiBQR1AgU0lHTkFUVVJFLS0tLS0KCmlRSFBCQUFCQ0FBNUZpRUVWSlRXK3hrWFZWcUdrSlRYZXJVUms4em81N0VGQW1CVDlib2JIR2hwY205cmRXNXAKTG10cGRHRm9ZWEpoTVVCcFltMHVZMjl0QUFvSkVIcTFFWlBNNk9leDVpVUwvMXBMNHB0bUxpd1ptSU9QZnRZOAo2MVp0V0VpOE11UE13ci9tS3l6QnZmN29yVDc0RHIrUmh4MU5YbVdaNU9PWWtCMzJOcWNJUkg1YUJHRDEzNmtXClB5b3JqazMzUDZVL1hqVnVrR1MwT2FyZUpNTWVJZDYzTmE4QnJERlE0ZUJJVCtqWHFsTURnMUFjOUZvYWsvbGEKRFcvelNZRkFQYUFZMEs4V290YnZ2dThyUGdZU1ZraTRzMFRVTUFIT2N4a0NpVFphMk81R3JsWldJQmRvTkhIMApJMTBNbUZhV0Z4T3NqVjMvU1JPanMrYjNlVCtSdHVzeU9PcjQxL3phR0dlM2VNalNmazBuS1MvNEo5M3YwRTBMClBobFoxT0M4S3RZYS9OV3JObVhJeXJ0S0ZndXZDdDJxOWlKWDdCSDVNUWN1ampOVU1nMUdEV3pQdklTNnRFOEIKWER1OGw2ZkY1cFBhNjJjbDF2Mk4yRWk4RE1yMkh1VzZFMEI1ZkpEMyt4d1M1SGszeEtNemdmMWpjdFhpSXYzcgpjVjFnK1puOGRTOFkyV1dKSlVReWgrRGpDRXFJdlgwVnlSNzBKTmVGREc1eDhxcFZLbFNFNmlZWkZmc2ozTDlrClZsNnJSYTBXT3lnaGRlZnRUTCs1VGRlM0NGcitWRVBQWEYySkR2RU5BNHFITmc9PQo9L3pSZgotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0K
 spec:
   clusterConditions:
     - status: "True"
